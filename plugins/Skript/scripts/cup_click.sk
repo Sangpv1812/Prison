@@ -1,0 +1,3 @@
+on right click:
+    if tool of player is any pickaxe:
+        make player execute command "dm open pasdasdwqico"

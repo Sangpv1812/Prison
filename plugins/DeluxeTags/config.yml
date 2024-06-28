@@ -1,0 +1,102 @@
+# DeluxeTags version: 1.7.1 Main Configuration
+# 
+# Create your tags using the following format:
+# 
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+# 
+# Placeholders for your DeluxeChat formats config:
+# 
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+# 
+# Placeholders for your essentials/chat handling formats config:
+# 
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+force_tags: false
+check_updates: false
+deluxe_chat: false
+format_chat:
+  enabled: false
+  format: '{deluxetags_tag} <%1$s> %2$s'
+gui:
+  name: '&fAvailable tags&f: &e{deluxetags_amount}'
+  tag_select_item:
+    material: NAME_TAG
+    data: 0
+    displayname: '&fTag&f: &e{deluxetags_identifier}'
+    lore:
+    - '{deluxetags_tag}'
+    - '{deluxetags_description}'
+  divider_item:
+    material: STAINED_GLASS_PANE
+    data: 0
+    displayname: ''
+    lore: []
+  has_tag_item:
+    material: SLIME_BALL
+    data: 0
+    displayname: '&e&lCurrent tag &f| {deluxetags_identifier}'
+    lore:
+    - '&4&l* &cRight click to remove current tag'
+  no_tag_item:
+    material: MAGMA_CREAM
+    data: 0
+    displayname: '&cYou don''t have any tag yet'
+    lore:
+    - '&8&l* &7Right click to select a tag'
+  exit_item:
+    material: BARRIER
+    data: 0
+    displayname: '&4&lClose'
+    lore:
+    - '&4&l* &CClose the menu.'
+deluxetags:
+  God:
+    order: 2
+    tag: ' &cGod'
+    description: '&f'
+  Money:
+    order: 3
+    tag: ' &a⛁'
+    description: '&f'
+  Hello:
+    order: 4
+    tag: ' &d<o/'
+    description: '&f'
+  Hearth:
+    order: 5
+    tag: ' &c❤'
+    description: '&f'
+  Star:
+    order: 6
+    tag: ' &e✯'
+    description: '&f'
+  Fingers:
+    order: 7
+    tag: ' &a✌'
+    description: '&f'
+  Plane:
+    order: 8
+    tag: ' &f✈'
+    description: '&f'
+  Biohazard:
+    order: 9
+    tag: ' &6☣'
+    description: '&f'
+  Arrow:
+    order: 10
+    tag: ' &b➳'
+    description: '&f'
+  Christmas:
+    order: 11
+    tag: ' &f☃'
+    description: '&f'

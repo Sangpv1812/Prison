@@ -1,0 +1,708 @@
+# AutoSell version: 1.9.2 Main Configuration
+
+check_updates: false
+block_listener_priority: HIGH
+hooks:
+  mine_reset_lite:
+    enabled: false
+  worldguard:
+    enabled: false
+  prisonmines:
+    enabled: true
+  asylum_mines:
+    enabled: false
+  jets_prison_mines:
+    enabled: false
+tools_never_break: false
+ignore_custom_items: true
+multiplier_save_on_interval: true
+multiplier_save_interval: 100
+multiplier_default_limit: 100
+autosell:
+  allow_creative: false
+  require_tools: true
+  take_sold_items: true
+  disabled_worlds:
+  - FreeWorld
+  multipliers_enabled: true
+  interval_announcements:
+    enabled: true
+    interval: 30
+    has_multiplier_message:
+    - '&8&m----------------------------'
+    - '               &7» &6&lStats&7 «'
+    - ''
+    - '       &6&l* &eYou received &6$%amount% ⛁'
+    - '       &6&l* &eCurrent multiplier &6x%multiplier%'
+    - ''
+    - '&7&o  (( You have sold &f&o%items% &7&oitem(s) ))'
+    - '&8&m----------------------------'
+    no_multiplier_message:
+    - '&8&m----------------------------'
+    - '               &7» &6&lStats&7 «'
+    - ''
+    - '       &6&l* &eYou received &6$%amount% ⛁'
+    - '       &6&l* &eCurrent multiplier &6x%multiplier%'
+    - ''
+    - '&7&o  (( You have sold &f&o%items% &7&oitem(s) ))'
+    - '&8&m----------------------------'
+signsell:
+  per_shop_permissions: true
+  has_multiplier_message:
+  - '&8&m----------------------------'
+  - '               &7» &6&lStats&7 «'
+  - ''
+  - '       &6&l* &eYou received &6$%amount% ⛁'
+  - '       &6&l* &eCurrent multiplier &6x%multiplier%'
+  - ''
+  - '&7&o  (( You have sold &f&o%items% &7&oitem(s) ))'
+  - '&8&m----------------------------'
+  no_multiplier_message:
+  - '&8&m----------------------------'
+  - '               &7» &6&lStats&7 «'
+  - ''
+  - '       &6&l* &eYou received &6$%amount% ⛁'
+  - '       &6&l* &eCurrent multiplier &6x%multiplier%'
+  - ''
+  - '&7&o  (( You have sold &f&o%items% &7&oitem(s) ))'
+  - '&8&m----------------------------'
+sellall:
+  enabled: true
+  use_perm_shop_when_no_shop_is_at_location: true
+  has_multiplier_message:
+  - '&8&m----------------------------'
+  - '               &7» &6&lStats&7 «'
+  - ''
+  - '       &6&l* &eYou received &6$%amount% ⛁'
+  - '       &6&l* &eCurrent multiplier &6x%multiplier%'
+  - ''
+  - '&7&o  (( You have sold &f&o%items% &7&oitem(s) ))'
+  - '&8&m----------------------------'
+  no_multiplier_message:
+  - '&8&m----------------------------'
+  - '               &7» &6&lStats&7 «'
+  - ''
+  - '       &6&l* &eYou received &6$%amount% ⛁'
+  - '       &6&l* &eCurrent multiplier &6x%multiplier%'
+  - ''
+  - '&7&o  (( You have sold &f&o%items% &7&oitem(s) ))'
+  - '&8&m----------------------------'
+item_drops:
+  drops2inv:
+    enabled: true
+    require_permission_node: false
+    autosell_areas_only: false
+    disabled_worlds:
+    - someworld
+    - someotherworld
+    ignored_blocks:
+    - SKULL_ITEM
+    - SKULL
+    allowed_instead_of_ignored: false
+  silk_touch:
+    enabled: true
+  auto_smelt:
+    enabled: false
+    toggle_on_join: true
+    disabled_worlds:
+    - someworld
+    - someotherworld
+    smelt_list:
+    - GOLD_ORE,GOLD_INGOT
+    - IRON_ORE,IRON_INGOT
+    - WOOL;3,WOOL;5
+  fortune:
+    enabled: true
+    minimum_drops: 1
+    maximum_drops: 50
+    multiplier: 1
+    modifier: 1
+    random_drop_amount: true
+    disabled_worlds:
+    - someworld
+    - someotherworld
+    fortune_blocks:
+    - COAL_BLOCK
+    - DIAMOND_ORE
+    - LAPIS_BLOCK
+    - REDSTONE_BLOCK
+    - DIAMOND_BLOCK
+    - EMERALD_BLOCK
+    - EMERALD_ORE
+    - REDSTONE_ORE
+    - QUARTZ_ORE
+    - COAL_ORE
+    - EMERALD
+    - DIAMOND
+    - IRON
+    - COAL
+    - STONE
+    - COBBLESTONE
+  ingot_to_block:
+    enabled: false
+    toggle_on_join: false
+    auto_blocks_interval: 30
+shop_items_info:
+  use_gui: false
+  message:
+  - '&8&m-----------------------------------------------------'
+  - '&fTienda: &e%shop%'
+  - '%items%'
+  - '&8&m-----------------------------------------------------'
+  item_format: '&7%material%&f:&7%data% &f- &a$&f%price_1%'
+vkbackpack:
+  bptoggle_on_join: false
+money:
+  fix_money: true
+  use_custom_format: false
+  custom_format: '#,###.00'
+  thousands_format: k
+  millions_format: M
+  billions_format: B
+  trillions_format: T
+  quadrillions_format: Q
+shops:
+  A:
+    shop_list:
+    - STONE;5,800
+    - COBBLESTONE;0,1.5625
+    - COAL;0,5.46875
+    - IRON_INGOT;0,6.25
+    - IRON_ORE;0,7.8125
+    priority: 38
+  B:
+    shop_list:
+    - STONE;5,800
+    - COBBLESTONE;0,1.796875
+    - COAL;0,6.25
+    - IRON_INGOT;0,7.8125
+    - IRON_ORE;0,9.375
+    priority: 37
+  C:
+    shop_list:
+    - STONE;5,800
+    - COBBLESTONE;0,5.46875
+    - COAL;0,10.15625
+    - IRON_INGOT;0,13.28125
+    - IRON_ORE;0,12.5
+    priority: 36
+  D:
+    shop_list:
+    - STONE;5,800
+    - COAL_BLOCK;0,132.8125
+    - COBBLESTONE;0,14.84375
+    - COAL;0,21.09375
+    - IRON_INGOT;0,27.34375
+    - IRON_ORE;0,31.25
+    priority: 35
+  E:
+    shop_list:
+    - STONE;5,800
+    - COAL_BLOCK;0,210.9375
+    - COBBLESTONE;0,17.96875
+    - COAL;0,24.21875
+    - IRON_INGOT;0,23.4375
+    - IRON_ORE;0,35.9375
+    priority: 34
+  F:
+    shop_list:
+    - STONE;5,800
+    - COBBLESTONE;0,18.75
+    - IRON_BLOCK;0,421.875
+    - COAL;0,31.25
+    - IRON_INGOT;0,46.875
+    - IRON_ORE;0,46.875
+    - COAL;0,31.25
+    - COAL_BLOCK;0,281.25
+    - IRON_INGOT;0,78.125
+    - IRON_BLOCK;0,78.125
+    priority: 33
+  G:
+    shop_list:
+    - STONE;5,800
+    - RED_SANDSTONE;0,78.125
+    - COBBLESTONE;0,20.3125
+    - DIAMOND_ORE;0,61.1
+    - DIAMOND;0,61.1
+    - DIAMOND_BLOCK;0,550.0
+    - IRON_ORE;0,31.25
+    - COAL_BLOCK;0,343.75
+    - IRON_BLOCK;0,468.75
+    - IRON_INGOT;0,62.5
+    priority: 32
+  H:
+    shop_list:
+    - STONE;5,800
+    - RED_SANDSTONE;0,125.0
+    - COBBLESTONE;0,21.875
+    - DIAMOND;0,61.0
+    - DIAMOND_ORE;0,61.0
+    - DIAMOND_BLOCK;0,550.0
+    - IRON_ORE;0,78.125
+    - COAL_BLOCK;0,468.75
+    - IRON_BLOCK;0,578.125
+    - IRON_INGOT;0,78.125
+    priority: 31
+  I:
+    shop_list:
+    - STONE;5,800
+    - RED_SANDSTONE;0,187.5
+    - COBBLESTONE;0,23.4375
+    - IRON_ORE;0,78.125
+    - DIAMOND;0,66.0
+    - DIAMOND_ORE;0,66.0
+    - DIAMOND_BLOCK;0,600.0
+    - COAL_BLOCK;0,578.125
+    - IRON_BLOCK;0,625.0
+    - COAL;0,31.25
+    - COAL_BLOCK;0,281.25
+    - IRON_INGOT;0,78.125
+    - IRON_BLOCK;0,78.125
+    priority: 30
+  J:
+    shop_list:
+    - STONE;5,6
+    - RED_SANDSTONE;0,234.375
+    - COBBLESTONE;0,28.125
+    - DIAMOND;0,77.0
+    - DIAMOND_ORE;0,77.0
+    - DIAMOND_BLOCK;0,700.0
+    - IRON_ORE;0,78.125
+    - IRON_BLOCK;0,687.5
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    priority: 29
+  K:
+    shop_list:
+    - STONE;5,6
+    - RED_SANDSTONE;0,265.625
+    - COBBLESTONE;0,29.6875
+    - DIAMOND;0,100.0
+    - DIAMOND_ORE;0,100.0
+    - DIAMOND_BLOCK;0,900.0
+    - IRON_ORE;0,78.125
+    - IRON_BLOCK;0,781.25
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    priority: 28
+  L:
+    shop_list:
+    - STONE;5,6
+    - RED_SANDSTONE;0,312.5
+    - DIAMOND;0,133.0
+    - DIAMOND_ORE;0,133.0
+    - DIAMOND_BLOCK;0,1200.0
+    - COBBLESTONE;0,37.5
+    - IRON_ORE;0,78.125
+    - GOLD_BLOCK;0,312.5
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    priority: 27
+  M:
+    shop_list:
+    - STONE;5,6
+    - RED_SANDSTONE;0,406.25
+    - DIAMOND;0,142.0
+    - DIAMOND_ORE;0,142.0
+    - DIAMOND_BLOCK;0,1280.5
+    - COBBLESTONE;0,43.75
+    - IRON_ORE;0,78.125
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    priority: 26
+  N:
+    shop_list:
+    - STONE;5,6
+    - RED_SANDSTONE;0,625.0
+    - DIAMOND;0,144.0
+    - DIAMOND_ORE;0,144.0
+    - DIAMOND_BLOCK;0,1300.625
+    - COBBLESTONE;0,46.875
+    - IRON_ORE;0,78.125
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    priority: 25
+  O:
+    shop_list:
+    - EMERALD;0,250.0
+    - STONE;5,6
+    - PRISMARINE;0,734.375
+    - RED_SANDSTONE;0,734.375
+    - DIAMOND;0,150.0
+    - DIAMOND_ORE;0,150.0
+    - DIAMOND_BLOCK;0,1350.75
+    - COBBLESTONE;0,51.5625
+    - IRON_ORE;0,78.125
+    - COAL;0,31.25
+    - COAL_BLOCK;0,281.25
+    - IRON_INGOT;0,78.125
+    - IRON_BLOCK;0,78.125
+    priority: 24
+  P:
+    shop_list:
+    - EMERALD;0,280.0
+    - STONE;5,6
+    - RED_SANDSTONE;0,765.625
+    - DIAMOND;0,155.0
+    - DIAMOND_ORE;0,155.0
+    - DIAMOND_BLOCK;0,1400.875
+    - COBBLESTONE;0,53.125
+    - IRON_ORE;0,78.125
+    - HARD_CLAY;0,765.625
+    - ENDER_STONE;0,625.0
+    - COAL;0,31.25
+    - COAL_BLOCK;0,281.25
+    - IRON_INGOT;0,78.125
+    - IRON_BLOCK;0,78.125
+    priority: 23
+  Q:
+    shop_list:
+    - STONE;5,6
+    - RED_SANDSTONE;0,812.5
+    - EMERALD;0,290.0
+    - DIAMOND;0,172.0
+    - DIAMOND_ORE;0,172.0
+    - DIAMOND_BLOCK;0,1550.0
+    - COBBLESTONE;0,57.8125
+    - IRON_ORE;0,78.125
+    - DIAMOND;0,812.5
+    - ENDER_STONE;0,750.0
+    - COAL;0,31.25
+    - COAL_BLOCK;0,281.25
+    - IRON_INGOT;0,78.125
+    - IRON_BLOCK;0,78.125
+    priority: 22
+  R:
+    shop_list:
+    - STONE;5,6
+    - DIAMOND;0,200.0
+    - DIAMOND_ORE;0,200.0
+    - DIAMOND_BLOCK;0,1800.0
+    - EMERALD;0,250.0
+    - COBBLESTONE;0,62.5
+    - ENDER_STONE;0,875.0
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    - IRON_ORE;0,78.125
+    priority: 21
+  S:
+    shop_list:
+    - STONE;5,6
+    - DIAMOND;0,211.0
+    - DIAMOND_ORE;0,211.0
+    - DIAMOND_BLOCK;0,1900.25
+    - EMERALD;0,290.0
+    - COBBLESTONE;0,67.1875
+    - ENDER_STONE;0,859.375
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    - IRON_ORE;0,78.125
+    priority: 20
+  T:
+    shop_list:
+    - STONE;5,6
+    - DIAMOND;0,222.0
+    - DIAMOND_ORE;0,222.0
+    - DIAMOND_BLOCK;0,2000.25
+    - EMERALD;0,350.0
+    - COBBLESTONE;0,71.09375
+    - ENDER_STONE;0,1125.0
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    - IRON_ORE;0,78.125
+    priority: 19
+  U:
+    shop_list:
+    - STONE;5,6
+    - DIAMOND;0,255.0
+    - DIAMOND_ORE;0,255.0
+    - DIAMOND_BLOCK;0,2300.5
+    - COBBLESTONE;0,73.4375
+    - ENDER_STONE;0,937.5
+    - EMERALD;0,400.0
+    - EMERALD_BLOCK;0,5500.5
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    - IRON_ORE;0,78.125
+    priority: 18
+  V:
+    shop_list:
+    - STONE;5,6
+    - DIAMOND;0,572.0
+    - DIAMOND_ORE;0,572.0
+    - DIAMOND_BLOCK;0,5156.25
+    - COBBLESTONE;0,232.8125
+    - ENDER_STONE;0,1187.5
+    - EMERALD;0,722.0
+    - EMERALD_BLOCK;0,6500.0
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    - IRON_ORE;0,78.125
+    priority: 17
+  W:
+    shop_list:
+    - STONE;5,6
+    - DIAMOND;0,625.0
+    - DIAMOND_ORE;0,625.0
+    - DIAMOND_BLOCK;0,5625.0
+    - COBBLESTONE;0,250.0
+    - ENDER_STONE;0,781.25
+    - EMERALD;0,944.0
+    - EMERALD_BLOCK;0,8500.0
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    - IRON_ORE;0,78.125
+    priority: 16
+  X:
+    shop_list:
+    - STONE;5,6
+    - COBBLESTONE;0,265.625
+    - ENDER_STONE;0,1171.875
+    - DIAMOND;0,1055.0
+    - DIAMOND_ORE;0,1055.0
+    - EMERALD;0,1055.0
+    - EMERALD_BLOCK;0,9500.5
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    - IRON_ORE;0,78.125
+    priority: 15
+  Y:
+    shop_list:
+    - STONE;5,6
+    - COBBLESTONE;0,312.5
+    - ENDER_STONE;0,1562.5
+    - DIAMOND;0,1388.0
+    - DIAMOND_ORE;0,1388.0
+    - EMERALD;0,1388.0
+    - EMERALD_BLOCK;0,12500.0
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    - IRON_ORE;0,78.125
+    priority: 14
+  Z:
+    shop_list:
+    - STONE;5,8
+    - DYE;4,868.5
+    - LAPIS_BLOCK;0,7812.5
+    - REDSTONE_BLOCK;0,4687.5
+    - GOLD_INGOT;0,347.0
+    - GOLD_BLOCK;0,3125.0
+    - DIAMOND;0,1666.0
+    - DIAMOND_ORE;0,1666.0
+    - EMERALD;0,1666.0
+    - EMERALD_BLOCK;0,15000.0
+    - COBBLESTONE;0,1.5625
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    - IRON_ORE;0,78.125
+    priority: 13
+  P1:
+    shop_list:
+    - STONE;5,8
+    - DYE;4,868.5
+    - LAPIS_BLOCK;0,7812.5
+    - REDSTONE_BLOCK;0,4687.5
+    - GOLD_INGOT;0,347.0
+    - GOLD_BLOCK;0,3125.0
+    - DIAMOND;0,1666.0
+    - DIAMOND_ORE;0,1666.0
+    - DIAMOND_BLOCK;0,5000.0
+    - EMERALD;0,1666.0
+    - EMERALD_BLOCK;0,15000.0
+    - COBBLESTONE;0,1.5625
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    - IRON_ORE;0,78.125
+    priority: 12
+  P2:
+    shop_list:
+    - STONE;5,8
+    - DIAMOND_BLOCK;0,5000.0
+    - DYE;4,868.5
+    - LAPIS_BLOCK;0,7812.5
+    - REDSTONE_BLOCK;0,4687.5
+    - GOLD_INGOT;0,347.0
+    - GOLD_BLOCK;0,3125.0
+    - DIAMOND;0,1666.0
+    - DIAMOND_ORE;0,1666.0
+    - EMERALD;0,1666.0
+    - EMERALD_BLOCK;0,15000.0
+    - COBBLESTONE;0,1.5625
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    - IRON_ORE;0,78.125
+    priority: 11
+  P3:
+    shop_list:
+    - STONE;5,8
+    - DIAMOND_BLOCK;0,5000.0
+    - DYE;4,868.5
+    - LAPIS_BLOCK;0,7812.5
+    - REDSTONE_BLOCK;0,4687.5
+    - GOLD_INGOT;0,347.0
+    - GOLD_BLOCK;0,3125.0
+    - DIAMOND;0,1666.0
+    - DIAMOND_ORE;0,1666.0
+    - EMERALD;0,1666.0
+    - EMERALD_BLOCK;0,15000.0
+    - COBBLESTONE;0,1.5625
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    - IRON_ORE;0,78.125
+    priority: 10
+  P4:
+    shop_list:
+    - STONE;5,8
+    - DYE;4,868.5
+    - DIAMOND_BLOCK;0,5000.0
+    - LAPIS_BLOCK;0,7812.5
+    - REDSTONE_BLOCK;0,4687.5
+    - GOLD_INGOT;0,347.0
+    - GOLD_BLOCK;0,3125.0
+    - DIAMOND;0,1666.0
+    - DIAMOND_ORE;0,1666.0
+    - EMERALD;0,1666.0
+    - EMERALD_BLOCK;0,15000.0
+    - COBBLESTONE;0,1.5625
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    - IRON_ORE;0,78.125
+    priority: 9
+  P5:
+    shop_list:
+    - STONE;5,8
+    - DYE;4,868.5
+    - DIAMOND_BLOCK;0,5000.0
+    - LAPIS_BLOCK;0,7812.5
+    - REDSTONE_BLOCK;0,4687.5
+    - GOLD_INGOT;0,347.0
+    - GOLD_BLOCK;0,3125.0
+    - DIAMOND;0,1666.0
+    - DIAMOND_ORE;0,1666.0
+    - EMERALD;0,1666.0
+    - EMERALD_BLOCK;0,15000.0
+    - COBBLESTONE;0,1.5625
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    - IRON_ORE;0,78.125
+    priority: 8
+  P6:
+    shop_list:
+    - STONE;5,8
+    - DYE;4,868.5
+    - DIAMOND_BLOCK;0,5000.0
+    - LAPIS_BLOCK;0,7812.5
+    - REDSTONE_BLOCK;0,4687.5
+    - GOLD_INGOT;0,347.0
+    - GOLD_BLOCK;0,3125.0
+    - DIAMOND;0,1666.0
+    - DIAMOND_ORE;0,1666.0
+    - EMERALD;0,1666.0
+    - EMERALD_BLOCK;0,15000.0
+    - COBBLESTONE;0,1.5625
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    - IRON_ORE;0,78.125
+    priority: 7
+  Ultra:
+    shop_list:
+    - STONE;5,6
+    - RED_SANDSTONE;0,2343.75
+    - COBBLESTONE;0,1.5625
+    - DIAMOND;0,513.0
+    - DIAMOND_ORE;0,513.0
+    - DIAMOND_BLOCK;0,4625.0
+    - LAPIS_BLOCK;0,7182.0
+    - EMERALD;0,1394.0
+    - EMERALD_BLOCK;0,14250.0
+    - IRON_ORE;0,78.125
+    - REDSTONE_BLOCK;0,4687.5
+    - GOLD_BLOCK;0,3125.0
+    - ENDER_STONE;0,1687.5
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    priority: 6
+  Platinum:
+    shop_list:
+    - STONE;5,6
+    - RED_SANDSTONE;0,3906.25
+    - DIAMOND;0,581.0
+    - DIAMOND_ORE;0,581.0
+    - DIAMOND_BLOCK;0,5234.375
+    - COBBLESTONE;0,7.8125
+    - LAPIS_BLOCK;0,7182.0
+    - IRON_ORE;0,78.125
+    - EMERALD;0,1694.0
+    - EMERALD_BLOCK;0,15250.0
+    - REDSTONE_BLOCK;0,4687.5
+    - GOLD_BLOCK;0,3125.0
+    - ENDER_STONE;0,1968.75
+    - COAL;0,31.25
+    - STONE;0,7.8125
+    - IRON_INGOT;0,78.125
+    priority: 5
+  Champion:
+    shop_list:
+    - STONE;5,6
+    - RED_SANDSTONE;0,3125.0
+    - DIAMOND;0,851.0
+    - DIAMOND_ORE;0,851.0
+    - DIAMOND_BLOCK;0,7662.5
+    - COBBLESTONE;0,15.625
+    - LAPIS_BLOCK;0,7182.0
+    - EMERALD;0,1694.0
+    - EMERALD_BLOCK;0,16250.0
+    - IRON_ORE;0,78.125
+    - GOLD_BLOCK;0,3125.0
+    - REDSTONE_BLOCK;0,4687.0
+    - ENDER_STONE;0,2318.75
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    priority: 4
+  Legend:
+    shop_list:
+    - STONE;5,6
+    - RED_SANDSTONE;0,3125.0
+    - DIAMOND;0,1187.0
+    - DIAMOND_ORE;0,1187.0
+    - DIAMOND_BLOCK;0,10687.5
+    - COBBLESTONE;0,132.8125
+    - EMERALD;0,1694.0
+    - EMERALD_BLOCK;0,20875.0
+    - IRON_ORE;0,78.125
+    - ENDER_STONE;0,3418.75
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    priority: 3
+  Mystic:
+    shop_list:
+    - STONE;5,200
+    - RED_SANDSTONE;0,3125.0
+    - DIAMOND;0,1722.0
+    - DIAMOND_ORE;0,1722.0
+    - DIAMOND_BLOCK;0,15500.0
+    - COBBLESTONE;0,156.25
+    - EMERALD;0,1694.0
+    - EMERALD_BLOCK;0,25593.75
+    - BEACON;0,30000.75
+    - IRON_ORE;0,78.125
+    - ENDER_STONE;0,4018.75
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    priority: 2
+  Vertex:
+    shop_list:
+    - STONE;5,200
+    - RED_SANDSTONE;0,3125.0
+    - DIAMOND;0,1722.0
+    - DIAMOND_ORE;0,1722.0
+    - DIAMOND_BLOCK;0,15500.0
+    - COBBLESTONE;0,156.25
+    - EMERALD;0,1694.0
+    - EMERALD_BLOCK;0,25593.75
+    - BEACON;0,30000.75
+    - IRON_ORE;0,78.125
+    - ENDER_STONE;0,4018.75
+    - COAL;0,31.25
+    - IRON_INGOT;0,78.125
+    priority: 1

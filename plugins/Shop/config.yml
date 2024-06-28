@@ -1,0 +1,122 @@
+amountPattern: '1-64'
+ignoreColoredDisplay: true
+
+nextPage:
+  slot: 5
+  id: '351:10'
+  inactiveId: '160:0'
+  name: '&6&l* &eNext page'
+  inactiveName: '&4'
+previousPage:
+  slot: 3
+  id: '351:8'
+  inactiveId: '160:0'
+  name: '&6&l* &ePrevious page'
+  inactiveName: '&4'
+
+iconsLore:
+- ' '
+- "&8 ▪ &7Buy Price:&r &e${buy_price} &a⛁"
+- "&8 ▪ &7Sell Price:&r &e${sell_price} &a⛁"
+- ' '
+- "&6&l* &eLeft click to buy"
+- "&6&l* &aRight click to sell"
+
+pageSuffix: ' &f(Page {page})'
+
+# These items will be added in the last row
+changeAmount:
+  enable: true
+  slot: 8
+  id: paper
+  name: '&e&lChange amount'
+  lore:
+  - '&7Select the amount of'
+  - '&7items that you want'
+  - '&7to sell/buy.'
+  - '&7'
+  - '&e&l* &aLeft click to increase'
+  - '&e&l* &aRight click to decrease'
+customNodes:
+  '1':
+    slot: 0
+    id: '160:0'
+    name: ' &e'
+    lore: []
+    close: false
+  '2':
+    slot: 1
+    id: '160:0'
+    name: ' &e'
+    lore: []
+    close: false
+  '3':
+    slot: 2
+    id: '160:0'
+    name: ' &e'
+    lore: []
+    close: false
+  '4':
+    slot: 3
+    id: '160:0'
+    name: ' &e'
+    lore: []
+    close: false
+  '5':
+    slot: 5
+    id: '160:0'
+    name: ' &e'
+    lore: []
+    close: false
+  '6':
+    slot: 6
+    id: '160:0'
+    name: ' &e'
+    lore: []
+    close: false
+  '7':
+    slot: 4
+    id: barrier
+    name: '&e&lCategories'
+    lore: 
+    - '&7Return to the main shop'
+    - '&7shop to sell another'
+    - '&7items.'
+    - ''
+    - '&6&l* &aRight click to return'
+    # Executes when player click on item
+    # 'cmd' - execute command
+    # 'msg: text' - send message to player
+    # 'console: cmd' - execute command from console
+    #
+    # {player} will be replaced to player name
+    action:
+    - 'dm open mainshop'
+    # Close menu after command execution
+    close: true
+  '8':
+    slot: 7
+    id: '160:0'
+    name: ' &e'
+    lore: []
+    close: false
+
+messages:
+  noItem: '&e&lSHOP &8» &cYou don''t have &4x{amount} &cof &4{item}'
+  noMoney: '&e&lSHOP &8» &cYou don''t have enough money'
+  bought: '&e&lSHOP &8» &7You have bought &ex{amount} {item} &7for &e{money} ⛁'
+  sold: '&e&lSHOP &8» &7You have sold &ex{amount} {item} &7for &e{money} ⛁'
+
+# Sound names can be found here hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sounds:
+  bought: ENTITY_EXPERIENCE_ORB_PICKUP
+  sold: ENTITY_EXPERIENCE_ORB_PICKUP
+  noMoney: BLOCK_ANVIL_BREAK
+  noItem: BLOCK_ANVIL_BREAK
+
+
+
+
+
+
+configVersion: '1.5'

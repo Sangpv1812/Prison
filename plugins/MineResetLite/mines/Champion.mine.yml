@@ -1,0 +1,22 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 10
+  surface: ''
+  maxZ: -888
+  maxY: 31
+  maxX: -1768
+  fillMode: false
+  world: Mines
+  minY: 11
+  resetWarnings: []
+  minX: -1794
+  composition:
+    '57:0': 0.2
+    '129:0': 0.1
+    '1:0': 0.4
+    '133:0': 0.2
+    '56:0': 0.1
+  name: Champion
+  resetClock: 3
+  minZ: -914
+  isSilent: true

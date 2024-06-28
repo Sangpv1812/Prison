@@ -1,0 +1,15 @@
+DIAMOND_HELMET
+9
+1
+name=§c§lGiáp §4§lBoss
+lore=§f[§4+§f] §7Tránh Làm Mất%newline%
+metaenchant=PROTECTION_ENVIRONMENTAL:5
+metaenchant=PROTECTION_FIRE:3
+metaenchant=DURABILITY:5
+metaenchant=PROTECTION_EXPLOSIONS:3
+metaenchant=PROTECTION_PROJECTILE:3
+enchant=PROTECTION_ENVIRONMENTAL:5
+enchant=PROTECTION_FIRE:3
+enchant=DURABILITY:5
+enchant=PROTECTION_EXPLOSIONS:3
+enchant=PROTECTION_PROJECTILE:3

@@ -1,0 +1,13 @@
+Potions:
+  Experienced:
+    price: 10
+    max: 5
+
+    # The amount the pickaxe level XP will be increased by
+    # when mining.
+    percentages:
+      1: 0.05 # 5%
+      2: 0.1  # 10%
+      3: 0.15 # 15%
+      4: 0.2  # 20%
+      5: 0.25 # 25%

@@ -1,0 +1,21 @@
+Potions:
+  Lucky:
+    price: 10
+    max: 5
+
+    message:
+      enabled: true
+      content: '&aYou received &d{tokens} &afrom mining.'
+
+    # The chance that a player without the Lucky enchant
+    # will receive a token when mining a block.
+    base-chance: 1
+
+    # The chance that a player will receive a token when
+    # mining a block.
+    chances:
+      1: 10
+      2: 20
+      3: 25
+      4: 30
+      5: 35

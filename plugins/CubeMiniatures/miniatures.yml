@@ -1,0 +1,820 @@
+custom-miniatures:
+  Bird:
+    name: 'Bird'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/c135f5838e51585e15942e8f2f1cc36da963070ddd5ba35af95ed37eb6c3"
+    equipment:
+      chestplate:
+        enabled: false
+        material: LEATHER_CHESTPLATE
+        color: WHITE
+      leggings:
+        enabled: false
+        material: LEATHER_LEGGINGS
+        color: SILVER
+      boots:
+        enabled: false
+        material: LEATHER_BOOTS
+        color: SILVER
+      hand:
+        enabled: false
+        material: AIR
+    particles:
+      enabled: false
+      type: NORMAL
+      particle: cloud
+      amount: 1
+      X: 0.0
+      Y: 0.2
+      Z: 0.0
+      speed: 0.0
+      time: 1
+    menu:
+      menu: page1
+      name: '&bParrot miniature'
+      lore:
+      - '&7Select a parrot miniature to follow you'
+      slot: 6
+  Astronaut:
+    name: 'Astronaut'
+    visible: true
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/73c2ebddd1583668d84f586cccc9f195298812fac52def2bae3b83bdd2c5595d"
+    equipment:
+      chestplate:
+        enabled: true
+        material: LEATHER_CHESTPLATE
+        color: SILVER
+      leggings:
+        enabled: true
+        material: LEATHER_LEGGINGS
+        color: SILVER
+      boots:
+        enabled: true
+        material: LEATHER_BOOTS
+        color: SILVER
+      hand:
+        enabled: true
+        material: NETHER_STAR
+    particles:
+      enabled: true
+      type: NORMAL
+      particle: cloud
+      amount: 1
+      X: 0.0
+      Y: 0.0
+      Z: 0.0
+      speed: 0.0
+      time: 0
+    menu:
+      menu: page1
+      name: '&bAstronaut miniature'
+      lore:
+      - '&7Select an astronaut miniature to follow you'
+      slot: 0
+  Ghost:
+    name: 'Ghost'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/aeb926aa3972768a632cb98de4b4970766cfdb1d37625f99173e5f539fa67"
+    equipment:
+      chestplate:
+        enabled: true
+        material: LEATHER_CHESTPLATE
+        color: WHITE
+      leggings:
+        enabled: false
+        material: LEATHER_LEGGINGS
+        color: SILVER
+      boots:
+        enabled: false
+        material: LEATHER_BOOTS
+        color: SILVER
+      hand:
+        enabled: false
+        material: AIR
+    particles:
+      enabled: true
+      type: NORMAL
+      particle: snowballPoof
+      amount: 1
+      X: 0.0
+      Y: 0.2
+      Z: 0.0
+      speed: 0.0
+      time: 1
+    menu:
+      menu: page1
+      name: '&bGhost miniature'
+      lore:
+      - '&7Select a ghost miniature to follow you'
+      slot: 5
+  Demon:
+    name: 'Demon'
+    visible: true
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/9da39269ef45f825ec61bb4f8aa09bd3cf07996fb6fac338a6e91d6699ae425"
+    equipment:
+      chestplate:
+        enabled: true
+        material: LEATHER_CHESTPLATE
+        color: RED
+      leggings:
+        enabled: true
+        material: LEATHER_LEGGINGS
+        color: RED
+      boots:
+        enabled: true
+        material: LEATHER_BOOTS
+        color: RED
+      hand:
+        enabled: true
+        material: FLINT_AND_STEEL
+    particles:
+      enabled: true
+      type: AROUND
+      particle: flame
+      amount: 1
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 0
+    menu:
+      menu: page1
+      name: '&bDevil miniature'
+      lore:
+      - '&7Select a devil miniature to follow you'
+      slot: 1
+  Dead:
+    name: 'Dead'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/cc7df0bbdce4bf3b452681eb471d110365b2468f1e720704a203734bd848373"
+    equipment:
+      chestplate:
+        enabled: true
+        material: LEATHER_CHESTPLATE
+        color: SILVER
+      leggings:
+        enabled: true
+        material: AIR
+        color: GREEN
+      boots:
+        enabled: true
+        material: AIR
+        color: GREEN
+      hand:
+        enabled: true
+        material: IRON_SWORD
+    particles:
+      enabled: true
+      type: AROUND
+      particle: reddust
+      amount: 1
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 0
+    menu:
+      menu: page1
+      name: '&bZombie miniature'
+      lore:
+      - '&7Select a zombie miniature to follow you'
+      slot: 2
+  Knight:
+    name: 'Knight'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/349558e8b1c3f6f0c8e258487f4cd3ce66f5fd992a7cd64f6df631bb852f672a"
+    equipment:
+      chestplate:
+        enabled: true
+        material: LEATHER_CHESTPLATE
+        color: BLACK
+      leggings:
+        enabled: false
+        material: AIR
+        color: GREEN
+      boots:
+        enabled: false
+        material: AIR
+        color: GREEN
+      hand:
+        enabled: true
+        material: HOPPER_MINECART
+    particles:
+      enabled: true
+      type: AROUND
+      particle: smoke
+      amount: 1
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 0
+    menu:
+      menu: page1
+      name: '&bCaballero miniature'
+      lore:
+      - '&7Select a parrot miniature to follow you'
+      slot: 7
+  Reaper:
+    name: 'Reaper'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/833de024a9887abdc07377c0cbf34b9e691f9efb414e3018be472e32a134be25"
+    equipment:
+      chestplate:
+        enabled: true
+        material: LEATHER_CHESTPLATE
+        color: BLACK
+      leggings:
+        enabled: false
+        material: AIR
+        color: GREEN
+      boots:
+        enabled: false
+        material: AIR
+        color: GREEN
+      hand:
+        enabled: true
+        material: IRON_HOE
+    particles:
+      enabled: true
+      type: AROUND
+      particle: lava
+      amount: 1
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 0
+    menu:
+      menu: page1
+      name: '&bCaballero miniature'
+      lore:
+      - '&7Select a parrot miniature to follow you'
+      slot: 8
+  Enderman:
+    name: 'Enderman'
+    visible: true
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/9a4f6a9f9277305f7c99d81496282c764f9aa574c3786ce6dd466970532b7f"
+    equipment:
+      chestplate:
+        enabled: true
+        material: LEATHER_CHESTPLATE
+        color: BLACK
+      leggings:
+        enabled: true
+        material: LEATHER_LEGGINGS
+        color: BLACK
+      boots:
+        enabled: true
+        material: LEATHER_BOOTS
+        color: BLACK
+      hand:
+        enabled: true
+        material: ENDER_PEARL
+    particles:
+      enabled: true
+      type: CIRCLE
+      particle: portal
+      amount: 1
+      X: 0.0
+      Y: 1.2
+      Z: 0.0
+      speed: 0.0
+      time: 20
+    menu:
+      menu: page1
+      name: '&bEnderman miniature'
+      lore:
+      - '&7Select an enderman miniature to follow you'
+      slot: 3
+  Golem:
+    name: 'Golem'
+    visible: true
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/7aff1dbac66e1aae354cec84286ebd1b3c28531f9ac6672b95eac5305f4ca3"
+    equipment:
+      chestplate:
+        enabled: true
+        material: LEATHER_CHESTPLATE
+        color: SILVER
+      leggings:
+        enabled: true
+        material: LEATHER_LEGGINGS
+        color: SILVER
+      boots:
+        enabled: true
+        material: LEATHER_BOOTS
+        color: SILVER
+      hand:
+        enabled: true
+        material: RED_ROSE
+    particles:
+      enabled: true
+      type: CIRCLE
+      particle: fireworksSpark
+      amount: 1
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 40
+    menu:
+      menu: page1
+      name: '&bIron Golem miniature'
+      lore:
+      - '&7Select an iron golem miniature to follow you'
+      slot: 4
+  Slime:
+    name: 'Slime'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/a20e84d32d1e9c919d3fdbb53f2b37ba274c121c57b2810e5a472f40dacf004f"
+    equipment:
+      chestplate:
+        enabled: false
+        material: LEATHER_CHESTPLATE
+        color: GREEN
+      leggings:
+        enabled: false
+        material: AIR
+        color: GREEN
+      boots:
+        enabled: false
+        material: AIR
+        color: GREEN
+      hand:
+        enabled: true
+        material: SLIME_BALL
+    particles:
+      enabled: true
+      type: NORMAL
+      particle: footstep
+      amount: 1
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 0
+    menu:
+      menu: page1
+      name: '&bCaballero miniature'
+      lore:
+      - '&7Select a parrot miniature to follow you'
+      slot: 9
+  Creeper:
+    name: 'Creeper'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/d7f6d223369f60772c99fc3d5eedd6804c98926ca2e8b437dea7a2572fa5289"
+    equipment:
+      chestplate:
+        enabled: true
+        material: LEATHER_CHESTPLATE
+        color: GREEN
+      leggings:
+        enabled: false
+        material: AIR
+        color: GREEN
+      boots:
+        enabled: false
+        material: AIR
+        color: GREEN
+      hand:
+        enabled: true
+        material: TNT
+    particles:
+      enabled: true
+      type: NORMAL
+      particle: largeexplode
+      amount: 1
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 60
+    menu:
+      menu: page1
+      name: '&bCaballero miniature'
+      lore:
+      - '&7Select a parrot miniature to follow you'
+      slot: 10
+  Fire:
+    name: 'Fire'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/71307397bc3327bae49b29ebfe92dba83b51d480284520dfd4d0702535ca2"
+    equipment:
+      chestplate:
+        enabled: true
+        material: LEATHER_CHESTPLATE
+        color: ORANGE
+      leggings:
+        enabled: false
+        material: AIR
+        color: GREEN
+      boots:
+        enabled: false
+        material: AIR
+        color: GREEN
+      hand:
+        enabled: true
+        material: BLAZE_POWDER
+    particles:
+      enabled: true
+      type: NORMAL
+      particle: lava
+      amount: 1
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 10
+    menu:
+      menu: page1
+      name: '&bCaballero miniature'
+      lore:
+      - '&7Select a parrot miniature to follow you'
+      slot: 11
+  Fish:
+    name: 'Fish'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/b060a46497cee7611346c9dd8eb8f5de4483de259147211353848356de15d19"
+    equipment:
+      chestplate:
+        enabled: false
+        material: LEATHER_CHESTPLATE
+        color: WHITE
+      leggings:
+        enabled: false
+        material: LEATHER_LEGGINGS
+        color: SILVER
+      boots:
+        enabled: false
+        material: LEATHER_BOOTS
+        color: SILVER
+      hand:
+        enabled: false
+        material: AIR
+    particles:
+      enabled: true
+      type: CIRCLE
+      particle: dripwater
+      amount: 1
+      X: 0.0
+      Y: 0.2
+      Z: 0.0
+      speed: 0.0
+      time: 20
+    menu:
+      menu: page1
+      name: '&bParrot miniature'
+      lore:
+      - '&7Select a parrot miniature to follow you'
+      slot: 14
+  Shark:
+    name: 'Shark'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/b124c541deda4b266ff14e61b0a13244b2d4b7c18d2b6c8dd2176d5d365fbd"
+    equipment:
+      chestplate:
+        enabled: false
+        material: LEATHER_CHESTPLATE
+        color: GRAY
+      leggings:
+        enabled: false
+        material: AIR
+        color: GREEN
+      boots:
+        enabled: false
+        material: AIR
+        color: GREEN
+      hand:
+        enabled: false
+        material: BLAZE_POWDER
+    particles:
+      enabled: true
+      type: AROUND
+      particle: splash
+      amount: 2
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 0
+    menu:
+      menu: page1
+      name: '&bCaballero miniature'
+      lore:
+      - '&7Select a parrot miniature to follow you'
+      slot: 12
+  Car:
+    name: 'Car'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/46582d6d8bc707fb057b4530c75e4dfd9ec2e865ed22da8b97a4758449feaf76"
+    equipment:
+      chestplate:
+        enabled: false
+        material: LEATHER_CHESTPLATE
+        color: WHITE
+      leggings:
+        enabled: false
+        material: LEATHER_LEGGINGS
+        color: SILVER
+      boots:
+        enabled: false
+        material: LEATHER_BOOTS
+        color: SILVER
+      hand:
+        enabled: false
+        material: AIR
+    particles:
+      enabled: false
+      type: AROUND
+      particle: reddust
+      amount: 1
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 20
+    menu:
+      menu: page1
+      name: '&bParrot miniature'
+      lore:
+      - '&7Select a parrot miniature to follow you'
+      slot: 13
+  Alien:
+    name: 'Alien'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/3a0b6de2a5a4ac78254ddecfa46f798f2753cbc81dbc9784a5cfefab8aceafeb"
+    equipment:
+      chestplate:
+        enabled: false
+        material: LEATHER_CHESTPLATE
+        color: WHITE
+      leggings:
+        enabled: false
+        material: LEATHER_LEGGINGS
+        color: SILVER
+      boots:
+        enabled: false
+        material: LEATHER_BOOTS
+        color: SILVER
+      hand:
+        enabled: false
+        material: AIR
+    particles:
+      enabled: true
+      type: AROUND
+      particle: happyvillager
+      amount: 1
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 0
+    menu:
+      menu: page1
+      name: '&bParrot miniature'
+      lore:
+      - '&7Select a parrot miniature to follow you'
+      slot: 13
+  Ship:
+    name: 'Ship'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/ba29ea24e529dc1708ae3a2902de3e29c22a9edbbb07ecbcd27cb53602c71"
+    equipment:
+      chestplate:
+        enabled: false
+        material: LEATHER_CHESTPLATE
+        color: WHITE
+      leggings:
+        enabled: false
+        material: LEATHER_LEGGINGS
+        color: SILVER
+      boots:
+        enabled: false
+        material: LEATHER_BOOTS
+        color: SILVER
+      hand:
+        enabled: false
+        material: AIR
+    particles:
+      enabled: true
+      type: AROUND
+      particle: splash
+      amount: 1
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 0
+    menu:
+      menu: page1
+      name: '&bParrot miniature'
+      lore:
+      - '&7Select a parrot miniature to follow you'
+      slot: 13
+  Dallas:
+    name: 'Dallas'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/7e4db9c2c067eb283df9875472162def60f67be4f538f6daee7af981826bc772"
+    equipment:
+      chestplate:
+        enabled: true
+        material: LEATHER_CHESTPLATE
+        color: BLUE
+      leggings:
+        enabled: false
+        material: LEATHER_LEGGINGS
+        color: SILVER
+      boots:
+        enabled: false
+        material: LEATHER_BOOTS
+        color: SILVER
+      hand:
+        enabled: false
+        material: AIR
+    particles:
+      enabled: true
+      type: AROUND
+      particle: flame
+      amount: 1
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 0
+    menu:
+      menu: page1
+      name: '&bParrot miniature'
+      lore:
+      - '&7Select a parrot miniature to follow you'
+      slot: 13
+  Wolf:
+    name: 'Wolf'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/e852706e5d23ed63843a72f3c4b564c5aa6163555be3b74a951af8ec92882233"
+    equipment:
+      chestplate:
+        enabled: true
+        material: LEATHER_CHESTPLATE
+        color: BROWN
+      leggings:
+        enabled: false
+        material: LEATHER_LEGGINGS
+        color: SILVER
+      boots:
+        enabled: false
+        material: LEATHER_BOOTS
+        color: SILVER
+      hand:
+        enabled: false
+        material: GOLD_INGOT
+    particles:
+      enabled: true
+      type: AROUND
+      particle: crit
+      amount: 1
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 0
+    menu:
+      menu: page1
+      name: '&bParrot miniature'
+      lore:
+      - '&7Select a parrot miniature to follow you'
+      slot: 13
+  Chains:
+    name: 'Chains'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/6229a928cc43fe07f0c1f486320a59b665a51bcbdcb650e3a1ad9721538725ad"
+    equipment:
+      chestplate:
+        enabled: true
+        material: LEATHER_CHESTPLATE
+        color: RED
+      leggings:
+        enabled: false
+        material: LEATHER_LEGGINGS
+        color: SILVER
+      boots:
+        enabled: false
+        material: LEATHER_BOOTS
+        color: SILVER
+      hand:
+        enabled: false
+        material: GOLD_INGOT
+    particles:
+      enabled: true
+      type: AROUND
+      particle: reddust
+      amount: 1
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 0
+    menu:
+      menu: page1
+      name: '&bParrot miniature'
+      lore:
+      - '&7Select a parrot miniature to follow you'
+      slot: 13
+  Houston:
+    name: 'Houston'
+    visible: false
+    animation: true
+    head:
+      type: LINK
+      value: "http://textures.minecraft.net/texture/48392b88524c57c2971757d0170b9e01cecaa8a6e1e8cbedcef1208be04178e4"
+    equipment:
+      chestplate:
+        enabled: true
+        material: LEATHER_CHESTPLATE
+        color: WHITE
+      leggings:
+        enabled: false
+        material: LEATHER_LEGGINGS
+        color: SILVER
+      boots:
+        enabled: false
+        material: LEATHER_BOOTS
+        color: SILVER
+      hand:
+        enabled: false
+        material: GOLD_INGOT
+    particles:
+      enabled: true
+      type: AROUND
+      particle: fireworksspark
+      amount: 1
+      X: 0.0
+      Y: 1.5
+      Z: 0.0
+      speed: 0.0
+      time: 0
+    menu:
+      menu: page1
+      name: '&bParrot miniature'
+      lore:
+      - '&7Select a parrot miniature to follow you'
+      slot: 13

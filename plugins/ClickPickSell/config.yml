@@ -1,0 +1,11 @@
+#Write the name of the world which it has to work. world is default.
+worlds:
+- Minas
+- Mines
+- Plots
+- world
+- Free
+
+#Set the command to be executed on right clicking of pickaxe.'sell all' is default.
+#Note: Do not use / before the command.
+command: 'dm open pasdasdwqico'

@@ -1,0 +1,24 @@
+vote:
+  location: world, 512.5, 55, -547.5
+  lines:
+  - '&f&l✦ VOTE ✦'
+  - '&f'
+  - '&e&oRight click to open'
+rare:
+  location: world, 510.5, 55, -554.5
+  lines:
+  - '&9&l✦ RARE ✦'
+  - '&f'
+  - '&e&oRight click to open'
+mine:
+  location: world, 510.5, 55, -550.5
+  lines:
+  - '&b&l✦ MINE ✦'
+  - '&f'
+  - '&e&oRight click to open'
+legendary:
+  location: world, 512.5, 55, -556.5
+  lines:
+  - '&d&l✦ LEGENDARY ✦'
+  - '&f'
+  - '&e&oRight click to open'

@@ -1,0 +1,15 @@
+votes: 100 #votes needed to start voteparty
+msg_added: "" #set to none to disable
+msg_removed: "" #set to none to disable
+error_votes_too_low: "&c&l[!] &cNot enough votes"
+config_reloaded: "&aConfig reloaded!"
+no_perms: "&cNo perms"
+no_args: "&e/vp <add/remove/list/reload>"
+vote_list: "&e&l[!] &eCurrently &6&l%amount% &evotes" # shows list of votes, use %amount% for amount
+broadcast_msg: "&e&lVOTE PARTY &8» &eEveryone gets a &a&lPREMIUM &f| Key&e!"
+command: "cc open Rare %player%" # this will be done to all players on the server
+
+
+#data section
+#changes not recommended
+current_votes: 0 #dont change, the amount of current votes

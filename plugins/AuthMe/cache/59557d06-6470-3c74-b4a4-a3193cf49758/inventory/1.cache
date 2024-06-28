@@ -1,0 +1,11 @@
+DIAMOND_PICKAXE
+1338
+1
+name=§6§nCúp đền bù
+lore=§eHết hạn: 23-7-2018 24:00%newline%
+metaenchant=DIG_SPEED:11
+metaenchant=DURABILITY:10
+metaenchant=LOOT_BONUS_BLOCKS:2
+enchant=DIG_SPEED:11
+enchant=DURABILITY:10
+enchant=LOOT_BONUS_BLOCKS:2

@@ -1,0 +1,11 @@
+DIAMOND_PICKAXE
+0
+1
+name=§c§l§k|||§e §a§lCúp §b§lThiên §e§lPhá §f§l+2 §c§l§k|||
+lore=§f§l====[§e§lCó thể nâng cấp§f§l]====%newline%
+metaenchant=DIG_SPEED:15
+metaenchant=Custom Enchantment:0
+metaenchant=LOOT_BONUS_BLOCKS:3
+enchant=DIG_SPEED:15
+enchant=LOOT_BONUS_BLOCKS:3
+enchant=Custom Enchantment:0

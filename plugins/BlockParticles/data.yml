@@ -1,0 +1,79 @@
+locations:
+  mine:
+    world: world
+    x: 522
+    y: 54
+    z: -606
+    particle: Volcano
+  gold:
+    world: world
+    x: 520
+    y: 56
+    z: -601
+    particle: MobSpawner
+  info:
+    world: world
+    x: 500
+    y: 56
+    z: -604
+    particle: Rainbow
+  vote:
+    world: world
+    x: 512
+    y: 53
+    z: -548
+    particle: Rainbow
+  legendary:
+    world: world
+    x: 512
+    y: 53
+    z: -557
+    particle: Rainbow
+  auction:
+    world: world
+    x: 529
+    y: 54
+    z: -554
+    particle: MobSpawner
+  withdraw:
+    world: world
+    x: 531
+    y: 54
+    z: -541
+    particle: Rainbow
+  gems:
+    world: world
+    x: 537
+    y: 54
+    z: -540
+    particle: Gems
+  casino:
+    world: world
+    x: 512
+    y: 52
+    z: -570
+    particle: Rainbow
+  Free:
+    world: world
+    x: 527
+    y: 73
+    z: -545
+    particle: HappyVillager
+  helicopter:
+    world: world
+    x: 526
+    y: 77
+    z: -547
+    particle: Fog
+  helicopter2:
+    world: world
+    x: 526
+    y: 77
+    z: -539
+    particle: Fog
+  shop:
+    world: world
+    x: 536
+    y: 54
+    z: -548
+    particle: Rainbow

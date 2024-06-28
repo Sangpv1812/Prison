@@ -1,0 +1,1178 @@
+[20:53:55] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[20:53:55] [Server thread/INFO]: Loading properties
+[20:53:55] [Server thread/INFO]: Default game type: SURVIVAL
+[20:53:55] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-dcd1643-e60fc34 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[20:53:55] [Server thread/INFO]: Debug logging is disabled
+[20:53:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:53:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:53:55] [Server thread/INFO]: Generating keypair
+[20:53:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:53:55] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;32;1mInfo[m]: Downloading dependency [0;32;1mhttpclient-4.5.6.jar[m.[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mError[m]: Failed to load dependency [0;31;1mhttpclient-4.5.6.jar[m:[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: java.net.UnknownHostException: central.maven.org[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:229)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:608)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:557)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.URL.openStream(URL.java:1165)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:101)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BCommons.<init>(BCommons.java:35)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Class.newInstance(Class.java:584)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:327)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:248)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:305)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Thread.run(Thread.java:834)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;32;1mInfo[m]: Downloading dependency [0;32;1mhttpcore-4.4.10.jar[m.[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mError[m]: Failed to load dependency [0;31;1mhttpcore-4.4.10.jar[m:[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: java.net.UnknownHostException: central.maven.org[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:229)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:608)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:557)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.URL.openStream(URL.java:1165)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:101)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BCommons.<init>(BCommons.java:35)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Class.newInstance(Class.java:584)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:327)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:248)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:305)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Thread.run(Thread.java:834)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;32;1mInfo[m]: Downloading dependency [0;32;1mcommons-logging-1.2.jar[m.[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mError[m]: Failed to load dependency [0;31;1mcommons-logging-1.2.jar[m:[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: java.net.UnknownHostException: central.maven.org[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:229)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:608)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:557)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.URL.openStream(URL.java:1165)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:101)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BCommons.<init>(BCommons.java:35)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Class.newInstance(Class.java:584)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:327)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:248)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:305)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Thread.run(Thread.java:834)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;32;1mInfo[m]: Downloading dependency [0;32;1mcommons-codec-1.10.jar[m.[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mError[m]: Failed to load dependency [0;31;1mcommons-codec-1.10.jar[m:[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: java.net.UnknownHostException: central.maven.org[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:229)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:608)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:557)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.URL.openStream(URL.java:1165)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:101)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BCommons.<init>(BCommons.java:35)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Class.newInstance(Class.java:584)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:327)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:248)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:305)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Thread.run(Thread.java:834)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;32;1mInfo[m]: Downloading dependency [0;32;1moshi-core-3.13.2.jar[m.[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mError[m]: Failed to load dependency [0;31;1moshi-core-3.13.2.jar[m:[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: java.net.UnknownHostException: central.maven.org[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:229)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:608)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:557)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.URL.openStream(URL.java:1165)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:101)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BCommons.<init>(BCommons.java:35)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Class.newInstance(Class.java:584)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:327)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:248)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:305)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Thread.run(Thread.java:834)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;32;1mInfo[m]: Downloading dependency [0;32;1mjna-5.3.1.jar[m.[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mError[m]: Failed to load dependency [0;31;1mjna-5.3.1.jar[m:[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: java.net.UnknownHostException: central.maven.org[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:229)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:608)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:557)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.URL.openStream(URL.java:1165)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:101)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BCommons.<init>(BCommons.java:35)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Class.newInstance(Class.java:584)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:327)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:248)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:305)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Thread.run(Thread.java:834)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;32;1mInfo[m]: Downloading dependency [0;32;1mjna-platform-5.3.1.jar[m.[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mError[m]: Failed to load dependency [0;31;1mjna-platform-5.3.1.jar[m:[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: java.net.UnknownHostException: central.maven.org[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:229)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:608)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:557)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.URL.openStream(URL.java:1165)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:101)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BCommons.<init>(BCommons.java:35)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Class.newInstance(Class.java:584)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:327)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:248)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:305)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Thread.run(Thread.java:834)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;32;1mInfo[m]: Downloading dependency [0;32;1mslf4j-api-1.7.25.jar[m.[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mError[m]: Failed to load dependency [0;31;1mslf4j-api-1.7.25.jar[m:[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: java.net.UnknownHostException: central.maven.org[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:229)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:608)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.Socket.connect(Socket.java:557)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.net.URL.openStream(URL.java:1165)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.hook.dependency.DependencyLoader.load(DependencyLoader.java:101)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BCommons.<init>(BCommons.java:35)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Class.newInstance(Class.java:584)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:90)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:327)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:248)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:305)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)[m
+[20:53:55] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Thread.run(Thread.java:834)[m
+[20:53:56] [Server thread/ERROR]: Could not load 'plugins\CommandNPC-1.9.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Citizens
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:216) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:305) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[20:53:56] [Server thread/INFO]: [KeyLocker] Loading KeyLocker v1.1
+[20:53:56] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.4
+[20:53:56] [Server thread/INFO]: [ConsoleSpamFix] Loading ConsoleSpamFix v1.7.2
+[20:53:56] [Server thread/INFO]: [RawMsg] Loading RawMsg v1.6.3
+[20:53:56] [Server thread/INFO]: [CommandPrompter] Loading CommandPrompter v0.1.15
+[20:53:56] [Server thread/INFO]: [DeluxeTags] Loading DeluxeTags v1.7.1
+[20:53:56] [Server thread/INFO]: [BCommons] Loading BCommons v0.2.3
+[20:53:56] [Server thread/ERROR]: oshi/SystemInfo initializing BCommons v0.2.3 (Is it up to date?)
+java.lang.NoClassDefFoundError: oshi/SystemInfo
+	at me.bradleysteele.commons.util.SystemInfos.<clinit>(SystemInfos.java:29) ~[?:?]
+	at me.bradleysteele.commons.BPlugin.onLoad(BPlugin.java:87) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:310) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.ClassNotFoundException: oshi.SystemInfo
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:476) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:152) ~[Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:100) ~[Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	... 6 more
+[20:53:56] [Server thread/INFO]: [CubeMiniatures] Loading CubeMiniatures v1.1.4
+[20:53:56] [Server thread/INFO]: [Shop] Loading Shop v1.5.3
+[20:53:56] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v2.2.3
+[20:53:56] [Server thread/INFO]: [ViaVersion] ViaVersion 2.2.3 is now loaded, waiting for boot. (late-bind)
+[20:53:56] [Server thread/INFO]: [Voteparty] Loading Voteparty v1.0
+[20:53:56] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v2.4.0-SNAPSHOT
+[20:53:56] [Server thread/INFO]: [VoteRoulette] Loading VoteRoulette v3.2.3
+[20:53:56] [Server thread/INFO]: [Skript] Loading Skript v2.4-alpha4
+[20:53:56] [Server thread/INFO]: [ClickPickSell] Loading ClickPickSell v1.0
+[20:53:56] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[20:53:56] [Server thread/INFO]: [DisableJoinMessage] Loading DisableJoinMessage v1.0
+[20:53:56] [Server thread/INFO]: [BarGamble] Loading BarGamble v1.0
+[20:53:56] [Server thread/INFO]: [IllegalStack] Loading IllegalStack v2.1.2d
+[20:53:56] [Server thread/INFO]: [Votifier] Loading Votifier v3.0.0-SNAPSHOT
+[20:53:56] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.3.0
+[20:53:56] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.12.2) has not yet been tested! Proceed with caution.
+[20:53:56] [Server thread/INFO]: [VoidSpawn] Loading VoidSpawn v1.18.1
+[20:53:56] [Server thread/INFO]: [AntiDrop] Loading AntiDrop v2.1.7
+[20:53:56] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
+[20:53:56] [Server thread/INFO]: [Vouchers] Loading Vouchers v2.1.0
+[20:53:56] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.10.5
+[20:53:56] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[20:53:56] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[20:53:56] [Server thread/INFO]: [ItemNBTAPI] Loading ItemNBTAPI v1.8.3-SNAPSHOT
+[20:53:56] [Server thread/INFO]: [Vault] Loading Vault v1.6.7-b${env.TRAVIS_BUILD_NUMBER}
+[20:53:56] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v1.4.0
+[20:53:56] [Server thread/INFO]: [EpicChatPrefix] Loading EpicChatPrefix v1.3
+[20:53:56] [Server thread/INFO]: [CrazyCrates] Loading CrazyCrates v1.8.3-E
+[20:53:56] [Server thread/INFO]: [Item2Chat] Loading Item2Chat v4.2.3
+[20:53:56] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.0
+[20:53:56] [Server thread/INFO]: [ActionAPI] Loading ActionAPI v1.1.3
+[20:53:56] [Server thread/INFO]: [PrisonRanksX] Loading PrisonRanksX v2.4.13b
+[20:53:56] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.7;dd00bb1
+[20:53:56] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.12
+[20:53:56] [Server thread/INFO]: [SafeTrade] Loading SafeTrade v1.0.16
+[20:53:56] [Server thread/INFO]: [CrazyAuctions] Loading CrazyAuctions v1.2.14-RELEASE
+[20:53:56] [Server thread/INFO]: [TAB] Loading TAB v2.5.4
+[20:53:56] [Server thread/INFO]: [PlotSquared] Loading PlotSquared v19.10.31-7539f6d-786
+[20:53:56] [Server thread/INFO]: [BeastWithdraw] Loading BeastWithdraw v2.8.1
+[20:53:56] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.2.12
+[20:53:56] [Server thread/INFO]: [TitleManager] Loading TitleManager v2.1.7
+[20:53:56] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b719
+[20:53:56] [Server thread/INFO]: [MineResetLite] Loading MineResetLite v0.3.7
+[20:53:56] [Server thread/INFO]: [BlockParticles] Loading BlockParticles v1.11.1-RELEASE
+[20:53:56] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.9.1-1.8.8-hotfix (build 68)
+[20:53:56] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.0-SNAPSHOT
+[20:53:56] [Server thread/INFO]: [TokenEnchant] Loading TokenEnchant v17.1.7
+[20:53:56] [Server thread/INFO]: [EZBlocks] Loading EZBlocks v1.4.1
+[20:53:56] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[20:53:56] [Server thread/INFO]: [PrisonAutoMiner] Loading PrisonAutoMiner v1.0.0
+[20:53:56] [Server thread/INFO]: [PickaxeLevels] Loading PickaxeLevels v1.0.7
+[20:53:56] [Server thread/ERROR]: Could not initialize class me.bradleysteele.commons.util.SystemInfos initializing PickaxeLevels v1.0.7 (Is it up to date?)
+java.lang.NoClassDefFoundError: Could not initialize class me.bradleysteele.commons.util.SystemInfos
+	at me.bradleysteele.commons.BPlugin.onLoad(BPlugin.java:87) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:310) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDefFoundError: oshi/SystemInfo [in thread "Server thread"]
+	at me.bradleysteele.commons.util.SystemInfos.<clinit>(SystemInfos.java:29) ~[?:?]
+	... 5 more
+[20:53:56] [Server thread/INFO]: [CommandRegions] Loading CommandRegions v2.0.0
+[20:53:56] [Server thread/INFO]: [UltimateStacker] Loading UltimateStacker v1.10.21
+[20:53:56] [Server thread/INFO]: [ConsoleSpamFix] Enabling ConsoleSpamFix v1.7.2
+[20:53:56] [Server thread/INFO]: [ConsoleSpamFix] Server version detected: 1.12.2
+[20:53:56] [Server thread/INFO]: [ConsoleSpamFix] Loading the config file...
+[20:53:56] [Server thread/INFO]: [ConsoleSpamFix] Config file loaded!
+[20:53:56] [Server thread/INFO]: [ConsoleSpamFix] ConsoleSpamFix loaded successfully!
+[20:53:56] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v2.4.0-SNAPSHOT
+[20:53:56] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 block mapping...
+[20:53:56] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 item mapping...
+[20:53:56] [Server thread/INFO]: [ViaVersion] Loading new 1.13 tags...
+[20:53:56] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 enchantment mapping...
+[20:53:56] [Server thread/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 sound mapping...
+[20:53:56] [Server thread/INFO]: [ViaVersion] Loading translation mapping
+[20:53:56] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 blockstate mapping...
+[20:53:57] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 block mapping...
+[20:53:57] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 item mapping...
+[20:53:57] [Server thread/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 sound mapping...
+[20:53:57] [Server thread/INFO]: [ViaVersion] Loading 1.14 blockstates...
+[20:53:57] [Server thread/INFO]: [ViaVersion] Loading 1.14 heightmap data...
+[20:53:57] [Server thread/INFO]: [ViaVersion] Loading 1.14.4 -> 1.15 blockstate mapping...
+[20:53:57] [Server thread/INFO]: [ViaVersion] Loading 1.14.4 -> 1.15 block mapping...
+[20:53:57] [Server thread/INFO]: [ViaVersion] Loading 1.14.4 -> 1.15 item mapping...
+[20:53:57] [Server thread/INFO]: [ViaVersion] Loading 1.14.4 -> 1.15 sound mapping...
+[20:53:57] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.3.0
+[20:53:57] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[20:53:57] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
+[20:53:58] [Server thread/INFO]: ====== USE PAPER ======[m
+[20:53:58] [Server thread/INFO]: DOWNLOAD: https://ci.destroystokyo.com/job/PaperSpigot/[m
+[20:53:58] [Server thread/INFO]: GUIDE: https://www.spigotmc.org/threads/21726/[m
+[20:53:58] [Server thread/INFO]:  - This is only a recommendation[m
+[20:53:58] [Server thread/INFO]: ==============================[m
+[20:53:58] [Server thread/INFO]: [Vault] Enabling Vault v1.6.7-b${env.TRAVIS_BUILD_NUMBER}
+[20:53:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[20:53:58] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[20:53:58] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:53:58] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[20:53:58] [Server thread/INFO]: [Vault] Enabled Version 1.6.7-b${env.TRAVIS_BUILD_NUMBER}
+[20:53:58] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v1.4.0
+[20:53:58] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v19.10.31-7539f6d-786
+[20:53:58] [Server thread/INFO]: Version is PlotSquared-19.10.31-7539f6d-786
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;33;22mMetrics enabled.[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m [0;33;22mPlotSquared is using online UUIDs[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mplot-expiry[0;31;1m, Value: [0;33;22mfalse[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mkill-road-mobs[0;31;1m, Value: [0;33;22mfalse[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mkill-road-items[0;31;1m, Value: [0;33;22mfalse[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mworlds[0;31;1m, Value: [0;33;22mfalse[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mworldedit-restrictions[0;31;1m, Value: [0;33;22mfalse[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mdatabase-purger[0;31;1m, Value: [0;33;22mfalse[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22meconomy[0;31;1m, Value: [0;33;22mfalse[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mblock-cache[0;31;1m, Value: [0;33;22mtrue[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mkill-road-vehicles[0;31;1m, Value: [0;33;22mfalse[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mpersistent-meta[0;31;1m, Value: [0;33;22mtrue[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mban-deleter[0;31;1m, Value: [0;33;22mfalse[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mupdater[0;31;1m, Value: [0;33;22mtrue[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mdatabase[0;31;1m, Value: [0;33;22mtrue[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mplotme-converter[0;31;1m, Value: [0;33;22mtrue[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mpermission-cache[0;31;1m, Value: [0;33;22mfalse[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mdisable-fawe-optimization[0;31;1m, Value: [0;33;22mfalse[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mrating-cache[0;31;1m, Value: [0;33;22mtrue[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mcomment-notifier[0;31;1m, Value: [0;33;22mfalse[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mmetrics[0;31;1m, Value: [0;33;22mtrue[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mchunk-processor[0;31;1m, Value: [0;33;22mfalse[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22muuid-cache[0;31;1m, Value: [0;33;22mtrue[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mevents[0;31;1m, Value: [0;33;22mtrue[m
+[20:53:58] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;31;1mKey: [0;33;22mcommands[0;31;1m, Value: [0;33;22mtrue[m
+[20:53:58] [Server thread/INFO]: [0;33;22mPlotSquared is now enabled[m
+[20:53:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:53:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:53:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:53:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:53:58] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[20:53:58] [Server thread/INFO]: Preparing level "world"
+[20:53:58] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:53:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:53:58] [Server thread/INFO]: Item Despawn Rate: 1200
+[20:53:58] [Server thread/INFO]: Item Merge Radius: 3.5
+[20:53:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:53:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[20:53:58] [Server thread/INFO]: View Distance: 4
+[20:53:58] [Server thread/INFO]: Experience Merge Radius: 6.0
+[20:53:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:53:58] [Server thread/INFO]: Random Lighting Updates: false
+[20:53:58] [Server thread/INFO]: Structure Info Saving: true
+[20:53:58] [Server thread/INFO]: Tile Max Tick Time: 8ms Entity max Tick Time: 16ms
+[20:53:58] [Server thread/INFO]: Max TNT Explosions: 10
+[20:53:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[20:53:58] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 1 Hopper Amount: 3
+[20:53:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:53:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:53:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:53:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:53:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:53:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:53:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:53:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:53:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:53:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:53:58] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[20:53:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 40 / Other 50
+[20:53:58] [Server thread/INFO]: Mob Spawn Range: 3
+[20:53:58] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2009995673247417630)
+[20:53:58] [Server thread/INFO]: [KeyLocker] Enabling KeyLocker v1.1
+[20:53:58] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.4
+[20:53:58] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:53:58] [Server thread/INFO]: [RawMsg] Enabling RawMsg v1.6.3
+[20:53:58] [Server thread/INFO]: [RawMsg] RawMsg has been Loaded
+[20:53:58] [Server thread/INFO]: [CommandPrompter] Enabling CommandPrompter v0.1.15
+[20:53:58] [Server thread/INFO]: [DeluxeTags] Enabling DeluxeTags v1.7.1
+[20:53:58] [Server thread/INFO]: [DeluxeTags] 10 tags loaded
+[20:53:58] [Server thread/INFO]: [DeluxeTags] Loading DeluxeTags messages.yml
+[20:53:58] [Server thread/INFO]: [DeluxeTags] You are not using DeluxeChat!
+[20:53:58] [Server thread/INFO]: [DeluxeTags] DeluxeTags will listen to the AsyncPlayerChatEvent to provide compatibility for some chat plugins.
+[20:53:58] [Server thread/INFO]: [BCommons] Enabling BCommons v0.2.3
+[20:53:58] [Server thread/INFO]: [BCommons] [[0;32;1mInfo[m]: Server NMS package version: [0;33;1mv1_12_R1 [0;37;22m(legacy: [0;33;1mtrue[0;37;22m).[m
+[20:53:58] [Server thread/INFO]: [BCommons] [[0;32;1mInfo[m]: Registered worker: [0;32;1mWorkerBInventory[m.[m
+[20:53:58] [Server thread/INFO]: [CubeMiniatures] Enabling CubeMiniatures v1.1.4
+[20:53:58] [Server thread/INFO]: [CubeMiniatures] v1.1.4 created by ElDub[m
+[20:53:58] [Server thread/INFO]: [CubeMiniatures] Plugin enabled correctly[m
+[20:53:58] [Server thread/INFO]: [Shop] Enabling Shop v1.5.3
+[20:53:58] [Server thread/INFO]: [Shop] Registered amount pattern: 1-64
+[20:53:58] [Server thread/INFO]: [Shop] Registered shop: blocks
+[20:53:58] [Server thread/INFO]: [Shop] Registered shop: wool
+[20:53:58] [Server thread/INFO]: [Shop] Registered shop: farming
+[20:53:58] [Server thread/INFO]: [Shop] Registered shop: mobdrops
+[20:53:58] [Server thread/INFO]: [Shop] Registered shop: food
+[20:53:58] [Server thread/INFO]: [Shop] Registered shop: redstone
+[20:53:58] [Server thread/INFO]: [Shop] Registered shop: miscellaneous
+[20:53:58] [Server thread/INFO]: [Shop] Registered shop: clay
+[20:53:59] [Server thread/INFO]: [Shop] Registered shop: glass
+[20:53:59] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v2.2.3
+[20:53:59] [Server thread/INFO]: [Voteparty] Enabling Voteparty v1.0
+[20:53:59] [Server thread/INFO]: [Voteparty] Voteparty by Troll_C enabled
+[20:53:59] [Server thread/INFO]: [VoteRoulette] Enabling VoteRoulette v3.2.3
+[20:53:59] [Server thread/INFO]: [VoteRoulette] Hooked into Votifier!
+[20:53:59] [Server thread/INFO]: [VoteRoulette] Hooked into Vault!
+[20:53:59] [Server thread/INFO]: [VoteRoulette] Loading all files and data...
+[20:53:59] [Server thread/INFO]: [VoteRoulette] Setting default command alias: vr
+[20:53:59] [Server thread/INFO]: [VoteRoulette] Added Reward: Vote key
+[20:53:59] [Server thread/INFO]: [VoteRoulette] "Vote key" saved as default reward.
+[20:53:59] [Server thread/INFO]: [VoteRoulette] Added Milestone: My First Milestone
+[20:53:59] [Server thread/INFO]: [VoteRoulette] All stats update started. You may experience lag...
+[20:53:59] [Server thread/INFO]: [VoteRoulette] ...finished loading files and data!
+[20:53:59] [Server thread/WARN]: [VoteRoulette] Your server is in offline mode but VoteRoulette is set to use UUIDs. Players with illegitimate copies of Minecraft will not get their stats tracked. The use of UUIDs has been automatically disabled. You can set "useUUIDs" to "always" to override this.
+[20:53:59] [Thread-7/INFO]: [VoteRoulette] ...Stats update completed!
+[20:53:59] [Server thread/INFO]: [VoteRoulette] Enabled!
+[20:53:59] [Server thread/INFO]: [Skript] Enabling Skript v2.4-alpha4
+[20:53:59] [Server thread/INFO]: [0;37;22m[[0;33;22mSkript[0;37;22m][m You're currently running custom Skript version. No updates will be automatically installed.[m
+[20:54:00] [Server thread/INFO]: [Skript] Loaded 18144 aliases in 1121ms
+[20:54:00] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[20:54:00] [Server thread/INFO]: [ClickPickSell] Enabling ClickPickSell v1.0
+[20:54:00] [Server thread/INFO]: [ClickPickSell] CPS has been enabled
+[20:54:00] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[20:54:00] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[20:54:00] [Server thread/INFO]: [ClearLag] Loading modules...
+[20:54:00] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[20:54:00] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[20:54:00] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[20:54:00] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
+[20:54:00] [Server thread/INFO]: [DisableJoinMessage] Enabling DisableJoinMessage v1.0
+[20:54:00] [Server thread/INFO]: DisableJoinMessage Developed by MajkGamesCZ
+[20:54:00] [Server thread/INFO]: DisableJoinMessage Enabled!
+[20:54:00] [Server thread/INFO]: Plugin now will disable all onJoin messages!
+[20:54:00] [Server thread/INFO]: [BarGamble] Enabling BarGamble v1.0
+[20:54:00] [Server thread/INFO]: [IllegalStack] Enabling IllegalStack v2.1.2d
+[20:54:00] [Server thread/INFO]: §cThe following materials are allowed to have stacks larger than the vanilla size: POTION 
+[20:54:00] [Server thread/INFO]: [IllegalStack] Chat Components found!  Enabling clickable commands in /istack
+[20:54:00] [Server thread/INFO]: [Illegal Stack] - MC Version < 1.13 detected!
+[20:54:00] [Server thread/INFO]: [Votifier] Enabling Votifier v3.0.0-SNAPSHOT
+[20:54:00] [Server thread/INFO]: [Votifier] Loaded token for website: default
+[20:54:01] [Server thread/INFO]: [Votifier] Method none selected for vote forwarding: Votes will not be received from a forwarder.
+[20:54:01] [Server thread/INFO]: [VoidSpawn] Enabling VoidSpawn v1.18.1
+[20:54:01] [Votifier NIO boss/INFO]: [Votifier] Votifier enabled on socket /0:0:0:0:0:0:0:0:8192.
+[20:54:01] [Server thread/INFO]: [0;36;22m[[0;35;1mVoidSpawn[0;36;22m] [m[0;33;1mNo SkyBlock plugins found, disabling island mode support.[m
+[20:54:01] [Server thread/INFO]: [0;36;22m[[0;35;1mVoidSpawn[0;36;22m] [m[0;33;1mv1.18.1 by EnderCrest enabled[m
+[20:54:01] [Server thread/INFO]: [AntiDrop] Enabling AntiDrop v2.1.7
+[20:54:01] [Server thread/INFO]: [Vouchers] Enabling Vouchers v2.1.0
+[20:54:01] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.10.5
+[20:54:01] [Server thread/INFO]: [DeluxeMenus] Hooked into PlaceholderAPI!
+[20:54:01] [Thread-9/INFO]: [ClearLag] No updates found!
+[20:54:01] [Server thread/INFO]: [DeluxeMenus] 10 GUI menus loaded!
+[20:54:01] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault for economy requirement!
+[20:54:01] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup
+[20:54:01] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[20:54:01] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[20:54:01] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[20:54:01] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[20:54:01] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[20:54:01] [Server thread/INFO]: [ItemNBTAPI] Enabling ItemNBTAPI v1.8.3-SNAPSHOT
+[20:54:01] [Server thread/INFO]: [ItemNBTAPI] Checking bindings...
+[20:54:01] [Server thread/INFO]: [ItemNBTAPI] Minecraft Version:
+[20:54:01] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_12_R1! Trying to find NMS support
+[20:54:01] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_12_R1' loaded!
+[20:54:01] [Server thread/INFO]: [ItemNBTAPI] Gson:
+[20:54:01] [Server thread/INFO]: Found Gson: class com.google.gson.Gson
+[20:54:01] [Server thread/INFO]: [ItemNBTAPI] Classes:
+[20:54:01] [Server thread/INFO]: [ItemNBTAPI] Methods:
+[20:54:01] [Server thread/INFO]: [ItemNBTAPI] Running NBT reflection test...
+[20:54:01] [Server thread/INFO]: {test:"test",time:1719323641347L,testcomp:{test2:"ok",test1:"ok"}}
+[20:54:01] [Server thread/INFO]: [ItemNBTAPI] Testing Entity NBT!
+[20:54:01] [Server thread/INFO]: [ItemNBTAPI] {AgeLocked:0b,HurtByTimestamp:0,Attributes:[{Base:10.0d,Name:"generic.maxHealth"},{Base:0.0d,Name:"generic.knockbackResistance"},{Base:0.25d,Name:"generic.movementSpeed"},{Base:0.0d,Name:"generic.armor"},{Base:0.0d,Name:"generic.armorToughness"},{Base:16.0d,Modifiers:[{UUIDMost:5530039632615261211L,UUIDLeast:-6995997919803604060L,Amount:0.035877559466227d,Operation:1,Name:"Random spawn bonus"}],Name:"generic.followRange"}],Invulnerable:0b,FallFlying:0b,ForcedAge:0,PortalCooldown:0,AbsorptionAmount:0.0f,Saddle:0b,FallDistance:0.0f,InLove:0,DeathTime:0s,WorldUUIDMost:4650957444693377677L,HandDropChances:[0.085f,0.085f],PersistenceRequired:1b,Spigot.ticksLived:4242567,Age:0,Motion:[0.0d,-0.0784000015258789d,0.0d],Leashed:0b,UUIDLeast:-4729196712654197902L,Health:10.0f,Bukkit.updateLevel:2,LeftHanded:0b,Air:300s,OnGround:1b,Dimension:0,Rotation:[315.0f,0.0f],HandItems:[{},{}],ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],UUIDMost:-5078027507170458560L,CustomName:"§;§5§:§e§lPig §f5x",Pos:[430.55000001192093d,69.0625d,-585.4499999880791d],Fire:-1s,ArmorItems:[{},{},{},{}],CanPickUpLoot:0b,HurtTime:0s,WorldUUIDLeast:-8153651589753774957L,CustomNameVisible:1b}
+[20:54:01] [Server thread/INFO]: [ItemNBTAPI] Entity NBT seems to work!
+[20:54:01] [Server thread/INFO]: [ItemNBTAPI] Success! This version of Item-NBT-API is compatible with your server.
+[20:54:01] [Server thread/INFO]: [EpicChatPrefix] Enabling EpicChatPrefix v1.3
+[20:54:01] [Server thread/INFO]: ------------------------------------------------------
+[20:54:01] [Server thread/INFO]:                   EpicChatFormat Enabled
+[20:54:01] [Server thread/INFO]: ------------------------------------------------------
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Enabling CrazyCrates v1.8.3-E
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Loading the config.yml
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Successfully loaded config.yml
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Loading the Messages.yml
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Successfully loaded Messages.yml
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Loading the Locations.yml
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Successfully loaded Locations.yml
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Loading the data.yml
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Successfully loaded data.yml
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Loading custom files.
+[20:54:01] [Thread-10/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Loaded custom file: /Crates/Legendary.yml.
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Loaded custom file: /Crates/Mine.yml.
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Loaded custom file: /Crates/Rare.yml.
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Loaded custom file: /Crates/Vote.yml.
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Finished loading custom files.
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Loading all crate information...
+[20:54:01] [Server thread/INFO]: [CrazyCrates] All crate information has been loaded.
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Loading all the physical crate locations.
+[20:54:01] [Server thread/INFO]: [CrazyCrates] All physical crate locations have been loaded.
+[20:54:01] [Server thread/INFO]: [CrazyCrates] Cleaning up the data.yml file.
+[20:54:01] [Server thread/INFO]: [CrazyCrates] The data.yml file has been cleaned.
+[20:54:01] [Server thread/INFO]: [Item2Chat] Enabling Item2Chat v4.2.3
+[20:54:01] [Server thread/INFO]: [Item2Chat] Item2Chat version 4.2.3 is Enabled
+[20:54:01] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.0
+[20:54:01] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[20:54:01] [Server thread/INFO]: [ActionAPI] Enabling ActionAPI v1.1.3
+[20:54:01] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[20:54:01] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[20:54:02] [Server thread/WARN]: java.io.IOException: Server returned HTTP response code: 403 for URL: http://www.spigotmc.org/api/general.php
+[20:54:02] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1924)
+[20:54:02] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+[20:54:02] [Server thread/WARN]: 	at me.stst.placeholders.Main.getSpigotVersion(Main.java:219)
+[20:54:02] [Server thread/WARN]: 	at me.stst.placeholders.Main.checkUpdate(Main.java:199)
+[20:54:02] [Server thread/WARN]: 	at me.stst.placeholders.Main.onEnable(Main.java:50)
+[20:54:02] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[20:54:02] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+[20:54:02] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+[20:54:02] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+[20:54:02] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+[20:54:02] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422)
+[20:54:02] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383)
+[20:54:02] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338)
+[20:54:02] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)
+[20:54:02] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+[20:54:02] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[20:54:02] [Server thread/INFO]: [0;30;1m[[0;36;1mActionAPI[0;30;1m] [0;31;1mAn update is available, download it from spigot![m
+[20:54:02] [Server thread/INFO]: [PrisonRanksX] Enabling PrisonRanksX v2.4.13b
+[20:54:02] [Server thread/INFO]: [0;33;1m[[0;34;1mPrisonRanksX[0;33;1m] [0;32;1mEnabled.[m
+[20:54:02] [Server thread/INFO]: [0;33;1m[[0;34;1mPrisonRanksX[0;33;1m] [0;33;1mLoading PlaceholderAPI Placeholders...[m
+[20:54:02] [Server thread/INFO]: [0;33;1m[[0;34;1mPrisonRanksX[0;33;1m] [0;32;1mPlaceholderAPI Hooked.[m
+[20:54:02] [Server thread/INFO]: [0;33;1m[[0;34;1mPrisonRanksX[0;33;1m] [0;32;1mHolographicDisplays Hooked.[m
+[20:54:02] [Server thread/INFO]: [0;33;1m[[0;34;1mPrisonRanksX[0;33;1m] [0;32;22mStarted without MVdWPlaceholderAPI.[m
+[20:54:02] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.7;dd00bb1
+[20:54:02] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[20:54:02] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R1 as the Bukkit adapter
+[20:54:02] [Server thread/WARN]: [WorldEdit] WorldEdit has detected you are using Java 7 (based on detected version 11.0.22).
+[20:54:02] [Server thread/WARN]: [WorldEdit] WorldEdit will stop supporting Java less than version 8 in the future, due to Java 7 being EOL since April 2015. Please update your server to Java 8.
+[20:54:02] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.12
+[20:54:02] [Server thread/INFO]: [Essentials] Using legacy item data provider as mob spawner provider.
+[20:54:02] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[20:54:02] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[20:54:02] [Server thread/INFO]: Loaded 852 items from items.csv.
+[20:54:02] [Server thread/INFO]: Using locale en
+[20:54:02] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:54:02] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:54:02] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[20:54:02] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[20:54:02] [Server thread/INFO]: [SafeTrade] Enabling SafeTrade v1.0.16
+[20:54:02] [Server thread/INFO]: [SafeTrade] Using Essentials Economy
+[20:54:02] [Server thread/INFO]: [CrazyAuctions] Enabling CrazyAuctions v1.2.14-RELEASE
+[20:54:02] [Server thread/INFO]: [CrazyAuctions] Loading the config.yml
+[20:54:02] [Server thread/INFO]: [CrazyAuctions] Successfully loaded config.yml
+[20:54:02] [Server thread/INFO]: [CrazyAuctions] Loading the Data.yml
+[20:54:02] [Server thread/INFO]: [CrazyAuctions] Successfully loaded Data.yml
+[20:54:02] [Server thread/INFO]: [CrazyAuctions] Loading the Messages.yml
+[20:54:02] [Server thread/INFO]: [CrazyAuctions] Successfully loaded Messages.yml
+[20:54:02] [Server thread/INFO]: [TAB] Enabling TAB v2.5.4
+[20:54:02] [Server thread/INFO]: [0;37;22m[TAB] Server version: 1.12.2 (v1_12_R1)[m
+[20:54:02] [Server thread/INFO]: [0;31;1m[TAB] You are using old bossbar config, please make a backup of the file and delete it to get new file.[m
+[20:54:02] [Server thread/INFO]: [0;33;1m[TAB] There were 1 startup warnings.[m
+[20:54:02] [Server thread/INFO]: [0;32;1m[TAB] Enabled in 36ms[m
+[20:54:02] [Server thread/INFO]: [BeastWithdraw] Enabling BeastWithdraw v2.8.1
+[20:54:02] [Server thread/INFO]: [0;31;22m[BeastWithdraw] /XpBottle command aliases [xpb, beastxpb, bottle] are regitered[m
+[20:54:02] [Server thread/INFO]: [0;31;22m[BeastWithdraw] /bWithdraw command aliases [cashnote, withdraw, moneywithdraw, moneynote] are regitered[m
+[20:54:02] [Server thread/INFO]: [0;37;22m[[0;31;22mBeast[0;36;1mWithdraw[0;37;22m] [0;32;22mVersion 2.8.1 : has been enabled![m
+[20:54:02] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.2.12
+[20:54:02] [Server thread/INFO]: [TitleManager] Enabling TitleManager v2.1.7
+[20:54:02] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[20:54:02] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[20:54:03] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719
+[20:54:03] [Server thread/INFO]: -------- World Settings For [Plots] --------
+[20:54:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:54:03] [Server thread/INFO]: Item Despawn Rate: 1200
+[20:54:03] [Server thread/INFO]: Item Merge Radius: 3.5
+[20:54:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:54:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[20:54:03] [Server thread/INFO]: View Distance: 4
+[20:54:03] [Server thread/INFO]: Experience Merge Radius: 6.0
+[20:54:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:54:03] [Server thread/INFO]: Random Lighting Updates: false
+[20:54:03] [Server thread/INFO]: Structure Info Saving: true
+[20:54:03] [Server thread/INFO]: Tile Max Tick Time: 8ms Entity max Tick Time: 16ms
+[20:54:03] [Server thread/INFO]: Max TNT Explosions: 10
+[20:54:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[20:54:03] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 1 Hopper Amount: 3
+[20:54:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[20:54:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 40 / Other 50
+[20:54:03] [Server thread/INFO]: Mob Spawn Range: 3
+[20:54:03] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;32;1mDetected world load for 'Plots'[m
+[20:54:03] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;36;22m - generator: [0;37;22mPlotSquared>PlotSquared[m
+[20:54:03] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;36;22m - plotworld: [0;37;22mcom.intellectualcrafters.plot.generator.HybridPlotWorld[m
+[20:54:03] [Server thread/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;36;22m - manager: [0;37;22mcom.intellectualcrafters.plot.generator.HybridPlotManager[m
+[20:54:03] [Server thread/INFO]: World possibly already loaded: Plots[m
+[20:54:03] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3260069647413802699)
+[20:54:03] [Server thread/INFO]: -------- World Settings For [Free] --------
+[20:54:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:54:03] [Server thread/INFO]: Item Despawn Rate: 1200
+[20:54:03] [Server thread/INFO]: Item Merge Radius: 3.5
+[20:54:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:54:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[20:54:03] [Server thread/INFO]: View Distance: 4
+[20:54:03] [Server thread/INFO]: Experience Merge Radius: 6.0
+[20:54:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:54:03] [Server thread/INFO]: Random Lighting Updates: false
+[20:54:03] [Server thread/INFO]: Structure Info Saving: true
+[20:54:03] [Server thread/INFO]: Tile Max Tick Time: 8ms Entity max Tick Time: 16ms
+[20:54:03] [Server thread/INFO]: Max TNT Explosions: 10
+[20:54:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[20:54:03] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 1 Hopper Amount: 3
+[20:54:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:54:03] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[20:54:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 40 / Other 50
+[20:54:03] [Server thread/INFO]: Mob Spawn Range: 3
+[20:54:03] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2131752048871572162)
+[20:54:04] [Server thread/INFO]: -------- World Settings For [Mines] --------
+[20:54:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:54:04] [Server thread/INFO]: Item Despawn Rate: 1200
+[20:54:04] [Server thread/INFO]: Item Merge Radius: 3.5
+[20:54:04] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:54:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: false
+[20:54:04] [Server thread/INFO]: View Distance: 4
+[20:54:04] [Server thread/INFO]: Experience Merge Radius: 6.0
+[20:54:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:54:04] [Server thread/INFO]: Random Lighting Updates: false
+[20:54:04] [Server thread/INFO]: Structure Info Saving: true
+[20:54:04] [Server thread/INFO]: Tile Max Tick Time: 8ms Entity max Tick Time: 16ms
+[20:54:04] [Server thread/INFO]: Max TNT Explosions: 10
+[20:54:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[20:54:04] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 1 Hopper Amount: 3
+[20:54:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:54:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:54:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:54:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:54:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:54:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:54:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:54:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:54:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[20:54:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[20:54:04] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[20:54:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 40 / Other 50
+[20:54:04] [Server thread/INFO]: Mob Spawn Range: 3
+[20:54:04] [Server thread/INFO]: Preparing start region for level 3 (Seed: 2132556202521131363)
+[20:54:04] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[20:54:04] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b719 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
+[20:54:04] [Server thread/INFO]: [MineResetLite] Enabling MineResetLite v0.3.7
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'Champion.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'Legend.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-a.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-b.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-c.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-d.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-e.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-f.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-g.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-h.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-i.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-j.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-k.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-l.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-m.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-n.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-o.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-p.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-q.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-r.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-s.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-t.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-u.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-v.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-w.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-x.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-y.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'mine-z.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'Mystic.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'Platinum.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] Loading mine from file 'Ultra.mine.yml'...
+[20:54:04] [Server thread/INFO]: [MineResetLite] MineResetLite version 0.3.7 enabled!
+[20:54:04] [Server thread/INFO]: [BlockParticles] Enabling BlockParticles v1.11.1-RELEASE
+[20:54:04] [Server thread/INFO]: [BlockParticles] Loading the config.yml
+[20:54:04] [Server thread/INFO]: [BlockParticles] Successfully loaded config.yml
+[20:54:04] [Server thread/INFO]: [BlockParticles] Loading the data.yml
+[20:54:04] [Server thread/INFO]: [BlockParticles] Successfully loaded data.yml
+[20:54:04] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.9.1-1.8.8-hotfix (build 68)
+[20:54:04] [Server thread/INFO]: [ChestShop] Vault loaded! Found an economy plugin!
+[20:54:04] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.0-SNAPSHOT
+[20:54:04] [Server thread/INFO]: [AuthMe] Loading Configuration File...
+[20:54:04] [Server thread/INFO]: [AuthMe] Set Language: en
+[20:54:04] [Server thread/INFO]: [AuthMe] Metrics started successfully!
+[20:54:04] [Server thread/ERROR]: Error occurred while enabling AuthMe v5.0-SNAPSHOT (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(Ljava/io/InputStream;)Lorg/bukkit/configuration/file/YamlConfiguration;
+	at fr.xephi.authme.settings.Messages.loadDefaults(Messages.java:36) ~[?:?]
+	at fr.xephi.authme.settings.Messages.<init>(Messages.java:18) ~[?:?]
+	at fr.xephi.authme.settings.Messages.getInstance(Messages.java:112) ~[?:?]
+	at fr.xephi.authme.AuthMe.onEnable(AuthMe.java:150) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[20:54:04] [Server thread/INFO]: [TokenEnchant] Enabling TokenEnchant v17.1.7
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Use token?: true[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] attempt to start conversion...[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] could not find userdata.yml[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Token handler is : com.vk2gpz.tokenenchant.addon.a.c@3a15f427[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] [AddOn.loadAddOns()] adding : EnchantLoreHandler[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] [AddOn.loadAddOns()] adding : TokenHandlerToken[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] [AddOn.loadAddOns()] 0 addon modules found! Loading them up![0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Default Merge mode: NONE[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] 22 default enchants found! Loading them up![0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Sharpness has been registered (432862528)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Baneofarthropods has been registered (-224819268)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Smite has been registered (80004095)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Efficiency has been registered (-1340284248)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Unbreaking has been registered (-697930661)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Fireaspect has been registered (1766909517)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Knockback has been registered (-1314710598)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Fortune has been registered (987437120)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Looting has been registered (2014709817)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Respiration has been registered (-1711251045)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Protection has been registered (308606744)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Blastprotection has been registered (1539919568)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Featherfall has been registered (-2016362851)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Fireprotection has been registered (1565266382)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Projectileprot has been registered (39263503)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Silktouch has been registered (-1143353847)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Aquaaffinity has been registered (-1532768221)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Flame has been registered (67960626)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Power has been registered (77306116)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Punch has been registered (77476141)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Infinity has been registered (237817447)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Thorns has been registered (-1790652517)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] 22 vanilla potions effects found! Loading them up![0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Haste has been registered (69497482)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Speed has been registered (80089158)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Nightvision has been registered (847050239)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Jump has been registered (2320493)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Harm has been registered (2241843)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Regeneration has been registered (1197090762)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class FireProtection has been registered (-736236050)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Strength has been registered (1855960192)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Aqua has been registered (2048763)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Saturation has been registered (1762973713)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class HealthBoost has been registered (-270929242)[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] 8 external custom enchants found! Loading them up![0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] Found an old config for Combo in TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] TokenEnchant will use this old config but it is strongly suggested to transfer [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] the old config to TokenEnchant/enchants/Combo_config.yml and [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] remove the old config from TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] enchantment : class com.vk2gpz.tokenenchant.d.g.a[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Combo has been registered (65290637) [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] Found an old config for Experienced in TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] TokenEnchant will use this old config but it is strongly suggested to transfer [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] the old config to TokenEnchant/enchants/Experienced_config.yml and [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] remove the old config from TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] enchantment : class com.vk2gpz.tokenenchant.d.g.a[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Experienced has been registered (-984712135) [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] Found an old config for Greed in TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] TokenEnchant will use this old config but it is strongly suggested to transfer [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] the old config to TokenEnchant/enchants/Greed_config.yml and [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] remove the old config from TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] enchantment : class com.vk2gpz.tokenenchant.d.g.a[0m
+[20:54:05] [Server thread/ERROR]: [TokenEnchant] Plugin TokenEnchant v17.1.7 has failed to register events for class me.bradleysteele.greed.TEGreed because me/clip/autosell/events/AutoSellEvent does not exist.
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] Found an old config for KeyGreed in TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] TokenEnchant will use this old config but it is strongly suggested to transfer [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] the old config to TokenEnchant/enchants/KeyGreed_config.yml and [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] remove the old config from TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] enchantment : class com.vk2gpz.tokenenchant.d.g.a[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class KeyGreed has been registered (543541273) [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] Found an old config for Lazy in TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] TokenEnchant will use this old config but it is strongly suggested to transfer [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] the old config to TokenEnchant/enchants/Lazy_config.yml and [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] remove the old config from TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] enchantment : class com.vk2gpz.tokenenchant.d.g.a[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Lazy has been registered (2361267) [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] Found an old config for Lucky in TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] TokenEnchant will use this old config but it is strongly suggested to transfer [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] the old config to TokenEnchant/enchants/Lucky_config.yml and [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] remove the old config from TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] enchantment : class com.vk2gpz.tokenenchant.d.g.a[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Lucky has been registered (73771751) [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] Found an old config for TokenGreed in TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] TokenEnchant will use this old config but it is strongly suggested to transfer [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] the old config to TokenEnchant/enchants/TokenGreed_config.yml and [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] remove the old config from TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] enchantment : class com.vk2gpz.tokenenchant.d.g.a[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class TokenGreed has been registered (2072728767) [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] Found an old config for Unbreakable in TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] TokenEnchant will use this old config but it is strongly suggested to transfer [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] the old config to TokenEnchant/enchants/Unbreakable_config.yml and [0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] remove the old config from TokenEnchant/config.yml[0m
+[20:54:05] [Server thread/WARN]: [33m[TokenEnchant] enchantment : class com.vk2gpz.tokenenchant.d.g.a[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Class Unbreakable has been registered (-161264545) [0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Using plugins\TokenEnchant\CostFormulae.js[0m
+[20:54:05] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Using plugins\TokenEnchant\CooldownFormulae.js[0m
+[20:54:05] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Using plugins\TokenEnchant\OccurrenceFormulae.js[0m
+[20:54:05] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] 1 commands found![0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] Registered com.vk2gpz.tokenenchant.b.b[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] TokenEnchant: Alias is Enabled[0m
+[20:54:05] [Server thread/INFO]: [32m[TokenEnchant] TokenEnchant version 17.1.7 is Enabled[0m
+[20:54:05] [Server thread/INFO]: [EZBlocks] Enabling EZBlocks v1.4.1
+[20:54:05] [Server thread/INFO]: [EZBlocks] Saving/loading via flatfile!
+[20:54:05] [Server thread/INFO]: [EZBlocks] BlockBreakEvent listener registered on HIGHEST
+[20:54:05] [Server thread/INFO]: [EZBlocks] Saving all players every 5 minutes
+[20:54:05] [Server thread/INFO]: [EZBlocks] 1 global rewards loaded!
+[20:54:05] [Server thread/INFO]: [EZBlocks] 1 interval rewards loaded!
+[20:54:05] [Server thread/INFO]: [EZBlocks] 0 global pickaxe rewards loaded!
+[20:54:05] [Server thread/INFO]: [EZBlocks] 0 interval pickaxe rewards loaded!
+[20:54:05] [Server thread/INFO]: [EZBlocks] Hooked into TokenEnchant for TEBlockExplodeEvent listener
+[20:54:05] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[20:54:05] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:54:05] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:54:05] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[20:54:05] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:54:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:54:05] [Server thread/INFO]: [WorldGuard] (Plots) TNT ignition is PERMITTED.
+[20:54:05] [Server thread/INFO]: [WorldGuard] (Plots) Lighters are PERMITTED.
+[20:54:05] [Server thread/INFO]: [WorldGuard] (Plots) Lava fire is blocked.
+[20:54:05] [Server thread/INFO]: [WorldGuard] (Plots) Fire spread is UNRESTRICTED.
+[20:54:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Plots'
+[20:54:05] [Server thread/INFO]: [WorldGuard] (Free) TNT ignition is PERMITTED.
+[20:54:05] [Server thread/INFO]: [WorldGuard] (Free) Lighters are PERMITTED.
+[20:54:05] [Server thread/INFO]: [WorldGuard] (Free) Lava fire is blocked.
+[20:54:05] [Server thread/INFO]: [WorldGuard] (Free) Fire spread is UNRESTRICTED.
+[20:54:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Free'
+[20:54:05] [Server thread/INFO]: [WorldGuard] (Mines) TNT ignition is PERMITTED.
+[20:54:05] [Server thread/INFO]: [WorldGuard] (Mines) Lighters are PERMITTED.
+[20:54:05] [Server thread/INFO]: [WorldGuard] (Mines) Lava fire is blocked.
+[20:54:05] [Server thread/INFO]: [WorldGuard] (Mines) Fire spread is UNRESTRICTED.
+[20:54:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Mines'
+[20:54:05] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:54:05] [Server thread/INFO]: [PrisonAutoMiner] Enabling PrisonAutoMiner v1.0.0
+[20:54:05] [Server thread/INFO]: [PickaxeLevels] Enabling PickaxeLevels v1.0.7
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mError[m]: Failed to register registrable object: [0;31;1mResources[m.[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: java.lang.NullPointerException[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.pickaxelevels.resource.Resources.lambda$register$0(Resources.java:29)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.pickaxelevels.resource.Resources.register(Resources.java:29)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BPlugin.register(BPlugin.java:159)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BPlugin.register(BPlugin.java:187)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BPlugin.register(BPlugin.java:211)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BPlugin.register(BPlugin.java:231)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.pickaxelevels.PickaxeLevels.enable(PickaxeLevels.java:16)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BPlugin$2.execute(BPlugin.java:113)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BPlugin.execute(BPlugin.java:318)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BPlugin.onEnable(BPlugin.java:109)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;31;22mException[m]: 	at java.base/java.lang.Thread.run(Thread.java:834)[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;32;1mInfo[m]: Registered worker: [0;32;1mWorkerPickaxe[m.[m
+[20:54:05] [Server thread/INFO]: [BCommons] [[0;32;1mInfo[m]: Method: protected com.vk2gpz.tokenenchant.api.EnchantInfo com.vk2gpz.tokenenchant.api.PotionHandler.hasPotionEffect(org.bukkit.entity.Player,org.bukkit.inventory.ItemStack)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mError[m]: Failed to execute plugin in state [0;31;1mENABLE[m, exception was thrown:[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: java.lang.NullPointerException[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at me.bradleysteele.pickaxelevels.resource.Resources.getResource(Resources.java:42)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at me.bradleysteele.pickaxelevels.resource.Resources.getResource(Resources.java:46)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at me.bradleysteele.pickaxelevels.resource.yml.Config.getConfig(Config.java:48)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at me.bradleysteele.pickaxelevels.resource.yml.Config.getAsResourceSection(Config.java:141)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at me.bradleysteele.pickaxelevels.worker.WorkerPickaxe.onRegister(WorkerPickaxe.java:92)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BPlugin.register(BPlugin.java:171)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BPlugin.register(BPlugin.java:187)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BPlugin.register(BPlugin.java:211)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BPlugin.register(BPlugin.java:231)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at me.bradleysteele.pickaxelevels.PickaxeLevels.enable(PickaxeLevels.java:16)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BPlugin$2.execute(BPlugin.java:113)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BPlugin.execute(BPlugin.java:318)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at me.bradleysteele.commons.BPlugin.onEnable(BPlugin.java:109)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)[m
+[20:54:05] [Server thread/INFO]: [[0;33;22mBCommons[m] [[0;31;22mException[m]: 	at java.base/java.lang.Thread.run(Thread.java:834)[m
+[20:54:05] [Server thread/INFO]: [PickaxeLevels] Disabling PickaxeLevels v1.0.7
+[20:54:05] [Server thread/INFO]: [CommandRegions] Enabling CommandRegions v2.0.0
+[20:54:05] [Server thread/INFO]: [CommandRegions] Enabling the plugin...
+[20:54:05] [Server thread/INFO]: [CommandRegions] Enabled CommandRegions v2.0.0!
+[20:54:05] [Server thread/INFO]: [UltimateStacker] Enabling UltimateStacker v1.10.21
+[20:54:05] [Server thread/INFO]:  [m
+[20:54:05] [Server thread/INFO]: [0;32;1m=============================[m
+[20:54:05] [Server thread/INFO]: [0;37;22mUltimateStacker 1.10.21 by [0;35;22mSongoda <3![m
+[20:54:05] [Server thread/INFO]: [0;37;22mAction: [0;32;1mEnabling[0;37;22m...[m
+[20:54:05] [Server thread/INFO]: [UltimateStacker] Loaded locale "en_US"
+[20:54:05] [Server thread/INFO]: [SongodaCore] Hooked UltimateStacker.
+[20:54:05] [Server thread/INFO]: [UltimateStacker] Data handler connected using SQLite.
+[20:54:05] [Server thread/INFO]: [0;32;1m=============================[m
+[20:54:05] [Server thread/INFO]:  [m
+[20:54:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:54:05] [Server thread/INFO]: Done (7.424s)! For help, type "help" or "?"
+[20:54:05] [Server thread/INFO]: Using default channel type
+[20:54:06] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Plugin 'WorldGuard' found. Using it now.[m
+[20:54:06] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Optimizing PlotSquared[m
+[20:54:06] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - QueueProvider: class com.boydti.fawe.regions.general.plot.FaweLocalBlockQueue[m
+[20:54:06] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - HybridPlotManager.REGENERATIVE_CLEAR: false[m
+[20:54:06] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - SchematicHandler: com.boydti.fawe.regions.general.plot.FaweSchematicHandler@5dddb695[m
+[20:54:06] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - ChunkManager: com.boydti.fawe.regions.general.plot.FaweChunkManager@270725fc[m
+[20:54:06] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Plugin 'PlotSquared' found. Using it now.[m
+[20:54:06] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Detected class org.bukkit.event.block.BlockExplodeEvent[m
+[20:54:06] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[20:54:06] [Server thread/ERROR]: [Skript] An error occurred while trying to enable support for WorldGuard 6. WorldGuard region support has been disabled!
+[20:54:06] [Server thread/ERROR]: [Skript] Could not hook into WorldGuard. This can happen if Skript doesn't support the installed version of WorldGuard
+[20:54:06] [Server thread/INFO]: [Skript] Loading variables...
+[20:54:06] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[20:54:06] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[20:54:06] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 4 triggers and 0 commands in 0.06 seconds
+[20:54:06] [Server thread/INFO]: [Skript] Finished loading.
+[20:54:06] [Craft Scheduler Thread - 20/WARN]: [AuthMe] Plugin AuthMe v5.0-SNAPSHOT generated an exception while executing task 67
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at fr.xephi.authme.Metrics.postPlugin(Metrics.java:335) ~[?:?]
+	at fr.xephi.authme.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at fr.xephi.authme.Metrics$1.run(Metrics.java:223) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[20:54:06] [Craft Scheduler Thread - 18/INFO]: [Metrics] Connection refused: connect
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxetags
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: essentials
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ezblocks
+[20:54:06] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] %javascript_lore% has been loaded!
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] %javascript_displayname% has been loaded!
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] %javascript_item% has been loaded!
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] Loaded data for javascript placeholder: cooldown
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] %javascript_cooldown% has been loaded!
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: otherplayer
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: plotsquared
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: sound
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tokenenchant
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: voteroulette
+[20:54:06] [Craft Scheduler Thread - 4/INFO]: [PlaceholderAPI] 152 placeholder expansions are available on the cloud.
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.6) is available at:
+[20:54:06] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[20:54:06] [Craft Scheduler Thread - 4/INFO]: [PlaceholderAPI] 6 installed expansions have updates available.
+[20:54:07] [Server thread/INFO]: Starting UUID caching[m
+[20:54:07] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;33;22mStarting player data caching for: world[m
+[20:54:07] [Craft Scheduler Thread - 3/INFO]: [0;32;1mFast mode UUID caching enabled![m
+[20:54:07] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;33;22mCached a total of: 0 UUIDs[m
+[20:54:07] [Craft Scheduler Thread - 3/INFO]: Failed to cache: 1 uuids - slowly processing all files[m
+[20:54:07] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[21mPLOTS [0;30;1m» [0;37;22m[0;33;22mCached a total of: 2 UUIDs[m
+[20:54:07] [Craft Scheduler Thread - 9/INFO]: [0;37;22m[[0;31;22mBeast[0;36;1mWithdraw[0;37;22m] [0;31;22mThere is a new update available.[m
+[20:54:07] [Craft Scheduler Thread - 6/WARN]: [CrazyCrates] MassiveStats was unable to communicate with its API endpoint.
+[20:54:07] [Craft Scheduler Thread - 13/WARN]: [CommandPrompter] Error querying update data for 'CommandPrompter'!
+[20:54:07] [Craft Scheduler Thread - 13/INFO]: [CommandPrompter] No update was found.
+[20:54:07] [Server thread/WARN]: [ViaVersion] There is a newer version available: 5.0.1, you're on: 2.2.3
+[20:54:09] [Craft Scheduler Thread - 5/INFO]: Connection with Songoda servers failed: Server returned HTTP response code: 525 for URL
+[20:54:17] [User Authenticator #1/INFO]: UUID of player Litman is 87562c13-a3fb-3b89-9d6e-e36f9514da6c
+[20:54:17] [Server thread/INFO]: Litman[/127.0.0.1:56450] logged in with entity id 368 at ([Mines]-1044.0367199805826, 90.1181568706581, -2378.1218575500143)
+[20:54:35] [Server thread/INFO]: [32m[VKLib] registring PlotSquared v3[0m
+[20:54:35] [Server thread/INFO]: [32m[VKLib] registring WorldGuard v6[0m
+[20:55:15] [Server thread/INFO]: Litman issued server command: /papi
+[20:55:18] [Server thread/INFO]: Litman issued server command: /papi list
+[20:55:34] [Server thread/INFO]: Litman issued server command: /papi ecloud
+[20:55:43] [Server thread/INFO]: Litman issued server command: /papi ecloud download tokenenchant
+[20:57:10] [Server thread/INFO]: Litman issued server command: /token
+[20:57:15] [Server thread/INFO]: Litman issued server command: /token help
+[21:00:16] [Server thread/INFO]: Litman issued server command: /warp a
+[21:00:21] [Server thread/INFO]: Litman issued server command: /sellall
+[21:00:24] [Server thread/INFO]: Litman issued server command: /sell all
+[21:00:24] [Server thread/INFO]: §aLitman §asold diamond_pickaxe for §a⛁650 §a(1 items at ⛁650 each).
+[21:00:24] [Server thread/INFO]: §aLitman §asold cobblestone for §a⛁189 §a(189 items at ⛁1 each).
+[21:00:24] [Server thread/INFO]: §aLitman §asold iron_axe for §a⛁22 §a(1 items at ⛁22 each).
+[21:00:24] [Server thread/INFO]: §aLitman §asold coal for §a⛁645 §a(43 items at ⛁15 each).
+[21:00:24] [Server thread/INFO]: §aLitman §asold iron_ore for §a⛁450 §a(25 items at ⛁18 each).
+[21:00:41] [Server thread/INFO]: Litman issued server command: /menu
+[21:00:58] [Server thread/INFO]: Litman issued server command: /am
+[21:01:02] [Server thread/INFO]: Litman issued server command: /menu
+[21:01:09] [Server thread/INFO]: [0;31;1mIncorrect usage! [0;37;22m/papi help[m
+[21:01:09] [Server thread/INFO]: CONSOLE issued server command: /kit Member Litman
+[21:01:09] [Server thread/INFO]: [0;31;1m[21m[!] [0;31;1mGiving kit[0;33;1m member[0;37;1m to [0;33;1mLitman[0;37;1m.[m
+[21:01:09] [Server thread/INFO]: [0;32;1mYou have sent Litman the titles "[m[0;33;1m[21mCONGRATULATIONS[0;32;1m" "[m[0;37;1mYou've received your kit[0;32;1m".[m
+[21:01:15] [Server thread/INFO]: Litman issued server command: /menu
+[21:01:18] [Server thread/INFO]: Litman issued server command: /prestiges
+[21:01:20] [Server thread/INFO]: Litman issued server command: /menu
+[21:01:21] [Server thread/INFO]: Litman issued server command: /prestiges
+[21:01:24] [Server thread/INFO]: Litman issued server command: /menu
+[21:01:26] [Server thread/INFO]: [0;32;1mYou have sent Litman the titles "[m[0;33;1m[21mTELEPORTING[0;32;1m" "[m[0;37;1mYou've been teleported[0;32;1m".[m
+[21:01:26] [Server thread/INFO]: Litman issued server command: /warp Freezone
+[21:04:27] [Server thread/INFO]: Litman issued server command: /menu
+[21:04:33] [Server thread/INFO]: Litman issued server command: /menu
+[21:05:59] [Craft Scheduler Thread - 29/INFO]: [Metrics] Connection refused: connect
+[21:06:10] [Server thread/INFO]: Litman issued server command: /help
+[21:10:29] [Server thread/INFO]: Litman issued server command: /dm
+[21:10:32] [Server thread/INFO]: Litman issued server command: /dm open
+[21:10:38] [Server thread/INFO]: Litman issued server command: /dm open
+[21:11:00] [Craft Scheduler Thread - 38/WARN]: [AuthMe] Plugin AuthMe v5.0-SNAPSHOT generated an exception while executing task 67
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at fr.xephi.authme.Metrics.postPlugin(Metrics.java:335) ~[?:?]
+	at fr.xephi.authme.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at fr.xephi.authme.Metrics$1.run(Metrics.java:223) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [Prison.jar:git-Spigot-dcd1643-e60fc34]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[21:11:01] [Craft Scheduler Thread - 35/WARN]: [CrazyCrates] MassiveStats was unable to communicate with its API endpoint.
+[21:14:17] [Server thread/INFO]: Litman issued server command: /sk reload cup_click
+[21:14:19] [Server thread/INFO]: [0;31;1mYou must specify a player to open a menu for![m
+[21:14:23] [Server thread/INFO]: [0;31;1mYou must specify a player to open a menu for![m
+[21:14:31] [Server thread/INFO]: [0;31;1mYou must specify a player to open a menu for![m
+[21:16:00] [Craft Scheduler Thread - 43/INFO]: [Metrics] Connection refused: connect
+[21:17:24] [Server thread/INFO]: Litman issued server command: /sk reload cup_click

@@ -1,0 +1,136 @@
+# EssentialsX new Kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+# 
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - itemID[:DataValue/Durability] Amount [Enchantment:Level].. [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  Member:
+    delay: 86400
+    items:
+    - 278:0 1 dig_speed:10 durability:10 fortune:2 name:§3§lMEMBER_§3|_PICKAXE lore:&8&m--------------------|&6Level:_&e1_&8(&70%&8)|&6XP:_&e0&8/&e50.000|&6Blocks:_&e0|&8&m--------------------
+    - 306:0 1 color:160,101,64 name:§3§lMEMBER_§3|_HELMET
+    - 307:0 1 color:160,101,64 name:§3§lMEMBER_§3|_CHESTPLATE
+    - 308:0 1 color:160,101,64 name:§3§lMEMBER_§3|_LEGGINGS
+    - 309:0 1 color:160,101,64 name:§3§lMEMBER_§3|_BOOTS
+    - 258:0 1 dig_speed:1 name:§3§lMEMBER_§3|_AXE
+    - 364:0 8 name:§3§lMEMBER_§3|_BEEF
+    - 384:0 16 name:§3§lMEMBER_§3|_BOTTLE
+  Ultra:
+    delay: 345600
+    items:
+    - 276:0 1 damage_all:3 fire_aspect:2 durability:5 name:&a&lUltra&r&r_
+    - 278:0 1 dig_speed:15 durability:15 fortune:5 name:&a&lUltra&r_
+    - 277:0 1 durability:15 fortune:5 name:&a&lUltra&r_
+    - 279:0 1 durability:15 fortune:5 name:&a&lUltra&r_
+    - 310:0 1 protection_environmental:3 durability:2 name:&a&lUltra&r_
+    - 311:0 1 protection_environmental:3 durability:2 name:&a&lUltra&r_
+    - 312:0 1 protection_environmental:3 durability:2 name:&a&lUltra&r_
+    - 313:0 1 protection_environmental:3 durability:2 name:&a&lUltra&r_
+    - 322:1 16
+    - 364 64
+  Platinum:
+    delay: 345600
+    items:
+    - 276:0 1 damage_all:5 fire_aspect:2 durability:7 name:&5&k!&r_&3&lPlatinum_&5&k!&r_
+    - 278:0 1 dig_speed:20 durability:20 fortune:7 name:&5&k!&r_&3&lPlatinum_&5&k!&r_
+    - 277:0 1 durability:20 fortune:7 name:&5&k!&r_&3&lPlatinum_&5&k!&r_
+    - 279:0 1 durability:20 fortune:7 name:&5&k!&r_&3&lPlatinum_&5&k!&r_
+    - 310:0 1 protection_environmental:5 durability:4 name:&5&k!&r_&3&lPlatinum_&5&k!&r_
+    - 311:0 1 protection_environmental:5 durability:4 name:&5&k!&r_&3&lPlatinum_&5&k!&r_
+    - 312:0 1 protection_environmental:5 durability:4 name:&5&k!&r_&3&lPlatinum_&5&k!&r_
+    - 313:0 1 protection_environmental:5 durability:4 name:&5&k!&r_&3&lPlatinum_&5&k!&r_
+    - 322:1 20
+    - 364 64
+  Champion:
+    delay: 345600
+    items:
+    - 276:0 1 damage_all:7 fire_aspect:3 durability:8 name:&7&k!&r_&e&lChampion_&7&k!&r_
+    - 278:0 1 dig_speed:25 durability:25 fortune:8 name:&7&k!&r_&e&lChampion_&7&k!&r_
+    - 277:0 1 durability:25 fortune:8 name:&7&k!&r_&e&lChampion_&7&k!&r_
+    - 279:0 1 durability:25 fortune:8 name:&7&k!&r_&e&lChampion_&7&k!&r_
+    - 310:0 1 protection_environmental:6 durability:5 name:&7&k!&r_&e&lChampion_&7&k!&r_
+    - 311:0 1 protection_environmental:6 durability:5 name:&7&k!&r_&e&lChampion_&7&k!&r_
+    - 312:0 1 protection_environmental:6 durability:5 name:&7&k!&r_&e&lChampion_&7&k!&r_
+    - 313:0 1 protection_environmental:6 durability:5 name:&7&k!&r_&e&lChampion_&7&k!&r_
+    - 322:1 32
+    - 364 64
+  Legend:
+    delay: 345600
+    items:
+    - 276:0 1 damage_all:8 fire_aspect:3 durability:9 name:&c&k!&r_&4&lLegend_&c&k!&r_
+    - 278:0 1 dig_speed:30 durability:30 fortune:9 name:&c&k!&r_&4&lLegend_&c&k!&r_
+    - 277:0 1 durability:30 fortune:9 name:&c&k!&r_&4&lLegend_&c&k!&r_
+    - 279:0 1 durability:30 fortune:9 name:&c&k!&r_&4&lLegend_&c&k!&r_
+    - 310:0 1 protection_environmental:7 durability:6 name:&c&k!&r_&4&lLegend_&c&k!&r_
+    - 311:0 1 protection_environmental:7 durability:6 name:&c&k!&r_&4&lLegend_&c&k!&r_
+    - 312:0 1 protection_environmental:7 durability:6 name:&c&k!&r_&4&lLegend_&c&k!&r_
+    - 313:0 1 protection_environmental:7 durability:6 name:&c&k!&r_&4&lLegend_&c&k!&r_
+    - 322:1 40
+    - 364 64
+  Mystic:
+    delay: 345600
+    items:
+    - 276:0 1 damage_all:12 fire_aspect:4 durability:12 looting:2 name:&d&k!&r_&d&lMystic_&d&k!&r_
+    - 278:0 1 dig_speed:35 durability:35 fortune:12 name:&d&k!&r_&d&lMystic_&d&k!&r_
+    - 277:0 1 durability:35 fortune:12 name:&d&k!&r_&d&lMystic_&d&k!&r_
+    - 279:0 1 durability:35 fortune:12 name:&d&k!&r_&d&lMystic_&d&k!&r_
+    - 310:0 1 protection_environmental:10 durability:8 name:&d&k!&r_&d&lMystic_&d&k!&r_
+    - 311:0 1 protection_environmental:10 durability:8 name:&d&k!&r_&d&lMystic_&d&k!&r_
+    - 312:0 1 protection_environmental:10 durability:8 name:&d&k!&r_&d&lMystic_&d&k!&r_
+    - 313:0 1 protection_environmental:10 durability:8 name:&d&k!&r_&d&lMystic_&d&k!&r_
+    - 322:1 64
+    - 364 128
+  Mysticpick:
+    delay: 999999999999
+    items:
+    - 278:0 1 silk_touch:1 name:&d&k!&r_&d&lMystic_&d&k!&r_
+  diamondhelmet:
+    delay: 6000
+    items:
+    - 310:0 1 protection_environmental:4 durability:10 name:&b&k!&r_&b&lDIAMOND_HELMET_&b&k!&r_
+  diamondchest:
+    delay: 6000
+    items:
+    - 311:0 1 protection_environmental:4 durability:10 name:&b&k!&r_&b&lDIAMOND_CHESTPLATE_&b&k!&r_
+  diamondleggings:
+    delay: 6000
+    items:
+    - 312:0 1 protection_environmental:4 durability:10 name:&b&k!&r_&b&lDIAMOND_LEGGINGS_&b&k!&r_
+  diamondboots:
+    delay: 6000
+    items:
+    - 313:0 1 protection_environmental:4 durability:10 name:&b&k!&r_&b&lDIAMOND_BOOTS_&b&k!&r_
+  advpickaxe:
+    delay: 6000
+    items:
+    - 278:0 1 durability:3 name:§e§lADVENTURER§f_|_PICKAXE
+  diamondpickaxe:
+    delay: 6000
+    items:
+    - 278:0 1 efficiency:3 durability:3 fortune:3 name:§f§lDIAMOND_|_PICKAXE
+  diamondshovel:
+    delay: 6000
+    items:
+    - 277:0 1 efficiency:3 durability:3 fortune:3 name:§f§lDIAMOND_|_SHOVEL
+  diamondaxe:
+    delay: 6000
+    items:
+    - 279:0 1 sharpness:2 efficiency:3 durability:3 name:§f§lDIAMOND_|_AXE
+  Youtuber:
+    delay: 345600
+    items:
+    - 276:0 1 damage_all:8 fire_aspect:3 durability:15 name:&4[&c&lYou&f&lTuber&4]
+    - 278:0 1 dig_speed:30 durability:40 fortune:40 name:&4[&c&lYou&f&lTuber&4]
+    - 277:0 1 dig_speed:30 durability:40 fortune:40 name:&4[&c&lYou&f&lTuber&4]
+    - 279:0 1 dig_speed:30 durability:40 fortune:40 name:&4[&c&lYou&f&lTuber&4]
+    - 310:0 1 protection_environmental:7 durability:6 name:&4[&c&lYou&f&lTuber&4]
+    - 311:0 1 protection_environmental:7 durability:6 name:&4[&c&lYou&f&lTuber&4]
+    - 312:0 1 protection_environmental:7 durability:6 name:&4[&c&lYou&f&lTuber&4]
+    - 313:0 1 protection_environmental:7 durability:6 name:&4[&c&lYou&f&lTuber&4]
+    - 322:1 16
+    - 364 64

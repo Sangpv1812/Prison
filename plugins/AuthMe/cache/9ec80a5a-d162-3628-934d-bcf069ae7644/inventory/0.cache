@@ -1,0 +1,13 @@
+DIAMOND_PICKAXE
+0
+1
+name=§e§nCúp Đền Bù
+lore=§eHết hạn: 19-08-2018 12:10%newline%
+metaenchant=DIG_SPEED:15
+metaenchant=DURABILITY:20
+metaenchant=LOOT_BONUS_BLOCKS:3
+metaenchant=Custom Enchantment:0
+enchant=DIG_SPEED:15
+enchant=DURABILITY:20
+enchant=LOOT_BONUS_BLOCKS:3
+enchant=Custom Enchantment:0

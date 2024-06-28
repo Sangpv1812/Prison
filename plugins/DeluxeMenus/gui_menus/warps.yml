@@ -1,0 +1,185 @@
+menu_title: '&e&lWarps&f | Panel'
+open_command:
+- 'warp'
+- 'warps'
+- 'teleport'
+- 'essentials:warps'
+- 'essentials:warp'
+size: 36
+items:
+  'barrier1':
+    material: 160
+    data: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    display_name: ' '
+  'barrier2':   
+    material: 160
+    data: 0
+    slots:
+    - 11
+    - 13
+    - 15
+    - 17
+    - 20
+    - 22
+    - 24
+    - 26
+    display_name: ' ' 
+  'mines':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjYwM2M0NjBiYzA0N2M1MDM0NGUyYzI2YzRmMWJmMDJmOTAzNTFhMjA4YmU5OTc5NWRlNzIwOWQ5N2QwODc2In19fQ=='
+    slot: 10
+    display_name: '&e&lMines'
+    lore:
+    - '&7&o(( Teleport to all'
+    - '&7&oavailable mines for you ))'
+    - ''
+    - "&6&l* &eRight click to open"
+    left_click_commands:
+    - '[player] warp mines'
+    - '[sound] random.levelup'
+    right_click_commands:
+    - '[player] warp mines'
+    - '[sound] random.levelup'
+  'auction':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTExNWYyMTk0ZmZlMjJlMTJiMjA0N2QwOTI4OGQ4ZWM3Mjk0ZDRmOGM3ODRiNGNjNzViMThmZjQ1MjUxNjk1MSJ9fX0='
+    slot: 19
+    display_name: '&e&lAuction'
+    lore:
+    - '&7&o(( Teleport to the auction'
+    - '&7&ozone to sell/buy player''s items ))' 
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp auctions'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTELEPORTED\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp subastas'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTELEPORTED\n&fYou''ve been teleported'
+  'plots':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y3Y2RlZWZjNmQzN2ZlY2FiNjc2YzU4NGJmNjIwODMyYWFhYzg1Mzc1ZTlmY2JmZjI3MzcyNDkyZDY5ZiJ9fX0='
+    slot: 12
+    display_name: '&e&lPlots'
+    lore:
+    - '&7&o(( Create your plot to'
+    - '&7&ostart building ))' 
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp plots'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTELEPORTED\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp plots'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTELEPORTED\n&fYou''ve been teleported'
+  'tokens':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDMwOTNhNWI3NzY0MmQ0MDkyMTEyZjQ2ZWE2ODE0MGZiNWFlMDRiYmQyMzFjZGExMDY2YTA0YzE4Yjg5Yzk0ZSJ9fX0='
+    slot: 21
+    display_name: '&e&lTokens'
+    lore:
+    - '&7&o(( Enchant your pickaxe by'
+    - '&7&ousing your tokens ))' 
+    - ''
+    - '&8&l* &7Your tokens: &e%tokenenchant_token%'
+    - ''
+    - "&6&l* &eRight click to withdraw tokens"
+    left_click_commands:
+    - '[player] warp tokens'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTELEPORTED\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp retirar'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTELEPORTED\n&fYou''ve been teleported'
+  'crates':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY5YmJkMzM3ZDExMjA2ODU4ZDg4ZWU0MTFkMzRjMjZjYTI0NjllZjE3YWJhZGY0ZTA3NDRiMmU4MDFmOCJ9fX0='
+    slot: 14
+    display_name: '&e&lCrates'
+    lore:
+    - '&7&o(( Obtain rewards by opening'
+    - '&7&ocrates ))' 
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp crates'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTELEPORTED\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp crates'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTELEPORTED\n&fYou''ve been teleported'
+  'food':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNhOTNhMTY4YTE0ZWY3MGI4ZDI5ZjM4YzQzODJiZjkyODI1NzQ4ZTBjMzgzNTNiZmJiNGI1N2UzZTFmMCJ9fX0='
+    slot: 23
+    display_name: '&e&lFood'
+    lore:
+    - '&7&o(( Kill mobs to obtain'
+    - '&7&ofood and experience ))' 
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp food'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTELEPORTED\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp food'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTELEPORTED\n&fYou''ve been teleported'
+  'casino':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUxYzJhNWM0ZDRjMzVmYzM3NTQyOTVmMzljMzMzZWY2NzhiZDJlZGFkOWM4OGYyZDE2ODBmMTQ5NjgyIn19fQ=='
+    slot: 16
+    display_name: '&e&lCasino'
+    lore:
+    - '&7&o(( Gamble your money'
+    - '&7&oat the casino ))' 
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp casino'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTELEPORTED\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp casino'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTELEPORTED\n&fYou''ve been teleported'
+  'pvp':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYwMzgzYTI5YWQ4YjdiYWViNGMwYzdlMTVmMzUyMGYwN2VjNzU2NWY1YWY4NDFhNmY4MTJhYTQxOWJiNiJ9fX0='
+    slot: 25
+    display_name: '&e&lBattleground'
+    lore:
+    - '&7&o(( Fight while you mine'
+    - '&7&oin the PVP mine ))' 
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp pvp'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTELEPORTED\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp pvp'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTELEPORTED\n&fYou''ve been teleported'

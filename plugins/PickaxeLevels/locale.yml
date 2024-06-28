@@ -1,0 +1,35 @@
+# PickaxeLevels by Bradley Steele (Ibiza).
+#
+# /Contact
+# Spigot: https://www.spigotmc.org/members/292138/
+# Discord Support Server: https://redirect.bradleysteele.me/bps
+
+
+# Use {prefix} in any of the messages and it will
+# be replaced with the below.
+prefix: '&e&lPICKAXE &8»'
+
+
+command:
+  no-permission: '{prefix} &7Insufficient permissions'
+  invalid: '{prefix} &7Invalid usage, use &e/{args}&7.'
+
+  unknown-player: '{prefix} &7Unknown player: &c{player}&7.'
+
+  # /pal givexp
+  givexp-invalid-amount: '{prefix} &7Error amount: &c{amount}&7, it must be a positive number'
+  givexp-complete: '{prefix} &7You gave x&e{amount} &7of &e{exp} &7liquid xp to &a{player}&7.'
+
+  # /pal givecrystal
+  givecrystal-invalid-type: '{prefix} &7Invalid type: &c{type}&7.'
+  givecrystal-invalid-tier: '{prefix} &7Invalid tier: &c{tier}&7.'
+  givecrystal-invalid-percentage: '{prefix} &7Invalid percentage: &c{percentage}&7.'
+  givecrystal-complete: '{prefix} &7You gave &a{type} &7(&e{tier}&7) crystal to &a{player}&7.'
+
+  # /pal reload
+  reload-complete: '{prefix} &7Successfully reloaded &6PickaxeLevels&7.'
+
+
+crystals:
+  none-available: '&c&l[!] &7There isn''t available slots'
+  not-allowed-multi: '&c&l[!] &cThere''s already a &4&l{type} &ccrystal in your pickaxe'

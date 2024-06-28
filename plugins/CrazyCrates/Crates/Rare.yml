@@ -1,0 +1,450 @@
+Crate:
+  CrateType: 'QuickCrate'
+  CrateName: '&9&lRARE'
+  Preview-Name: '&9&LRARE &f| Preview'
+  StartingKeys: 0
+  InGUI: false
+  Slot: 50
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &4&lLegendary Chest&7.'
+  Item: 'CHEST'
+  Glowing: false
+  Name: '&e&lKey &f| &9&l&nRare&r'
+  Lore:
+    - '&e&l* &7Obtained on &e/buy&7!'
+  PhysicalKey:
+    Name: '&e&lKey &f| &9&l&nRare&r'
+    Lore:
+      - '&e&l* &7Obtained on &e/buy&7!'
+    Item: 'TRIPWIRE_HOOK'
+    Glowing: false
+  Prizes:
+   1:
+      DisplayName: '&f⛂ 5,000 |&e Tokens'
+      DisplayItem: 'MAGMA_CREAM'
+      DisplayAmount: 1
+      Lore: ''
+      MaxRange: 100
+      Chance: 50
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'te add %player% 5000'
+      Messages:
+        - '&e&l[!] &eYou just won &e&l⛂ 5,000 tokens'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+   2:
+      DisplayName: '&f⛂ 10,000 |&e Tokens'
+      DisplayItem: 'MAGMA_CREAM'
+      DisplayAmount: 2
+      Lore: ''
+      MaxRange: 100
+      Chance: 45
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'te add %player% 10000'
+      Messages:
+        - '&e&l[!] &eYou just won &e&l⛂ 10,000 tokens'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+ 
+   3:
+      DisplayName: '&f⛂ 25,000 |&e Tokens'
+      DisplayItem: 'MAGMA_CREAM'
+      DisplayAmount: 3
+      Lore: ''
+      MaxRange: 100
+      Chance: 40
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'te add %player% 25000'
+      Messages:
+        - '&e&l[!] &eYou just won &e&l⛂ 25,000 tokens'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+   5000:
+      DisplayName: '&f⛂ 50,000 |&e Tokens'
+      DisplayItem: 'MAGMA_CREAM'
+      DisplayAmount: 4
+      Lore: ''
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'te add %player% 50000'
+      Messages:
+        - '&e&l[!] &eYou just won &e&l⛂ 50,000 tokens'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+   10000:
+      DisplayName: '&f⛂ 100,000 |&e Tokens'
+      DisplayItem: 'MAGMA_CREAM'
+      DisplayAmount: 5
+      Lore: ''
+      MaxRange: 100
+      Chance: 15
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'te add %player% 100000'
+      Messages:
+        - '&e&l[!] &eYou just won &e&l⛂ 100,000 tokens'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+ 
+   4:
+      DisplayName: '&e&lx2 &F| &9&l&nRARE'
+      DisplayItem: 'TRIPWIRE_HOOK'
+      DisplayAmount: 2
+      Lore:    
+        - '&8&l* &7Use this key at &e/warp crates'
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'cc give Physical Rare 2 %player%'
+      Messages:
+        - '&e&l[!] &eYou just won &e&lx2 &F| &9&l&nRARE'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+   55:
+      DisplayName: '&e&lx1 &F| &d&l&nLEGENDARY'
+      DisplayItem: 'TRIPWIRE_HOOK'
+      DisplayAmount: 1
+      Lore:    
+        - '&8&l* &7Use this key at &e/warp crates'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'cc give Physical Legendary 1 %player%'
+      Messages:
+        - '&e&l[!] &eYou just won &e&lx1 &F| &d&l&nLEGENDARY'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+             
+   5:
+      DisplayName: '&e&lx1.5 &F| &lMULTIPLIER'
+      DisplayItem: 'PAPER'
+      DisplayAmount: 1
+      Lore:
+        - '&7&o(( Right click to claim'
+        - '&7&othis money multiplier ))'
+        - ''
+        - '&6&l* &eMultiplier: &f&lx1.5'
+        - '&6&l* &eTime: &f15 minutes'
+      MaxRange: 100
+      Chance: 8
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'voucher give %player% 15 1'
+      Messages:
+        - '&e&l[!] &eYou just won &e&lx1.5 &F| &lMULTIPLIER'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+             
+   200:
+      DisplayName: '&e&lx2 &F| &lMULTIPLIER'
+      DisplayItem: 'PAPER'
+      DisplayAmount: 1
+      Lore:
+        - '&7&o(( Right click to claim'
+        - '&7&othis money multiplier ))'
+        - ''
+        - '&6&l* &eMultiplier: &f&lx2'
+        - '&6&l* &eTime: &f15 minutes'
+      MaxRange: 100
+      Chance: 4
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'voucher give %player% 20 1'
+      Messages:
+        - '&e&l[!] &eYou just won &e&lx20 &F| &lMULTIPLIER'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+           
+   6:
+      DisplayName: '&f50,000 |&e Liquid XP'
+      DisplayItem: '384'
+      DisplayAmount: 1
+      Lore:
+        - '&7&o(( Drag this into a pickaxe'
+        - '&7&oto add XP to it ))'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'pal givexp %player% 50000'
+      Messages:
+        - '&e&l[!] &eYou just won &f50,000 |&e Liquid XP'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}       
+   45:
+      DisplayName: '&f100,000 |&e Liquid XP'
+      DisplayItem: '384'
+      DisplayAmount: 2
+      Lore:
+        - '&7&o(( Drag this into a pickaxe'
+        - '&7&oto add XP to it ))'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'pal givexp %player% 100000'
+      Messages:
+        - '&e&l[!] &eYou just won &f100,000 |&e Liquid XP'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+
+
+   11:
+      DisplayName: '&4Unidentified &f| &e&lT7'
+      DisplayItem: 'NETHER_STAR'
+      DisplayAmount: 1
+      Lore:
+        - '&7&o(( Right click to identify'
+        - '&7&othis crystal ))'
+        - '&6'
+        - '&6&l* &eType &7&o(( /information )) &efor more'
+        - '&einformation about crystals'
+      MaxRange: 100
+      Chance: 4
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'pal givecrystal %player% T7'
+      Messages:
+        - '&e&l[!] &eYou just won &4Unidentified &f| &e&lT7'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+   12:
+      DisplayName: '&4Unidentified &f| &e&lT8'
+      DisplayItem: 'NETHER_STAR'
+      DisplayAmount: 2
+      Lore:
+        - '&7&o(( Right click to identify'
+        - '&7&othis crystal ))'
+        - '&6'
+        - '&6&l* &eType &7&o(( /information )) &efor more'
+        - '&einformation about crystals'
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'pal givecrystal %player% T8'
+      Messages:
+        - '&e&l[!] &eYou just won &4Unidentified &f| &e&lT8'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+   13:
+      DisplayName: '&4Unidentified &f| &e&lT9'
+      DisplayItem: 'NETHER_STAR'
+      DisplayAmount: 3
+      Lore:
+        - '&7&o(( Right click to identify'
+        - '&7&othis crystal ))'
+        - '&6'
+        - '&6&l* &eType &7&o(( /information )) &efor more'
+        - '&einformation about crystals'
+      MaxRange: 100
+      Chance: 2
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'pal givecrystal %player% T9'
+      Messages:
+        - '&e&l[!] &eYou just won &4Unidentified &f| &e&lT9'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+   14:
+      DisplayName: '&4Unidentified &f| &e&lT10'
+      DisplayItem: 'NETHER_STAR'
+      DisplayAmount: 4
+      Lore:
+        - '&7&o(( Right click to identify'
+        - '&7&othis crystal ))'
+        - '&6'
+        - '&6&l* &eType &7&o(( /information )) &efor more'
+        - '&einformation about crystals'
+      MaxRange: 100
+      Chance: 1
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'pal givecrystal %player% T10'
+      Messages:
+        - '&e&l[!] &eYou just won &4Unidentified &f| &e&lT10'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+   15:
+      DisplayName: '&e&l15 minutes &f| &lAUTO MINER'
+      DisplayItem: 'PRISMARINE_SHARD'
+      DisplayAmount: 1
+      Lore:
+      - '&7&o(( Adds 15 minutes to your miner ))'
+      - '&7'
+      - '&6&l* &eUse your auto miner with &8&o/autominer'
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'ama voucher %player% 0:15:00'
+      Messages:
+        - '&e&l[!] &eYou just won &e&l15 minutes &f| &lAUTO MINER'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+   16:
+      DisplayName: '&e&l30 minutes &f| &lAUTO MINER'
+      DisplayItem: 'PRISMARINE_SHARD'
+      DisplayAmount: 2
+      Lore:
+      - '&7&o(( Adds 30 minutes to your miner ))'
+      - '&7'
+      - '&6&l* &eUse your auto miner with &8&o/autominer'
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'ama voucher %player% 0:30:0'
+      Messages:
+        - '&e&l[!] &eYou just won &e&l30 minutes &f| &lAUTO MINER'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+   17:
+      DisplayName: '&e&l45 minutes &f| &lAUTO MINER'
+      DisplayItem: 'PRISMARINE_SHARD'
+      DisplayAmount: 3
+      Lore:
+      - '&7&o(( Adds 45 minutes to your miner ))'
+      - '&7'
+      - '&6&l* &eUse your auto miner with &8&o/autominer'
+      MaxRange: 100
+      Chance: 15
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'ama voucher %player% 0:45:0'
+      Messages:
+        - '&e&l[!] &eYou just won &e&l45 minutes &f| &lAUTO MINER'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+   18:
+      DisplayName: '&eKey locker &f| &f&lSMALL'
+      DisplayItem: 'ENDER_CHEST'
+      DisplayAmount: 1
+      Lore:
+      - "&7&o(( Crate keys stored in key lockers ))"
+      - "&7"
+      - "&6&l* &eRight click to air to withdraw"
+      - "&e&l* &6Use all keys on &7&o/warp crates"
+      - ""
+      - "&b&l* &bMine: &f0&7/&f150"
+      - "&9&l* &9Rare: &f0&7/&f100"
+      - "&d&l* &dLegendary: &f0&7/&f3"
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'keylocker give %player% small'
+      Messages:
+        - '&e&l[!] &eYou just won &eKey locker &f| &f&lSMALL'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+   19:
+      DisplayName: '&eKey locker &f| &f&lLARGE'
+      DisplayItem: 'ENDER_CHEST'
+      DisplayAmount: 1
+      Lore:
+      - "&7&o(( Crate keys stored in key lockers ))"
+      - "&7"
+      - "&6&l* &eRight click to air to withdraw"
+      - "&e&l* &6Use all keys on &7&o/warp crates"
+      - ""
+      - "&b&l* &bMine: &f0&7/&f2000"
+      - "&9&l* &9Rare: &f0&7/&f500"
+      - "&d&l* &dLegendary: &f0&7/&f50"
+      MaxRange: 100
+      Chance: 1
+      Firework: false
+      Glowing: true
+      Commands:
+        - 'keylocker give %player% large'
+      Messages:
+        - '&e&l[!] &eYou just won &eKey locker &f| &f&lLARGE'
+      Alternative-Prize:
+        Toggle: false
+        Messages: {}
+        Commands: {}
+        Items: {}
+

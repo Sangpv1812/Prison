@@ -1,0 +1,20 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 10
+  surface: ''
+  maxZ: -877
+  maxY: 26
+  maxX: -1489
+  fillMode: false
+  world: Mines
+  minY: 6
+  resetWarnings: []
+  minX: -1519
+  composition:
+    '57:0': 0.4
+    '1:0': 0.2
+    '133:0': 0.4
+  name: Mystic
+  resetClock: 7
+  minZ: -907
+  isSilent: true

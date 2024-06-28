@@ -1,0 +1,10 @@
+DIAMOND_PICKAXE
+1
+1
+name=§f§lCúp §a§lKhởi đầu
+metaenchant=DIG_SPEED:7
+metaenchant=DURABILITY:7
+metaenchant=LOOT_BONUS_BLOCKS:2
+enchant=DIG_SPEED:7
+enchant=DURABILITY:7
+enchant=LOOT_BONUS_BLOCKS:2

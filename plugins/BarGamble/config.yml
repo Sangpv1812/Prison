@@ -1,0 +1,110 @@
+success: '&e&lGAMBLE &8» &7You chugged a drink and earned &a&l+ &a&l%money%'
+#Use %money% to represent the amount of money won
+
+error: '&e&lGAMBLE &8» &4An error has occured with this purchase.'
+#Any unexpected internal error will cause this message to be displayed. Contact the developer please!
+
+nospace: '&e&lGAMBLE &8» &7You have no free space in your inventory'
+#If there are no space in the users inventory; this message will show.
+
+nomoney: '&e&lGAMBLE &8» &cYou cannot afford to purchase this drink'
+#Insufficient funds will cause this message to be displayed.
+
+cooldown: '&e&lGAMBLE &8» &cYou have to drink your current drink before getting another.'
+#Message to let users know that they can only buy 1 drink at a time. This is for glitch/cheat preventive measures.
+
+lose: '&e&lGAMBLE &8» &cBetter luck next time..'
+#Message displayed when user loses the gamble.
+
+buy: '&e&lGAMBLE &8» &7You have purchased &a%name% &7for &a&l%amt%'
+#Use %name% to represent the name of the purchased drink
+#Use %amt% for how much the drink costed
+
+noperm: '&e&lGAMBLE &8» &4You do not have permission to perform this command'
+
+syntaxerror: '&e&lGAMBLE &8» &cIncorrect usage! Try /bar bar'
+
+
+
+inventories:
+#The GUI displayed when /bar example is executed.
+  bar:
+#Name of the shop; this is what users put for <shopname>
+    inv:
+      name: '&e&nBartender'
+      rows: 3
+      perm: 'bar.example'
+    items:
+      11:
+        price: 50000
+        reward: 100000
+        chance: 45
+        name: '&bBeer'
+        info:
+        - '&e'
+        - '&6&l* &eRight click to buy'
+        wineffect: 'happyVillager'
+#Get Particle IDs from here, http://minecraft.gamepedia.com/Particles
+        loseeffect: 'angryVillager'
+#Particle effect when lost
+      12:
+        price: 100000
+        reward: 200000
+        chance: 45
+        name: '&bTequila'
+        info:
+        - '&e'
+        - '&6&l* &eRight click to buy'
+        wineffect: 'happyVillager'
+        loseeffect: 'angryVillager'
+      13:
+        price: 2500000
+        reward: 5000000
+        chance: 45
+        name: '&bLager'
+        info:
+        - '&e'
+        - '&6&l* &eRight click to buy'
+        wineffect: 'happyVillager'
+        loseeffect: 'angryVillager'
+      14:
+        price: 5000000
+        reward: 10000000
+        chance: 40
+        name: '&bLiquor'
+        info:
+        - '&e'
+        - '&6&l* &eRight click to buy'
+        wineffect: 'happyVillager'
+        loseeffect: 'angryVillager'
+      15:
+        price: 10000000
+        reward: 20000000
+        chance: 40
+        name: '&bSangria'
+        info:
+        - '&e'
+        - '&6&l* &eRight click to buy'
+        wineffect: 'happyVillager'
+        loseeffect: 'angryVillager'
+      16:
+        price: 250000000
+        reward: 500000000
+        chance: 35
+        name: '&bWine'
+        info:
+        - '&e'
+        - '&6&l* &eRight click to buy'
+        wineffect: 'happyVillager'
+        loseeffect: 'angryVillager'
+      17:
+        price: 500000000
+        reward: 1000000000
+        chance: 35
+        name: '&bVodka'
+        info:
+        - '&e'
+        - '&6&l* &eRight click to buy'
+        wineffect: 'happyVillager'
+        loseeffect: 'angryVillager'
+

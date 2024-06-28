@@ -1,0 +1,13 @@
+# Visit the Setup Guide on VRs Bukkit Page to learn how to create awards or 
+# use the in-game Award Creator (/vr create).
+# Note: Each Reward/Milestone must have a unique name and you can *NOT* use tabs.
+Rewards:
+  Vote key:
+    commands:
+    - cc give physical Vote 1 %player%
+    - eco give %player% 2000
+Milestones:
+  My First Milestone:
+    votes: 25
+    recurring: true
+    xpLevels: 10

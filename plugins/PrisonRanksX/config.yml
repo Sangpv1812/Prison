@@ -1,0 +1,743 @@
+worlds:
+- iamdisabled
+Options:
+  prestige-enabled: true
+  customrankslist: false
+  forcedisplay: true
+  forceprestigedisplay: true
+  customlist:
+  - '&6[B] > $1000'
+  customlist-prestige:
+  - '&aPrestige-I'
+  - '&bPrestige-II'
+  customlist-paginate: true
+  customlist-paginate-items: 9
+  customlist-paginate-firstline: '&3Ranks &7[<<] &a%currentpage% &9of &a%totalpages%
+    &7[>>]'
+  defaultlist-beginline: '&8&m+                                                          +&8&m'
+  defaultlist-endline: '&8&m+                                                          +&8&m'
+  defaultlistformat: '%ranklistdisplay% &8[>>] %ranklistnextdisplay% %moneysymbol%&f%ranknextcost_formatted%'
+  defaultlist-paginate: true
+  defaultlist-paginate-items: 9
+  defaultlist-paginate-firstline: '&aRanks &7[<<] &e%currentpage% &9of &e%totalpages%
+    &7[>>]'
+  defaultlist-completedrank-checker: true
+  defaultlist-completedrank-rankformat: '&7[%ranklist%]&r'
+  defaultlist-completedrank-rankupformat: '&7[%ranklistnext%]&r'
+  defaultlist-completedrank-rankupcostformat: '&aCompleted'
+  defaultlist-moneysymbol: '&c⛁'
+  hologramrankup: true
+  hologramformat: '&6%player% &3ranked up to &c%rankup%'
+  hologram-removetime: 5
+  hologram-multilines: true
+  hologram-height: 4
+  hologram-linedformat:
+  - '&e&l%player%'
+  - '&fHas ranked up to..'
+  - '&e&l[!] &a&l%rankup% &e&l[!]'
+  allworlds-broadcast: false
+  autoforcedisplay-space: true
+  send-rankupmsg: true
+  USE-UUID: true
+  GUI-RANKLIST: true
+  GUI-PRESTIGELIST: true
+  prestigesound-name: LEVEL_UP
+  prestigesound-volume: 1.0
+  prestigesound-pitch: 1.0
+  rankupsound-name: LEVEL_UP
+  rankupsound-volume: 1.0
+  rankupsound-pitch: 1.0
+  per-rank-permission: false
+  rankupmax-broadcastlastrankonly: true
+  rankupmax-msglastrankonly: true
+  rankupmax-rankupmsglastrankonly: true
+  rankup-vault-groups: false
+  rankup-vault-groups-plugin: manuadd %player% %rank%
+  autorankup: true
+  rankupsound: true
+MySQL:
+  enable: false
+  host: localhost
+  port: 3306
+  database: test
+  table: prisonranksx
+  username: root
+  password: 123
+Main-GUIOptions:
+  previouspage-itemNAME: ARROW
+  previouspage-itemDATA: 0
+  previouspage-itemDISPLAYNAME: '&c<< Previous page'
+  nextpage-itemNAME: ARROW
+  nextpage-itemDATA: 0
+  nextpage-itemDISPLAYNAME: '&6Next Page >>'
+  no-previous-pages: '&eThere are no previous pages.'
+  no-additional-pages: '&eThere are no additional pages.'
+  currentpage: '&cPage &4{currentpage} &cof &4{maxpages}'
+Ranklist-GUI:
+  title: '&e&lRanks'
+  currentrank-options:
+    itemNAME: STAINED_GLASS
+    itemDATA: 4
+    itemAMOUNT: 1
+    itemDISPLAYNAME: '&a%currentrank_display%'
+    itemLORE:
+    - '&6&l* &eYour current rank'
+    itemENCHANTMENTS:
+    - DURABILITY 10
+    itemFLAGS:
+    - HIDE_ENCHANTS
+    itemCOMMANDS:
+    - (cancel-item_move)
+    - '[console] warp %currentrank%'
+  completedrank-options:
+    itemNAME: STAINED_GLASS
+    itemDATA: 5
+    itemAMOUNT: 1
+    itemDISPLAYNAME: '&a%completedrank_display%'
+    itemLORE:
+    - '&2&l* &a&lCOMPLETED'
+    itemENCHANTMENTS: []
+    itemFLAGS: []
+    itemCOMMANDS:
+    - (cancel-item_move)
+  notcompletedrank-options:
+    itemNAME: STAINED_GLASS
+    itemDATA: 14
+    itemAMOUNT: 1
+    itemDISPLAYNAME: '&a%notcompletedrank_display%'
+    itemLORE:
+    - '&4&l* &cCost: &f%notcompletedrank_cost_formatted%'
+    itemENCHANTMENTS: []
+    itemFLAGS: []
+    itemCOMMANDS:
+    - (cancel-item_move)
+Prestigelist-GUI:
+  title: '&e&lPrestiges'
+  currentprestige-options:
+    itemNAME: STAINED_GLASS
+    itemDATA: 4
+    itemAMOUNT: 1
+    itemDISPLAYNAME: '&a%currentprestige_display%'
+    itemLORE:
+    - '&6&l* &eYour current prestige'
+    itemENCHANTMENTS:
+    - DURABILITY 10
+    itemFLAGS:
+    - HIDE_ENCHANTS
+    itemCOMMANDS:
+    - (cancel-item_move)
+  completedprestige-options:
+    itemNAME: STAINED_GLASS
+    itemDATA: 5
+    itemAMOUNT: 1
+    itemDISPLAYNAME: '&a%completedprestige_display%'
+    itemLORE:
+    - '&2&l* &a&lCOMPLETED'
+    itemENCHANTMENTS: []
+    itemFLAGS: []
+    itemCOMMANDS:
+    - (cancel-item_move)
+  notcompletedprestige-options:
+    itemNAME: STAINED_GLASS
+    itemDATA: 14
+    itemAMOUNT: 1
+    itemDISPLAYNAME: '&a%notcompletedprestige_display%'
+    itemLORE:
+    - '&4&l* &cCost: &f%notcompletedprestige_cost_formatted%'
+    itemENCHANTMENTS: []
+    itemFLAGS: []
+    itemCOMMANDS:
+    - (cancel-item_move)
+prestigeOptions:
+  resetMoney: false
+  resetRank: true
+  rankup_cost_increase_percentage: 5
+  prestige-cmds:
+  - '[pex-rankpermissions] remove'
+  prestige-delete-cmds:
+  - '[pex-prestigepermissions] remove'
+  prestige-reset-cmds:
+  - '[pex-prestigepermissions] remove'
+  - '[groupmanager-prestigepermissions] remove'
+rankOptions:
+  rank-delete-cmds:
+  - '[pex-rankpermissions] remove'
+  rank-reset-cmds:
+  - '[pex-rankpermissions] remove'
+PlaceholderAPI:
+  rankup-progress-style: ■
+  rankup-progress-filled: '&a'
+  rankup-progress-needed: '&c'
+  rankup-progress-doublevalues: false
+  rankup-progress-full-enabled: false
+  rankup-progress-full: '&aType &e/rankup'
+  rankup-progress-lastrank: '&aType &e/prestige'
+  rankup-percentage-lastrank: '&c/prestige'
+  rankup-cost-lastrank: '&cHighest Rank'
+  rankup-lastrank: '&c&lType /prestige'
+  currentrank-lastrank-enabled: false
+  currentrank-lastrank: '&a&l/prestige'
+  prestige-lastprestige: '&cHighest Prestige'
+  prestige-notprestiged: '&c'
+  nextprestige-notprestiged: '&fNot Prestiged'
+  currency-symbol: ⛁
+  currency-symbol-behind: true
+  percent-sign: '%'
+  percent-sign-behind: false
+  prestige-isnext-enabled: false
+  prestige-isnext: '&6Type &e/prestige'
+  curreny-symbol-behind: true
+Moneyformatter:
+  thousand: K
+  million: M
+  billion: B
+  trillion: T
+  quadrillion: Q
+  quintillion: QT
+  sextillion: S
+  septillion: ST
+  octillion: O
+  nonillion: N
+  decillion: D
+  undecillion: UD
+  Duodecillion: DD
+  zillion: Z
+Messages:
+  notenoughmoney:
+  - '&8&m                                                                &8&m'
+  - ''
+  - '&4&l* &cYou need &c⛁ &l%rankupcost_formatted% &cto rankup to &c&l%rankup%'
+  - ''
+  - '&8&m                                                                &8&m'
+  notenoughmoney-other:
+  - '&8&m                                                                &8&m'
+  - ''
+  - '&4&l* &cYou need &c⛁ &l%rankupcost_formatted% &cto rankup %player% to &a&l%rankup%'
+  - ''
+  - '&8&m                                                                &8&m'
+  nopermission: '&cInsufficent Permission!'
+  playernotfound: '&cThere''s no player with that name.'
+  delrank: '&e%args1% &cRank has been deleted'
+  setrank: '&cChanged &e%target% &cRank to &e%settedrank% &crank.'
+  resetrank: '&cRestored &e%target% &cRank to %firstrank%'
+  createrank: '&cCreated rank &e%createdrank% &cwith price:&a%rankcost%'
+  setnextrank: '&cChanged &e%args1% &cnextrank to &a%args2%'
+  setrankdisplay: '&cChanged &e%args1% &cdisplay to &r%args2%'
+  setrankcost: '&cChanged &e%args1% &cRank Cost to &a%args2%'
+  delplayerrank: '&cDeleted &e%player% &cRank'
+  addrankcmd: '&c%args1% &eUpdated with: &7%args2%'
+  addrankbroadcast: '&c%args1% &eUpdated! with: &7%args2%'
+  addrankmsg: '&c%args1% &eUpdated! with: &7%args2%'
+  setdefaultrank: '&cDefault rank changed to &e%args1%'
+  setlastrank: '&cLast rank changed to &e%args1%'
+  reload: '&eConfig Successfully reloaded.'
+  runfromconsole: '&6You should run this in game or do /forcerankup %player% if you
+    want to rankup a player'
+  notcorrectworld: '&cYou cannot run this command here.'
+  rankup: ''
+  delprestige: '&e%args1% &cPrestige has been deleted'
+  setfirstprestige: '&cFirst prestige changed to &e%args1%'
+  setlastprestige: '&cLast prestige changed to &e%args1%'
+  setprestige: '&cChanged &e%target% &cPrestige to &e%settedprestige% &cprestige.'
+  resetprestige: '&cRestored &e%target% &cPrestige to &e%firstprestige%'
+  createprestige: '&cCreated prestige &e%createdprestige% &cwith price:&a%prestigecost%'
+  setnextprestige: '&cChanged &e%previousprestige% &cnext prestige to &a%nextprestige%'
+  setprestigedisplay: '&cChanged &e%prestige% &cdisplay to &e%changeddisplay%'
+  setprestigecost: '&cChanged Prestige &e%prestige% &ccost to %prestigecost%'
+  prestige: '&e&l[!] &eYou''ve prestiged to &f&l%prestigenextdisplay%'
+  noprestige: '&c&l[!] &cYou can''t prestige at this rank, wait until &c&lFREE'
+  delplayerprestige: '&cDeleted &e%player% &cPrestige'
+  prestige-notenoughmoney:
+  - '&8&m                                       &8&m'
+  - ''
+  - '&4&l* &cYou need &c⛁ &l%prestigenextcost_formatted% &cto prestige to &c&l%prestigenext%'
+  - ''
+  - '&8&m                                       &8&m'
+  lastprestige:
+  - '&8&m                                       &8&m'
+  - '&4&l* &cYou are at the latest prestige'
+  - '&8&m                                       &8&m'
+  lastprestige-other:
+  - '&8&m                                       &8&m'
+  - '&4&l* &cHe is at the latest prestige'
+  - '&8&m                                       &8&m'
+  lastrank:
+  - '&8&m                                       &8&m'
+  - '&2&l* &aYou are at the latest rank'
+  - '&8&m                                       &8&m'
+  forcerankup-msg: '&c&l[!] &c&l%player% &cranked up to &c&l%nextrank%'
+  forcerankup-lastrank: '&a%player% &6is already at the latest rank.'
+  rankup-nopermission: '&cYou don''t have permission to rankup to %nextrank%'
+  rankup-other-nopermission: '&cYou don''t have permission to force a rankup for %target%
+    to %nextrank%'
+  ranksgui-open: '&6&l[!] &eOpening ranks menu...'
+  prestigesgui-open: '&6&l[!] &eOpening prestige menu...'
+  autorankup-enabled: '&6&l[!] &aAuto RANKUP enabled'
+  autorankup-disabled: '&4&l[!] &cAuto RANKUP disabled'
+  autorankup-nopermission: '&4&l[!] &cBuy a rank on &ebuy.example.net &cto use that
+    feature'
+  autorankup-lastrank: '&4&l[!] &cAuto RANKUP disabled, you''re an the latest rank'
+defaultrank: A
+lastrank: Free
+firstprestige: P1
+lastprestige: P10
+Ranks:
+  A:
+    display: '&a&l[A]'
+    cost: 0.0
+    nextrank: B
+  B:
+    display: '&a&l[B]'
+    cost: 150000.0
+    nextrank: C
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lB'
+  C:
+    display: '&a&l[C]'
+    cost: 200000.0
+    nextrank: D
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lC'
+  D:
+    display: '&a&l[D]'
+    cost: 250000.0
+    nextrank: E
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lD'
+  E:
+    display: '&a&l[E]'
+    cost: 550000.0
+    nextrank: F
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lE'
+  F:
+    display: '&a&l[F]'
+    cost: 750000.0
+    nextrank: G
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lF'
+  G:
+    display: '&a&l[G]'
+    cost: 2500000.0
+    nextrank: H
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lG'
+  H:
+    display: '&a&l[H]'
+    cost: 5500000.0
+    nextrank: I
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lH'
+  I:
+    display: '&a&l[I]'
+    cost: 7500000.0
+    nextrank: J
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lI'
+  J:
+    display: '&a&l[J]'
+    cost: 2.0E7
+    nextrank: K
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lJ'
+  K:
+    display: '&a&l[K]'
+    cost: 2.5E7
+    nextrank: L
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lK'
+  L:
+    display: '&a&l[L]'
+    cost: 5.0E7
+    nextrank: M
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lL'
+  M:
+    display: '&a&l[M]'
+    cost: 5.5E7
+    nextrank: N
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lM'
+  N:
+    display: '&a&l[N]'
+    cost: 7.0E7
+    nextrank: O
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lN'
+  O:
+    display: '&a&l[O]'
+    cost: 7.5E7
+    nextrank: P
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lO'
+  P:
+    display: '&a&l[P]'
+    cost: 1.0E8
+    nextrank: Q
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lP'
+  Q:
+    display: '&a&l[Q]'
+    cost: 1.5E8
+    nextrank: R
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lQ'
+  R:
+    display: '&a&l[R]'
+    cost: 2.0E8
+    nextrank: S
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lR'
+  S:
+    display: '&a&l[S]'
+    cost: 2.5E8
+    nextrank: T
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lS'
+  T:
+    display: '&a&l[T]'
+    cost: 5.5E8
+    nextrank: U
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lT'
+  U:
+    display: '&a&l[U]'
+    cost: 5.5E8
+    nextrank: V
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lU'
+  V:
+    display: '&a&l[V]'
+    cost: 7.0E8
+    nextrank: W
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lV'
+  W:
+    display: '&a&l[W]'
+    cost: 7.2E8
+    nextrank: X
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lW'
+  X:
+    display: '&a&l[X]'
+    cost: 7.4E8
+    nextrank: Y
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lX'
+  Y:
+    display: '&a&l[Y]'
+    cost: 7.6E8
+    nextrank: Z
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lY'
+  Z:
+    display: '&a&l[Z]'
+    cost: 7.8E8
+    nextrank: Free
+    executecmds:
+    - pex user %player% add essentials.warps.%rankup%
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &a&lZ'
+  Free:
+    display: '&d&lFREE'
+    cost: 1.0E9
+    nextrank: LASTRANK
+    executecmds:
+    - pex user %player% add autosell.shop.%rankup%
+    - rawmsg all false &e&lRANKUP &8» &e&l%player% &eranked up to &a&l%rankupdisplay%
+    - '&e&lRANKUP &8» &e&l%player% &eranked up to &d&lFREE'
+    msg: []
+    randomcmds: []
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve ranked up to &d&lFREE'
+Prestiges:
+  P1:
+    display: '&e&lP1 '
+    cost: 2.0E9.0
+    nextprestige: P2
+    executecmds:
+    - pex user %player% add autosell.shop.P1
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve prestiged to &f&l%prisonranksx_nextprestige_displayname%'
+  P2:
+    display: '&e&lP2 '
+    cost: 2.2E9.0
+    nextprestige: P3
+    executecmds:
+    - pex user %player% add autosell.shop.P2
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve prestiged to &f&l%prisonranksx_nextprestige_displayname%'
+  P3:
+    display: '&e&lP3 '
+    cost: 2.4E9.0
+    nextprestige: P4
+    executecmds:
+    - pex user %player% add autosell.shop.P3
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve prestiged to &f&l%prisonranksx_nextprestige_displayname%'
+  P4:
+    display: '&e&lP4 '
+    cost: 2.6E9.0
+    nextprestige: P5
+    executecmds:
+    - pex user %player% add autosell.shop.P4
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve prestiged to &f&l%prisonranksx_nextprestige_displayname%'
+  P5:
+    display: '&e&lP5 '
+    cost: 2.8E9.0
+    nextprestige: P6
+    executecmds:
+    - pex user %player% add autosell.shop.P5
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve prestiged to &f&l%prisonranksx_nextprestige_displayname%'
+  P6:
+    display: '&e&lP6 '
+    cost: 3.0E9.0
+    nextprestige: P7
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve prestiged to &f&l%prisonranksx_nextprestige_displayname%'
+  P7:
+    display: '&e&lP7 '
+    cost: 3.2E9.0
+    nextprestige: P8
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve prestiged to &f&l%prisonranksx_nextprestige_displayname%'
+  P8:
+    display: '&e&lP8 '
+    cost: 3.4E9.0
+    nextprestige: P9
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve prestiged to &f&l%prisonranksx_nextprestige_displayname%'
+  P9:
+    display: '&e&lP9 '
+    cost: 3.6E9.0
+    nextprestige: P10
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve prestiged to &f&l%prisonranksx_nextprestige_displayname%'
+  P10:
+    display: '&e&lP10 '
+    cost: 3.8E9.0
+    nextprestige: LASTPRESTIGE
+    actionbar:
+      interval: 15
+      text:
+      - '&e&l[!] &eYou''ve prestiged to &f&l%prisonranksx_nextprestige_displayname%'

@@ -1,0 +1,631 @@
+menu_title: '&e&lKits &f| Menu'
+open_command:
+- kit
+- kits
+size: 27
+items:
+  'Glasses':
+    material: 160
+    display_name: '&e'
+    data: 0
+    slots:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 11
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+  'Glasses2':
+    material: 160
+    display_name: '&e'
+    data: 1
+    slots:
+    - 0
+    - 9
+    - 18
+    - 8
+    - 17
+    - 26
+  'Member-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRkM2RiNzgxZGQwYWM3NTg4MTczZDVjZmUwZGE0NzRjNjYyNzEwYTg3MWM3MTRkMDg2YWUyMWVjYzZjNCJ9fX0=
+    slot: 10
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Member_86400%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Member
+    display_name: '&d&lMember &f| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Iron'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency I'
+    - '&8&l* &8&nPickaxe'
+    - '    &7- Efficiency X'
+    - '    &7- Fortune II'
+    - '    &7- Unbreaking X'
+    - '&8&l* &8&nOthers'
+    - '    &7x16 | Experience Bottles'
+    - '    &7x16 | Cooked Beef'
+    - ''
+    - '&6&l* &7Status: &a&lAVAILABLE ✔'
+    - ''
+    - '&e&l* &aRight click to claim'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Member_start%'
+    - '[console] kit Member %player_name%'
+    - '[console] tm msg %player_name% &e&lCONGRATULATIONS\n&fYou''ve received your kit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Member_start%'
+    - '[console] kit Member %player_name%'
+    - '[console] tm msg %player_name% &e&lCONGRATULATIONS\n&fYou''ve received your kit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Member-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk4OTQ2YmNkM2IwYTE2ZmJmZjM1ZDE2MTRmYmJiZmYzYzE5NzI2NjNjNTUzMjE1NGZlYTFjYTJhNGMxOWIxZSJ9fX0=
+    priority: 2
+    update: true
+    slot: 10
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Member
+    display_name: '&4&lMember &c| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Iron'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency I'
+    - '&8&l* &8&nPickaxe'
+    - '    &7- Efficiency X'
+    - '    &7- Fortune II'
+    - '    &7- Unbreaking X'
+    - '&8&l* &8&nOthers'
+    - '    &7x16 | Experience Bottles'
+    - '    &7x16 | Cooked Beef'
+    - ''
+    - '&6&l* &7Available in: &c&l%javascript_cooldown_Kit-Member_86400%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'Member-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 10
+    priority: 3
+    display_name: '&d&lMember &c| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Iron'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency I'
+    - '&8&l* &8&nPickaxe'
+    - '    &7- Efficiency X'
+    - '    &7- Fortune II'
+    - '    &7- Unbreaking X'
+    - '&8&l* &8&nOthers'
+    - '    &7x16 | Experience Bottles'
+    - '    &7x16 | Cooked Beef'
+    - ''
+    - '&6&l* &7You don''t have enough rank: &c&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'Ultra-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY5MDk5MzZiNWZhMTkyNGY5MWQxZGUzZTg3MGVkNzE0MGJmNDM1YzFhMWE1NWRhNTczZmMzYTg4ZWJkNWJlYyJ9fX0=
+    slot: 12
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Ultra_259200%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Ultra
+    display_name: '&a&lUltra &f| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Protection III'
+    - '    &7- Unbreaking II'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency XV'
+    - '    &7- Unbreaking XV'
+    - '    &7- Fortune V'
+    - '&8&l* &8&nOthers'
+    - '    &7x16 | Golden Apples'
+    - '    &7x64 | Cooked Beef'
+    - ''
+    - '&6&l* &7Status: &a&lAVAILABLE ✔'
+    - ''
+    - '&e&l* &aRight click to claim'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Ultra_start%'
+    - '[console] kit Ultra %player_name%'
+    - '[console] tm msg %player_name% &e&lCONGRATULATIONS\n&fYou''ve received your kit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Ultra_start%'
+    - '[console] kit Ultra %player_name%'
+    - '[console] tm msg %player_name% &e&lCONGRATULATIONS\n&fYou''ve received your kit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Ultra-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk4OTQ2YmNkM2IwYTE2ZmJmZjM1ZDE2MTRmYmJiZmYzYzE5NzI2NjNjNTUzMjE1NGZlYTFjYTJhNGMxOWIxZSJ9fX0=
+    priority: 2
+    update: true
+    slot: 12
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Ultra
+    display_name: '&4&lUltra &c| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Protection III'
+    - '    &7- Unbreaking II'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency XV'
+    - '    &7- Unbreaking XV'
+    - '    &7- Fortune V'
+    - '&8&l* &8&nOthers'
+    - '    &7x16 | Golden Apples'
+    - '    &7x64 | Cooked Beef'
+    - ''
+    - '&6&l* &7Available in: &c&l%javascript_cooldown_Kit-Ultra_259200%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'Ultra-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 12
+    priority: 3
+    display_name: '&a&lUltra &c| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Protection III'
+    - '    &7- Unbreaking II'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency XV'
+    - '    &7- Unbreaking XV'
+    - '    &7- Fortune V'
+    - '&8&l* &8&nOthers'
+    - '    &7x16 | Golden Apples'
+    - '    &7x64 | Cooked Beef'
+    - ''
+    - '&6&l* &7You don''t have enough rank: &c&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'Platinum-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZlOWU3ZGE3NzRkY2VmN2NhMzY1NWI0OWFjMWYxMzYyZDhjODFkZDhlOTE2MGE1N2Q2ODc2YzIyN2JmZiJ9fX0=
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Platinum_259200%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Platinum
+    display_name: '&3&lPlatinum &f| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Protection V'
+    - '    &7- Unbreaking IV'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency XX'
+    - '    &7- Unbreaking XX'
+    - '    &7- Fortune VII'
+    - '&8&l* &8&nOthers'
+    - '    &7x20 | Golden Apples'
+    - '    &7x64 | Cooked Beef'
+    - ''
+    - '&6&l* &7Status: &a&lAVAILABLE ✔'
+    - ''
+    - '&e&l* &aRight click to claim'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Platinum_start%'
+    - '[console] kit Platinum %player_name%'
+    - '[console] tm msg %player_name% &e&lCONGRATULATIONS\n&fYou''ve received your kit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Platinum_start%'
+    - '[console] kit Platinum %player_name%'
+    - '[console] tm msg %player_name% &e&lCONGRATULATIONS\n&fYou''ve received your kit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Platinum-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk4OTQ2YmNkM2IwYTE2ZmJmZjM1ZDE2MTRmYmJiZmYzYzE5NzI2NjNjNTUzMjE1NGZlYTFjYTJhNGMxOWIxZSJ9fX0=
+    priority: 2
+    update: true
+    slot: 13
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Platinum
+    display_name: '&4&lPlatinum &c| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Protection V'
+    - '    &7- Unbreaking IV'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency XX'
+    - '    &7- Unbreaking XX'
+    - '    &7- Fortune VII'
+    - '&8&l* &8&nOthers'
+    - '    &7x20 | Golden Apples'
+    - '    &7x64 | Cooked Beef'
+    - ''
+    - '&6&l* &7Available in: &c&l%javascript_cooldown_Kit-Platinum_259200%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'Platinum-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 13
+    priority: 3
+    display_name: '&3&lPlatinum &c| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Protection V'
+    - '    &7- Unbreaking IV'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency XX'
+    - '    &7- Unbreaking XX'
+    - '    &7- Fortune VII'
+    - '&8&l* &8&nOthers'
+    - '    &7x20 | Golden Apples'
+    - '    &7x64 | Cooked Beef'
+    - ''
+    - '&6&l* &7You don''t have enough rank: &c&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'Champion-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE0N2FlYTAzYjcyMTkzNmEyNTY1YzJlZmRjMDJhODVlMzE2NGQ3YWVjMzA4ZjU2ODE5NGY4YTA1YjRmNGYifX19
+    slot: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Champion_259200%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Champion
+    display_name: '&e&lChampion &f| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Protection VI'
+    - '    &7- Unbreaking V'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency XV'
+    - '    &7- Unbreaking XV'
+    - '    &7- Fortune VIII'
+    - '&8&l* &8&nOthers'
+    - '    &7x32 | Golden Apples'
+    - '    &7x64 | Cooked Beef'
+    - ''
+    - '&6&l* &7Status: &a&lAVAILABLE ✔'
+    - ''
+    - '&e&l* &aRight click to claim'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Champion_start%'
+    - '[console] kit Champion %player_name%'
+    - '[console] tm msg %player_name% &e&lCONGRATULATIONS\n&fYou''ve received your kit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Champion_start%'
+    - '[console] kit Champion %player_name%'
+    - '[console] tm msg %player_name% &e&lCONGRATULATIONS\n&fYou''ve received your kit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Champion-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk4OTQ2YmNkM2IwYTE2ZmJmZjM1ZDE2MTRmYmJiZmYzYzE5NzI2NjNjNTUzMjE1NGZlYTFjYTJhNGMxOWIxZSJ9fX0=
+    priority: 2
+    update: true
+    slot: 14
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Champion
+    display_name: '&4&lChampion &c| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Protection VI'
+    - '    &7- Unbreaking V'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency XV'
+    - '    &7- Unbreaking XV'
+    - '    &7- Fortune VIII'
+    - '&8&l* &8&nOthers'
+    - '    &7x32 | Golden Apples'
+    - '    &7x64 | Cooked Beef'
+    - ''
+    - '&6&l* &7Available in: &c&l%javascript_cooldown_Kit-Champion_259200%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'Champion-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 14
+    priority: 3
+    display_name: '&e&lChampion &c| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Protection VI'
+    - '    &7- Unbreaking V'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency XV'
+    - '    &7- Unbreaking XV'
+    - '    &7- Fortune VIII'
+    - '&8&l* &8&nOthers'
+    - '    &7x32 | Golden Apples'
+    - '    &7x64 | Cooked Beef'
+    - ''
+    - '&6&l* &7You don''t have enough rank: &c&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'Legend-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYzYTIzYTgxM2IzZDU3ZDg5NjRhODU5YTdmYjk3ZWQ1ODE4Mjc5YjcwODU3MmQxNzhlOTgyNTJiZDJiN2YzZCJ9fX0=
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Legend_259200%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Legend
+    display_name: '&4&lLegend &f| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Protection VII'
+    - '    &7- Unbreaking VI'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency XXX'
+    - '    &7- Unbreaking XXX'
+    - '    &7- Fortune IX'
+    - '&8&l* &8&nOthers'
+    - '    &7x40 | Golden Apples'
+    - '    &7x64 | Cooked Beef'
+    - ''
+    - '&6&l* &7Status: &a&lAVAILABLE ✔'
+    - ''
+    - '&e&l* &aRight click to claim'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Legend_start%'
+    - '[console] kit Legend %player_name%'
+    - '[console] tm msg %player_name% &e&lCONGRATULATIONS\n&fYou''ve received your kit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Legend_start%'
+    - '[console] kit Legend %player_name%'
+    - '[console] tm msg %player_name% &e&lCONGRATULATIONS\n&fYou''ve received your kit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Legend-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk4OTQ2YmNkM2IwYTE2ZmJmZjM1ZDE2MTRmYmJiZmYzYzE5NzI2NjNjNTUzMjE1NGZlYTFjYTJhNGMxOWIxZSJ9fX0=
+    priority: 2
+    update: true
+    slot: 15
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Legend
+    display_name: '&4&lLegend &c| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Protection VII'
+    - '    &7- Unbreaking VI'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency XXX'
+    - '    &7- Unbreaking XXX'
+    - '    &7- Fortune IX'
+    - '&8&l* &8&nOthers'
+    - '    &7x40 | Golden Apples'
+    - '    &7x64 | Cooked Beef'
+    - ''
+    - '&6&l* &7Available in: &c&l%javascript_cooldown_Kit-Legend_259200%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'Legend-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 15
+    priority: 3
+    display_name: '&4&lLegend &c| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Protection VII'
+    - '    &7- Unbreaking VI'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency XXX'
+    - '    &7- Unbreaking XXX'
+    - '    &7- Fortune IX'
+    - '&8&l* &8&nOthers'
+    - '    &7x40 | Golden Apples'
+    - '    &7x64 | Cooked Beef'
+    - ''
+    - '&6&l* &7You don''t have enough rank: &c&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'Mystic-1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdjMTc4NjVjMjc5MzRmOGM4ZWM2YzYyN2UxZmUyZDk5Zjc4M2VjOGFlNDE0Y2EyZDRmZDM2NDBhN2YzYyJ9fX0=
+    slot: 16
+    priority: 1
+    view_requirement:
+      requirements:
+        name:
+          type: string equals
+          input: '%javascript_cooldown_Kit-Mystic_259200%'
+          output: 0s
+        name2:
+          type: has permission
+          permission: essentials.kits.Mystic
+    display_name: '&d&lMystic &f| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Protection X'
+    - '    &7- Unbreaking VIII'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency XXXV'
+    - '    &7- Unbreaking XXXV'
+    - '    &7- Fortune XII'
+    - '    &7- Silk Touch I'
+    - '&8&l* &8&nOthers'
+    - '    &7x64 | Golden Apples'
+    - '    &7x128 | Cooked Beef'
+    - ''
+    - '&6&l* &7Status: &a&lAVAILABLE ✔'
+    - ''
+    - '&e&l* &aRight click to claim'
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Mystic_start%'
+    - '[console] kit Mystic %player_name%'
+    - '[console] tm msg %player_name% &e&lCONGRATULATIONS\n&fYou''ve received your kit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_cooldown_Kit-Mystic_start%'
+    - '[console] kit Mystic %player_name%'
+    - '[console] tm msg %player_name% &e&lCONGRATULATIONS\n&fYou''ve received your kit'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'Mystic-2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk4OTQ2YmNkM2IwYTE2ZmJmZjM1ZDE2MTRmYmJiZmYzYzE5NzI2NjNjNTUzMjE1NGZlYTFjYTJhNGMxOWIxZSJ9fX0=
+    priority: 2
+    update: true
+    slot: 16
+    view_requirement:
+      requirements:
+        name2:
+          type: has permission
+          permission: essentials.kits.Mystic
+    display_name: '&4&lMystic &c| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Protection X'
+    - '    &7- Unbreaking VIII'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency XXXV'
+    - '    &7- Unbreaking XXXV'
+    - '    &7- Fortune XII'
+    - '    &7- Silk Touch I'
+    - '&8&l* &8&nOthers'
+    - '    &7x64 | Golden Apples'
+    - '    &7x128 | Cooked Beef'
+    - ''
+    - '&6&l* &7Available in: &c&l%javascript_cooldown_Kit-Mystic_259200%'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'Mystic-3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 16
+    priority: 3
+    display_name: '&d&lMystic &c| Kit'
+    lore:
+    - '&f&lCONTENTS:'
+    - '&8&l* &8&nGear'
+    - '    &7- Protection X'
+    - '    &7- Unbreaking VIII'
+    - '&8&l* &8&nTools'
+    - '    &7- Efficiency XXXV'
+    - '    &7- Unbreaking XXXV'
+    - '    &7- Fortune XII'
+    - '    &7- Silk Touch I'
+    - '&8&l* &8&nOthers'
+    - '    &7x64 | Golden Apples'
+    - '    &7x128 | Cooked Beef'
+    - ''
+    - '&6&l* &7You don''t have enough rank: &c&l✘'
+    left_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'

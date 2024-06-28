@@ -1,0 +1,888 @@
+menu_title: '&e&lMiniatures'
+open_command:
+- miniature
+- cm
+- cm help
+- miniatures
+- pet
+- pets
+size: 54
+items:
+  'barrier1':
+    material: 160
+    data: 1
+    slots:
+    - 45
+    - 46
+    - 47
+    - 50
+    - 51
+    - 52
+    - 53
+    display_name: ' ' 
+  'barrier2':
+    material: 160
+    data: 0
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 9
+    - 17
+    - 18
+    - 26
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    display_name: ' ' 
+  'Bird':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzEzNWY1ODM4ZTUxNTg1ZTE1OTQyZThmMmYxY2MzNmRhOTYzMDcwZGRkNWJhMzVhZjk1ZWQzN2ViNmMzIn19fQ=='
+    slot: 10
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Bird'
+    display_name: '&aBird'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Bird'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Bird'
+    - '[close]'
+  'Bird2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 10
+    priority: 2
+    display_name: '&cBird'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'Fish':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA2MGE0NjQ5N2NlZTc2MTEzNDZjOWRkOGViOGY1ZGU0NDgzZGUyNTkxNDcyMTEzNTM4NDgzNTZkZTE1ZDE5In19fQ=='
+    slot: 11
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Fish'
+    display_name: '&aPescado'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Fish'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Fish'
+    - '[close]'
+  'Fish2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 11
+    priority: 2
+    display_name: '&cFish'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'Shark':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjEyNGM1NDFkZWRhNGIyNjZmZjE0ZTYxYjBhMTMyNDRiMmQ0YjdjMThkMmI2YzhkZDIxNzZkNWQzNjVmYmQifX19'
+    slot: 12
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Shark'
+    display_name: '&aShark'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Shark'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Shark'
+    - '[close]'
+  'Shark2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 12
+    priority: 2
+    display_name: '&cShark'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'Car':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY1ODJkNmQ4YmM3MDdmYjA1N2I0NTMwYzc1ZTRkZmQ5ZWMyZTg2NWVkMjJkYThiOTdhNDc1ODQ0OWZlYWY3NiJ9fX0='
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Car'
+    display_name: '&aCar'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Car'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Car'
+    - '[close]'
+  'Car2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 13
+    priority: 2
+    display_name: '&cCar'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'alien':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2EwYjZkZTJhNWE0YWM3ODI1NGRkZWNmYTQ2Zjc5OGYyNzUzY2JjODFkYmM5Nzg0YTVjZmVmYWI4YWNlYWZlYiJ9fX0='
+    slot: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Alien'
+    display_name: '&aAlien'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Alien'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Alien'
+    - '[close]'
+  'alien2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 14
+    priority: 2
+    display_name: '&cAlien'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'Ship':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmEyOWVhMjRlNTI5ZGMxNzA4YWUzYTI5MDJkZTNlMjljMjJhOWVkYmJiMDdlY2JjZDI3Y2I1MzYwMmM3MSJ9fX0='
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Ship'
+    display_name: '&aShip'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Ship'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Ship'
+    - '[close]'
+  'Ship2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 15
+    priority: 2
+    display_name: '&cShip'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'enderman':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE0ZjZhOWY5Mjc3MzA1ZjdjOTlkODE0OTYyODJjNzY0ZjlhYTU3NGMzNzg2Y2U2ZGQ0NjY5NzA1MzJiN2YifX19'
+    slot: 16
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Enderman'
+    display_name: '&aEnderman'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Enderman'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Enderman'
+    - '[close]'
+  'enderman2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 16
+    priority: 2
+    display_name: '&cEnderman'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'golem':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmZjFkYmFjNjZlMWFhZTM1NGNlYzg0Mjg2ZWJkMWIzYzI4NTMxZjlhYzY2NzJiOTVlYWM1MzA1ZjRjYTMifX19'
+    slot: 19
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Enderman'
+    display_name: '&aGolem'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Golem'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Golem'
+    - '[close]'
+  'golem2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 19
+    priority: 2
+    display_name: '&cGolem'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'slime':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIwZTg0ZDMyZDFlOWM5MTlkM2ZkYmI1M2YyYjM3YmEyNzRjMTIxYzU3YjI4MTBlNWE0NzJmNDBkYWNmMDA0ZiJ9fX0='
+    slot: 20
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Slime'
+    display_name: '&aSlime'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Slime'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Slime'
+    - '[close]'
+  'slime2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 20
+    priority: 2
+    display_name: '&cSlime'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'creeper':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdmNmQyMjMzNjlmNjA3NzJjOTlmYzNkNWVlZGQ2ODA0Yzk4OTI2Y2EyZThiNDM3ZGVhN2EyNTcyZmE1Mjg5In19fQ=='
+    slot: 21
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Creeper'
+    display_name: '&aCreeper'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Creeper'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Creeper'
+    - '[close]'
+  'creeper2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 21
+    priority: 2
+    display_name: '&cCreeper'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'dallas':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U0ZGI5YzJjMDY3ZWIyODNkZjk4NzU0NzIxNjJkZWY2MGY2N2JlNGY1MzhmNmRhZWU3YWY5ODE4MjZiYzc3MiJ9fX0='
+    slot: 22
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Dallas'
+    display_name: '&aDallas'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Dallas'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Dallas'
+    - '[close]'
+  'dallas2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 22
+    priority: 2
+    display_name: '&cDallas'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'wolf':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg1MjcwNmU1ZDIzZWQ2Mzg0M2E3MmYzYzRiNTY0YzVhYTYxNjM1NTViZTNiNzRhOTUxYWY4ZWM5Mjg4MjIzMyJ9fX0='
+    slot: 23
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Wolf'
+    display_name: '&aWolf'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Wolf'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Wolf'
+    - '[close]'
+  'wolf2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 23
+    priority: 2
+    display_name: '&cWolf'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'chains':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIyOWE5MjhjYzQzZmUwN2YwYzFmNDg2MzIwYTU5YjY2NWE1MWJjYmRjYjY1MGUzYTFhZDk3MjE1Mzg3MjVhZCJ9fX0='
+    slot: 24
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Chains'
+    display_name: '&aChains'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Chains'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Chains'
+    - '[close]'
+  'chains2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 24
+    priority: 2
+    display_name: '&cChains'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'houston':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDgzOTJiODg1MjRjNTdjMjk3MTc1N2QwMTcwYjllMDFjZWNhYThhNmUxZThjYmVkY2VmMTIwOGJlMDQxNzhlNCJ9fX0='
+    slot: 25
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Houston'
+    display_name: '&aHouston'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Houston'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Houston'
+    - '[close]'
+  'houston2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 25
+    priority: 2
+    display_name: '&cHouston'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'fire':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEzMDczOTdiYzMzMjdiYWU0OWIyOWViZmU5MmRiYTgzYjUxZDQ4MDI4NDUyMGRmZDRkMDcwMjUzNWNhMiJ9fX0='
+    slot: 28
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Fire'
+    display_name: '&aFire'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Fire'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Fire'
+    - '[close]'
+  'fire2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 28
+    priority: 2
+    display_name: '&cFire'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'Ghost':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWViOTI2YWEzOTcyNzY4YTYzMmNiOThkZTRiNDk3MDc2NmNmZGIxZDM3NjI1Zjk5MTczZTVmNTM5ZmE2NyJ9fX0='
+    slot: 29
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Ghost'
+    display_name: '&aGhost'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Ghost'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Ghost'
+    - '[close]'
+  'Ghost2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 29
+    priority: 2
+    display_name: '&cGhost'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'Demon':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRhMzkyNjllZjQ1ZjgyNWVjNjFiYjRmOGFhMDliZDNjZjA3OTk2ZmI2ZmFjMzM4YTZlOTFkNjY5OWFlNDI1In19fQ=='
+    slot: 30
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Demon'
+    display_name: '&aDemon'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Demon'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Demon'
+    - '[close]'
+  'Demon2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 30
+    priority: 2
+    display_name: '&cDemon'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'Dead':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2M3ZGYwYmJkY2U0YmYzYjQ1MjY4MWViNDcxZDExMDM2NWIyNDY4ZjFlNzIwNzA0YTIwMzczNGJkODQ4MzczIn19fQ=='
+    slot: 31
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Dead'
+    display_name: '&aDead'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Dead'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Dead'
+    - '[close]'
+  'Dead2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 31
+    priority: 2
+    display_name: '&cDead'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'Knight':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ5NTU4ZThiMWMzZjZmMGM4ZTI1ODQ4N2Y0Y2QzY2U2NmY1ZmQ5OTJhN2NkNjRmNmRmNjMxYmI4NTJmNjcyYSJ9fX0='
+    slot: 32
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Knight'
+    display_name: '&aKnight'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Knight'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Knight'
+    - '[close]'
+  'Knight2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 32
+    priority: 2
+    display_name: '&cKnight'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'reaper':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODMzZGUwMjRhOTg4N2FiZGMwNzM3N2MwY2JmMzRiOWU2OTFmOWVmYjQxNGUzMDE4YmU0NzJlMzJhMTM0YmUyNSJ9fX0='
+    slot: 33
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Reaper'
+    display_name: '&aReaper'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Reaper'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Reaper'
+    - '[close]'
+  'reaper2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 33
+    priority: 2
+    display_name: '&cReaper'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'Astronaut':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNjMmViZGRkMTU4MzY2OGQ4NGY1ODZjY2NjOWYxOTUyOTg4MTJmYWM1MmRlZjJiYWUzYjgzYmRkMmM1NTk1ZCJ9fX0='
+    slot: 34
+    priority: 1
+    view_requirement:
+      requirements:
+        tiene:
+          type: has permission
+          permission: 'cubeminiatures.use.Astronaut'
+    display_name: '&aAstronaut'
+    lore:
+    - '&7Right click to use'
+    - '&7this miniature.'
+    - ''
+    - '&6&l* &7Status: &a&lUNLOCKED ✔'
+    - ''
+    - "&e&l* &aRight click to use"
+    left_click_commands:
+    - '[player] cm get Astronaut'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm get Astronaut'
+    - '[close]'
+  'Astronaut2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+    slot: 34
+    priority: 2
+    display_name: '&cAstronaut'
+    lore:
+    - '&7You don''t have enough'
+    - '&7rank or you didn''t acquired'
+    - '&7this miniature yet.'
+    - ''
+    - '&6&l* &7Status: &c&lLOCKED ✘'
+    left_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+    right_click_commands:
+    - '[console] tm msg %player_name% &cYou don''t have\n&cthis miniature yet'
+  'close':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjMyOTVhOWYxMTQ3OGU2Yjc4OWJmNmViMDYyOTZlMDE2YzEyN2QwYTYyN2YzNTRmZWMyNmMyN2Y0NmQ0MTcifX19'
+    slot: 48
+    display_name: '&e&lBack'
+    lore:
+    - '&7Go back to main'
+    - '&7menu.' 
+    - ''
+    - "&e&l* &aRight click to close"
+    left_click_commands:
+    - '[openguimenu] menu'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[refresh]'
+    right_click_commands:
+    - '[openguimenu] menu'
+    - '[sound] ENTITY_CHICKEN_EGG'
+    - '[refresh]'
+  'remove':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+    slot: 49
+    display_name: '&e&lRemove Miniature'
+    lore:
+    - '&7Delete your current'
+    - '&7spawned miniature.'
+    - ''
+    - '&6&l* &cRight click to remove'
+    left_click_commands:
+    - '[player] cm remove'
+    - '[close]'
+    right_click_commands:
+    - '[player] cm remove'
+    - '[close]'

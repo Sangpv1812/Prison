@@ -1,0 +1,1129 @@
+menu_title: '&e&lMines&f | List'
+open_command:
+- mines
+- mine
+size: 54
+items:
+  'barrier1':
+    material: 160
+    data: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 42
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    display_name: ' '
+  'A':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 10
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.a'
+    display_name: '&a&lA'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[A]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp A'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp A'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'A2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 10
+    priority: 2
+    display_name: '&c&lA'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[A]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'B':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 11
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.b'
+    display_name: '&a&lB'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[B]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp B'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp B'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'B2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 11
+    priority: 2
+    display_name: '&c&lB'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[B]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'C':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 12
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.c'
+    display_name: '&a&lC'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[C]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp C'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp C'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'C2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 12
+    priority: 2
+    display_name: '&c&lC'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[C]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'D':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.d'
+    display_name: '&a&lD'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[D]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp D'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp D'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'D2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 13
+    priority: 2
+    display_name: '&c&lD'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[D]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'E':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.e'
+    display_name: '&a&lE'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[E]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp E'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp E'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'E2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 14
+    priority: 2
+    display_name: '&c&lE'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[E]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'F':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.f'
+    display_name: '&a&lF'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[F]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp F'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp F'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'F2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 15
+    priority: 2
+    display_name: '&c&lF'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[F]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'G':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 16
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.g'
+    display_name: '&a&lG'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[G]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp G'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp G'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'G2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 16
+    priority: 2
+    display_name: '&c&lG'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[G]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'H':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 19
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.h'
+    display_name: '&a&lH'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[H]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp H'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp H'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'H2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 19
+    priority: 2
+    display_name: '&c&lH'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[H]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'I':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 20
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.i'
+    display_name: '&a&lI'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[I]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp I'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp I'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'I2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 20
+    priority: 2
+    display_name: '&c&lI'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[I]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'J':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 21
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.j'
+    display_name: '&a&lJ'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[J]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp J'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp J'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'J2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 21
+    priority: 2
+    display_name: '&c&lJ'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[J]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'K':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 22
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.k'
+    display_name: '&a&lK'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[K]'
+    - '&ePorcentaje Bloques restantes: &7%prisonmines_percent_left%' 
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp K'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp K'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'K2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 22
+    priority: 2
+    display_name: '&c&lK'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[K]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'L':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 23
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.l'
+    display_name: '&a&lL'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[L]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp L'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp L'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'L2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 23
+    priority: 2
+    display_name: '&c&lL'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[L]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'M':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 24
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.m'
+    display_name: '&a&lM'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[M]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp M'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp M'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'M2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 24
+    priority: 2
+    display_name: '&c&lM'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[M]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'N':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 25
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.n'
+    display_name: '&a&lN'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[N]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp N'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp N'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'N2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 25
+    priority: 2
+    display_name: '&c&lN'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[N]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'O':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 28
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.O'
+    display_name: '&a&lO'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[O]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp O'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp O'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'O2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 28
+    priority: 2
+    display_name: '&c&lO'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[O]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'P':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 29
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.P'
+    display_name: '&a&lP'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[P]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp P'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp P'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'P2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 29
+    priority: 2
+    display_name: '&c&lP'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[P]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'Q':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 30
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.Q'
+    display_name: '&a&lQ'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[Q]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp Q'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp Q'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'Q2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 30
+    priority: 2
+    display_name: '&c&lQ'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[Q]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'R':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 31
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.R'
+    display_name: '&a&lR'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[R]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp R'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp R'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'R2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 31
+    priority: 2
+    display_name: '&c&lR'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[R]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'S':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 32
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.S'
+    display_name: '&a&lS'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[S]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp S'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp S'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'S2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 32
+    priority: 2
+    display_name: '&c&lS'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[S]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'T':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 33
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.T'
+    display_name: '&a&lT'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[T]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp T'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp T'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'T2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 33
+    priority: 2
+    display_name: '&c&lT'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[T]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'U':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 34
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.U'
+    display_name: '&a&lU'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[U]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp U'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp U'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'U2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 34
+    priority: 2
+    display_name: '&c&lU'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[U]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'V':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 37
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.V'
+    display_name: '&a&lV'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[V]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp V'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp V'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'V2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 37
+    priority: 2
+    display_name: '&c&lV'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[V]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'W':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 38
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.W'
+    display_name: '&a&lW'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[W]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp W'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp W'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'W2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 38
+    priority: 2
+    display_name: '&c&lW'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[W]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'X':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 39
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.X'
+    display_name: '&a&lX'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[X]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp X'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp X'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'X2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 39
+    priority: 2
+    display_name: '&c&lX'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[X]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'Y':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 40
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.Y'
+    display_name: '&a&lY'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[Y]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp Y'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp Y'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'Y2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 40
+    priority: 2
+    display_name: '&c&lY'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[Y]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'Z':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNGVmN2Q2YzVkOGRhMzYxODI3NTIyM2JkY2ExNDdjOWNmYWFjNzdkMzdlOGFlODFkNzU3YTU5MzY3NmFjMiJ9fX0='
+    slot: 41
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: has permission
+          permission: 'autosell.shop.Z'
+    display_name: '&a&lZ'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[Z]'
+    - ''
+    - '&eStatus: &a&lUNLOCKED ✔'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[player] warp Z'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+    right_click_commands:
+    - '[player] warp Z'
+    - '[sound] random.levelup'
+    - '[console] titlemanager msg &e&lTeleporting..\n&fYou''ve been teleported'
+  'Z2':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NGUyNDI2ZDJhY2M4NGM1YzY1ODg2OWE4NmQ3YTFjYzlhNGY2MDQ4NjZhYWU0NjdiNWI0OTY2NTQwNGY1ZCJ9fX0='
+    slot: 41
+    priority: 2
+    display_name: '&c&lZ'
+    lore:
+    - '&7'
+    - '&eRequires: &a&l[Z]'
+    - ''
+    - '&eStatus: &c&lBLOCKED ✘'
+    - ''
+    - "&e&l* &cYou didn''t unlock it yet"
+    left_click_commands:
+    - '[sound] mob.villager.no'
+    right_click_commands:
+    - '[sound] mob.villager.no'
+  'donor':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZhZGRiZDVkZWRhZDQwOTk5NDczYmU0YTdmNDhmNjIzNmE3OWEwZGNlOTcxYjVkYmQ3MzcyMDE0YWUzOTRkIn19fQ=='
+    slot: 43
+    display_name: '&e&lDonators | Mines'
+    lore:
+    - '&7&o(( Exclusive mines for'
+    - '&7&e&l&oPREMIUM&7&o users ))' 
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[openguimenu] donor'
+    - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%
+          ~ ~ ~ 10 0'
+    right_click_commands:
+    - '[openguimenu] donor'
+    - '[console] execute %player_name% ~ ~ ~ playsound random.chestopen %player_name%
+          ~ ~ ~ 10 0'

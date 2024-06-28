@@ -1,0 +1,54 @@
+options:
+  updateChecker: false
+  particleOnSpawn: true
+  noPermSoundEnabled: true
+  noPermSoundPitch: 2
+  noPermSound: ANVIL_USE
+disabled-worlds:
+- PVP
+- world2
+- world3
+join-item:
+  enabled: false
+  name: '&aMiniatures menu'
+  lore: '&7Open miniatures menu'
+  slot: 4
+  material: BONE
+  openmenu: page1
+rightclick:
+  enabled: false
+  player:
+  - '&e&lMINIATURE of &8%miniature_owner%'
+  - '&6&l* &7Get your miniature by buying'
+  - '&7 rank on &e&lbuy.example.net&7!'
+  - '&8'
+  - '&7Miniature type: &8%miniature_type%'
+  owner:
+  - '&e&lYOUR MINIATURE'
+  - '&8'
+  - '&7Miniature type: &8%miniature_type%'
+messages:
+  general:
+    prefix: '&e&lMINIATURES &8»'
+    noPermission: '&cERROR: You don''t have enough rank!'
+    noMiniatures: '%prefix% &cYou don''t have any miniature'
+    invalidUsage: '%prefix% &cInvalid usage. Type /cm help for help.'
+    errorNotOnline: '%prefix% &cThis player is not online!'
+    alreadyMiniature: '%prefix% &cYou already have this miniature.'
+    miniatureRemoved: '%prefix% &cYou removed your miniature.'
+    miniatureSpawned: '%prefix% &fYou equiped: &e&l%miniature%&7!'
+    miniatureDisabled: '%prefix% &cThe miniature %miniature% is currently disabled.'
+    cantSpawnMiniature: '%prefix% &cYou can''t spawn miniatures on this world.'
+  info:
+    message:
+    - '&8- &e%target% &f| Miniature &8-'
+    - '&eType: &f%miniature_type%'
+    - '&eCreated on: &f%miniature_date%'
+    error: '&cIt seems that %target% doesn''t have any miniature'
+mysql:
+  enabled: false
+  host: localhost
+  port: 3306
+  database: database
+  user: username
+  pass: password

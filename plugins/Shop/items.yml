@@ -1,0 +1,7 @@
+Rey:
+  id: paper
+  name: '&c&lMade by Rey'
+  lore: []
+  enchantments:
+    DAMAGE_ALL: 1
+    FIRE_ASPECT: 1

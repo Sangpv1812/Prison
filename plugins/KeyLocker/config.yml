@@ -1,0 +1,125 @@
+Locker-Inventory:
+  Name: "&e&lKey Locker"
+  Items:
+    Mine:
+      Slot: 11
+      Item:
+        Type: TRIPWIRE_HOOK
+        Name: "&b&lMine &f| Keys"
+        Lore:
+          - "&7&o(( Amount: &f&o%amount%&7&o/&f&o%max% &7&o))"
+          - ""
+          - "&6&l* &eLeft click to take all"
+          - "&6&l* &eRight click to take a stack"
+    Rare:
+      Slot: 13
+      Item:
+        Type: TRIPWIRE_HOOK
+        Name: "&9&lRare &f| Keys"
+        Lore:
+          - "&7&o(( Amount: &f&o%amount%&7&o/&f&o%max% &7&o))"
+          - ""
+          - "&6&l* &eLeft click to take all"
+          - "&6&l* &eRight click to take a stack"
+    Legendary:
+      Slot: 15
+      Item:
+        Type: TRIPWIRE_HOOK
+        Name: "&d&lLegendary &f| Keys"
+        Lore:
+          - "&7&o(( Amount: &f&o%amount%&7&o/&f&o%max% &7&o))"
+          - ""
+          - "&6&l* &eLeft click to take all"
+          - "&6&l* &eRight click to take a stack"
+
+Key-Lockers:
+  Small:
+    Keys:
+      Mine: 150
+      Rare: 100
+      Legendary: 3
+    Item:
+      Type: LIGHT_BLUE_SHULKER_BOX
+      Name: "&b&lSmall &f| &lKEY LOCKER"
+      Lore:
+        - "&7&o(( Crate keys stored in key lockers ))"
+        - "&7"
+        - "&6&l* &eRight click to air to withdraw"
+        - "&e&l* &6Use all keys on &7&o/warp crates"
+        - ""
+        - "&b&l* &bMine: &f%amount-Mine%&7/&f%max-Mine%"
+        - "&9&l* &9Rare: &f%amount-Rare%&7/&f%max-Rare%"
+        - "&d&l* &dLegendary: &f%amount-Legendary%&7/&f%max-Legendary%"
+  Medium:
+    Keys:
+      Mine: 500
+      Rare: 250
+      Legendary: 5
+    Item:
+      Type: YELLOW_SHULKER_BOX
+      Name: "&e&lMedium &f| &lKEY LOCKER"
+      Lore:
+        - "&7&o(( Crate keys stored in key lockers ))"
+        - "&7"
+        - "&6&l* &eRight click to air to withdraw"
+        - "&e&l* &6Use all keys on &7&o/warp crates"
+        - ""
+        - "&b&l* &bMine: &f%amount-Mine%&7/&f%max-Mine%"
+        - "&9&l* &9Rare: &f%amount-Rare%&7/&f%max-Rare%"
+        - "&d&l* &dLegendary: &f%amount-Legendary%&7/&f%max-Legendary%"
+  Large:
+    Keys:
+      Mine: 2000
+      Rare: 500
+      Legendary: 50
+    Item:
+      Type: PINK_SHULKER_BOX
+      Name: "&d&lLarge &f| &lKEY LOCKER"
+      Lore:
+        - "&7&o(( Crate keys stored in key lockers ))"
+        - "&7"
+        - "&6&l* &eRight click to air to withdraw"
+        - "&e&l* &6Use all keys on &7&o/warp crates"
+        - ""
+        - "&b&l* &bMine: &f%amount-Mine%&7/&f%max-Mine%"
+        - "&9&l* &9Rare: &f%amount-Rare%&7/&f%max-Rare%"
+        - "&d&l* &dLegendary: &f%amount-Legendary%&7/&f%max-Legendary%"
+  Huge:
+    Keys:
+      Mine: 5000
+      Rare: 2500
+      Legendary: 250
+    Item:
+      Type: RED_SHULKER_BOX
+      Name: "&5&lHuge &f| &lKEY LOCKER"
+      Lore:
+        - "&7&o(( Crate keys stored in key lockers ))"
+        - "&7"
+        - "&6&l* &eRight click to air to withdraw"
+        - "&e&l* &6Use all keys on &7&o/warp crates"
+        - ""
+        - "&b&l* &bMine: &f%amount-Mine%&7/&f%max-Mine%"
+        - "&9&l* &9Rare: &f%amount-Rare%&7/&f%max-Rare%"
+        - "&d&l* &dLegendary: &f%amount-Legendary%&7/&f%max-Legendary%"
+
+Messages:
+  err:
+    missingperm: "You don't have permission to do this"
+    playeroffline: "That player is not online"
+    specifylocker: "Please specify a Key Locker to give"
+    specifyplayer: "Please specify a player name"
+    unknownlocker: "No locker by the name of &d%locker% &7found"
+  locker:
+    received: "You have received &fx%amount% &e&l%locker%"
+  cmd:
+    keylocker:
+      usage:
+        - "&8&l&m--------------------"
+        - "&d&lKey Locker Commands:"
+        - "&f  /keylocker - &fView the usage"
+        - "&f  /keylocker give <player> <crate> [amount] - &fGive a key locker"
+        - "&8&l"
+        - "&6&l* &eCreated for &6&lRey setup&e on mc-market.org"
+        - "&8&l&m--------------------"
+  plugin:
+    prefix: "&e&lKEY LOCKERS &8> &7"

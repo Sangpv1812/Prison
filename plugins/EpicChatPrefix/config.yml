@@ -1,0 +1,20 @@
+# Variables: %player%, %world by default with the plugin, the plugin is compatible with PlaceHolderAPI
+ChatFormat: '&e%prisonranksx_prestige_displayname%%prisonranksx_currentrank_displayname%
+  &3%essentials_nickname%%vault_ranksuffix%%deluxetags_tag% &8» &7%msg%'
+Chat:
+  ChatColor: '&7'
+  ChatInItalic: false
+  ChatInBold: false
+  ChatInUnderline: false
+Title: '&e&nInformation'
+SuggestCommand: true
+PerWorldChat: false
+PerformCommand: false
+Command: /msg %player%
+NoPermission: '&cYou don''t have permission to do this!'
+HoverText: |-
+  &7Blocks broken: &e%ezblocks_broken%
+  &7Tokens: &e%tokenenchant_token% ⛂
+  &7Money: &e%vault_eco_balance_fixed% ⛃
+  &9
+  &7Total votes: &e%voteroulette_votes_lifetime% ✉

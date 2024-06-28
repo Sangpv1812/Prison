@@ -1,0 +1,1057 @@
+groups:
+  A:
+    permissions:
+    - prisonranksx.autorankup
+    - prisonranksx.ranks
+    - prisonranksx.prestige
+    - tokenenchant.withdraw
+    - tokenenchant.balance
+    - cubeminiatures.use
+    - cubeminiatures.rightclick
+    - cubeminiatures.remove
+    - cubeminiatures.info
+    - -cubeminiatures.menu
+    - bar.*
+    - autosell.shop.A
+    - prisonranksx.rankup
+    - prisonranksx.rankupmax
+    - autosell.toggle
+    - autosell.sellall
+    - BeastWithdraw.CashNote
+    - BeastWithdraw.XpBottle
+    - BeastWithdraw.CashNote.All
+    - BeastWithdraw.XpBottle.All
+    - crazyauctions.sell
+    - crazyauctions.access
+    - crazyauctions.bid
+    - crazyauctions.sell.5
+    - antidrop.use
+    - ChestShop.shop.*
+    - trading.trade
+    - item2chat.use
+    - shop.buy
+    - shop.sell
+    - shop.enchantments
+    - shop.tab.*
+    - shop.command.usage
+    - shop.command.open
+    - essentials.seen
+    - essentials.warps.ah
+    - essentials.warps.auction
+    - essentials.warps.auctions
+    - essentials.warps.plots
+    - essentials.warps.plot
+    - essentials.warps.casino
+    - essentials.warps.food
+    - essentials.warps.foods
+    - essentials.warps.mobs
+    - essentials.warps.mines
+    - essentials.warps.mine
+    - essentials.warps.pvp
+    - essentials.warps.warps
+    - essentials.warps.withdraw
+    - essentials.warps.token
+    - essentials.warps.tokens
+    - deluxemenus.menu.*
+    - essentials.workbench
+    - essentials.craftingbench
+    - essentials.bench
+    - essentials.craftingtable
+    - essentials.craft
+    - essentials.message.others
+    - essentials.msg
+    - essentials.message
+    - essentials.helpop
+    - essentials.warp.list
+    - essentials.warps
+    - essentials.warp
+    - essentials.warp.wood
+    - essentials.warps.wood
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.balance
+    - essentials.bal.others
+    - essentials.baltop
+    - essentials.bal
+    - AutoPickup.enabled
+    - essentials.kits.member
+    - essentials.warps.shop
+    - essentials.warps.minapvp
+    - essentials.lag
+    - essentials.tps
+    - plots.plot.1
+    - essentials.kit
+    - essentials.warps.crates
+    - essentials.warps.crate
+    - essentials.warps.pvp
+    - essentials.warp.a
+    - essentials.warps.a
+    - essentials.spawn
+    - plots.use
+    - plots.permpack.basic
+    options:
+      default: true
+      prefix: '&8[&a&lA&8] &3'
+      weight: '2'
+  B:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - crazyauctions.sell
+    - crazyauctions.access
+    - inventoryfull.alert
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - antidrop.use
+    - essentials.warpsjail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.encantamientos
+    - essentials.warps.staff
+    inheritance:
+    - A
+    options:
+      default: false
+      prefix: '&8[&e&lB&8] &3'
+      weight: '3'
+  C:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - crazyauctions.sell
+    - crazyauctions.access
+    - antidrop.use
+    - inventoryfull.alert
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warpsjail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.c
+    inheritance:
+    - B
+    options:
+      default: false
+      prefix: '&8[&5&lC&8] &3'
+      weight: '4'
+  D:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - antidrop.use
+    - crazyauctions.sell
+    - crazyauctions.access
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warpsjail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.d
+    inheritance:
+    - C
+    options:
+      default: false
+      prefix: '&8[&d&lD&8] &3'
+      weight: '5'
+  E:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - crazyauctions.sell
+    - crazyauctions.access
+    - antidrop.use
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warpsjail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.e
+    inheritance:
+    - D
+    options:
+      default: false
+      prefix: '&8[&9&lE&8] &3'
+      weight: '6'
+  F:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - crazyauctions.sell
+    - crazyauctions.access
+    - antidrop.use
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warpsjail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.f
+    inheritance:
+    - E
+    options:
+      default: false
+      prefix: '&8[&b&lF&8] &3'
+      weight: '7'
+  G:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - crazyauctions.sell
+    - crazyauctions.access
+    - antidrop.use
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warpsjail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.G
+    inheritance:
+    - F
+    options:
+      default: false
+      prefix: '&8[&2&lG&8] &3'
+      weight: '8'
+  H:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - antidrop.use
+    - crazyauctions.sell
+    - crazyauctions.access
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warpsjail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.h
+    inheritance:
+    - G
+    options:
+      default: false
+      prefix: '&8[&6&lH&8] &3'
+      weight: '9'
+  I:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - antidrop.use
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warpsjail
+    - crazyauctions.sell
+    - crazyauctions.access
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.I
+    inheritance:
+    - H
+    options:
+      default: false
+      prefix: '&8[&c&lI&8] &3'
+      weight: '10'
+  J:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - crazyauctions.sell
+    - antidrop.use
+    - crazyauctions.access
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warpsjail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.J
+    inheritance:
+    - I
+    options:
+      default: false
+      prefix: '&8[&8&lJ&8] &3'
+      weight: '11'
+  K:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - crazyauctions.sell
+    - crazyauctions.access
+    - antidrop.use
+    - essentials.warps.jail
+    - essentials.warpsjail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.K
+    inheritance:
+    - J
+    options:
+      default: false
+      prefix: '&8[&3&lK&8] &3'
+      weight: '12'
+  L:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - antidrop.use
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - crazyauctions.sell
+    - crazyauctions.access
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.L
+    inheritance:
+    - K
+    options:
+      default: false
+      prefix: '&8[&f&lL&8] &3'
+      weight: '13'
+  M:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - crazyauctions.sell
+    - antidrop.use
+    - crazyauctions.access
+    - essentials.warps.jail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.M
+    inheritance:
+    - L
+    options:
+      default: false
+      prefix: '&8[&4&lM&8] &3'
+      weight: '14'
+  N:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - crazyauctions.sell
+    - antidrop.use
+    - crazyauctions.access
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.N
+    inheritance:
+    - M
+    options:
+      default: false
+      prefix: '&8[&d&lN&8] &3'
+      weight: '15'
+  O:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - crazyauctions.sell
+    - crazyauctions.access
+    - antidrop.use
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.O
+    inheritance:
+    - N
+    options:
+      default: false
+      prefix: '&8[&a&lO&8] &3'
+      weight: '16'
+  P:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - crazyauctions.sell
+    - crazyauctions.access
+    - antidrop.use
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.P
+    inheritance:
+    - O
+    options:
+      default: false
+      prefix: '&8[&b&lP&8] &3'
+      weight: '17'
+  Q:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - crazyauctions.sell
+    - crazyauctions.access
+    - antidrop.use
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.Q
+    inheritance:
+    - P
+    options:
+      default: false
+      prefix: '&8[&7&lQ&8] &3'
+      weight: '18'
+  R:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - antidrop.use
+    - crazyauctions.sell
+    - crazyauctions.access
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.R
+    inheritance:
+    - Q
+    options:
+      default: false
+      prefix: '&8[&3&lR&8] &3'
+      weight: '19'
+  S:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - crazyauctions.sell
+    - crazyauctions.access
+    - antidrop.use
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.S
+    inheritance:
+    - R
+    options:
+      default: false
+      prefix: '&8[&e&lS&8] &3'
+      weight: '20'
+  T:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - crazyauctions.sell
+    - antidrop.use
+    - crazyauctions.access
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.T
+    inheritance:
+    - S
+    options:
+      default: false
+      prefix: '&8[&6&lT&8] &3'
+      weight: '21'
+  U:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - antidrop.use
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warps.ss
+    - crazyauctions.sell
+    - crazyauctions.access
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.U
+    inheritance:
+    - T
+    options:
+      default: false
+      prefix: '&8[&1&lU&8] &3'
+      weight: '22'
+  V:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - crazyauctions.sell
+    - crazyauctions.access
+    - antidrop.use
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.V
+    inheritance:
+    - U
+    options:
+      default: false
+      prefix: '&8[&2&lV&8] &3'
+      weight: '23'
+  W:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - antidrop.use
+    - crazyauctions.sell
+    - crazyauctions.access
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.W
+    inheritance:
+    - V
+    options:
+      default: false
+      prefix: '&8[&6&lW&8] &3'
+      weight: '24'
+  X:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - crazyauctions.sell
+    - antidrop.use
+    - crazyauctions.access
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.X
+    inheritance:
+    - W
+    options:
+      default: false
+      prefix: '&8[&7&lX&8] &3'
+      weight: '25'
+  Y:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - crazyauctions.sell
+    - crazyauctions.access
+    - antidrop.use
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.Y
+    inheritance:
+    - X
+    options:
+      default: false
+      prefix: '&8[&9&lY&8] &3'
+      weight: '26'
+  Z:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - inventoryfull.alert
+    - antidrop.use
+    - crazyauctions.sell
+    - crazyauctions.access
+    - essentials.signs.disposal.use
+    - essentials.warps.apply
+    - essentials.warps.jail
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.Z
+    inheritance:
+    - Y
+    options:
+      default: false
+      prefix: '&8[&b&lZ&8] &3'
+      weight: '27'
+  Free:
+    permissions:
+    - essentials.kits.color
+    - crazyauctions.bid
+    - antidrop.use
+    - crazyauctions.sell
+    - crazyauctions.access
+    - essentials.warps.ss
+    - essentials.warps.tokens
+    - essentials.warps.Encantamientos
+    - essentials.warps.staff
+    - essentials.warps.Free
+    - essentials.warps.freeworld
+    inheritance:
+    - Z
+    options:
+      default: false
+      prefix: '&8[&6✸&8]&3 '
+      weight: '28'
+  Owner:
+    inheritance:
+    - A
+    options:
+      suffix: ' &c&l&ki&4&lOWNER&c&l&ki'
+      rank: '200'
+      weight: '1'
+  Helper:
+    permissions:
+    - antispam.bypass
+    - AutoPickup.AutoSmelt
+    - AutoPickup.AutoBlock
+    - AutoPickup.InfinitePick
+    - staffGUI.ADD
+    - chatcolor.color.pink
+    - essentials.enderchest
+    - essentials.realname
+    - essentials.afk
+    - essentials.seen
+    - essentials.helpop.receive
+    - essentials.socialspy
+    - essentials.invsee
+    - essentials.fly
+    inheritance:
+    - A
+    options:
+      suffix: ' &b&lHELPER'
+      rank: '200'
+      weight: '10'
+  Moderator:
+    permissions:
+    - AutoPickup.AutoSmelt
+    - AutoPickup.AutoBlock
+    - AutoPickup.InfinitePick
+    - essentials.worlds.freeworld
+    - essentials.worlds.plotworld
+    - essentials.worlds.world
+    - essentials.chat.url
+    - essentials.unbanip
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.seen.banreason
+    - essentials.seen.extra
+    - essentials.seen.ipsearch
+    - essentials.banip
+    - essentials.enderchest
+    - essentials.tp.others
+    - essentials.tp
+    - essentials.realname
+    - essentials.afk
+    - essentials.ban.offline
+    - essentials.tempban.offline
+    - essentials.socialspy
+    - essentials.socialspy.toggle
+    - essentials.unban
+    - essentials.fly
+    - essentials.helpop.receive
+    - essentials.invsee
+    - essentials.seen
+    inheritance:
+    - A
+    options:
+      suffix: ' &2&lMOD'
+      rank: '200'
+      weight: '9'
+  S-Mod:
+    permissions:
+    - AutoPickup.AutoSmelt
+    - AutoPickup.AutoBlock
+    - AutoPickup.InfinitePick
+    - essentials.worlds.freeworld
+    - essentials.worlds.plotworld
+    - essentials.worlds.world
+    - essentials.enderchest
+    - essentials.realname
+    - essentials.whois
+    - essentials.afk
+    - essentials.socialspy.others
+    - ChestShop.mod
+    - essentials.ban.offline
+    - essentials.tempban.offline
+    - essentials.vanish.see
+    - essentials.unbanip
+    - essentials.banip
+    - essentials.broadcast
+    - essentials.tp.others
+    - essentials.tp
+    - essentials.socialspy.toggle
+    - essentials.socialspy
+    - essentials.unban
+    - essentials.helpop.receive
+    - essentials.fly
+    - essentials.kick
+    - essentials.mute
+    - essentials.tempmute
+    - essentials.tempban
+    - essentials.ban
+    - essentials.invsee
+    - essentials.seen
+    - essentials.clearinventory
+    - essentials.clearinventory.others
+    - essentials.boardcast
+    inheritance:
+    - A
+    options:
+      suffix: ' &2&lSENIOR MOD'
+      rank: '200'
+      weight: '8'
+      prefix: ''
+  Admin:
+    permissions:
+    - essentials.fly
+    - essentials.tp.others
+    - essentials.tphere
+    - AutoPickup.AutoSmelt
+    - AutoPickup.AutoBlock
+    - AutoPickup.InfinitePick
+    - essentials.tp
+    - essentials.v
+    - essentials.invsee.others
+    - essentials.inventorysee
+    - essentials.invsee
+    - essentials.socialspy
+    - essentials.broadcast.color
+    - essentials.broadcast
+    - essentials.tempban.offline
+    - essentials.ban.offline
+    - essentials.ban
+    - essentials.tempban
+    - essentials.mute
+    - essentials.kick
+    inheritance:
+    - A
+    options:
+      suffix: ' &1&bADMIN'
+      rank: '200'
+      weight: '7'
+  HeadAdmin:
+    permissions:
+    - '*'
+    options:
+      suffix: ' &1&lHEAD ADMIN'
+      weight: '60'
+  Manager:
+    permissions:
+    - essentials.mute.notify
+    - essentials.ban.notify
+    - essentials.fly
+    - AutoPickup.AutoSmelt
+    - AutoPickup.AutoBlock
+    - AutoPickup.InfinitePick
+    - essentials.god
+    - essentials.vanish
+    - essentials.gamemode
+    - essentials.whois
+    - essentials.banip
+    - essentials.mute
+    - essentials.ban
+    - chatcolor.blue
+    inheritance:
+    - A
+    options:
+      suffix: ' &9&lMANAGER'
+      weight: '6'
+  Ultra:
+    permissions:
+    - cubeminiatures.use.Bird
+    - autosell.shop.Ultra
+    - essentials.hat
+    - crazyauctions.sell.10
+    - essentials.enderchest
+    - essentials.kits.Ultra
+    - AutoPickup.AutoSmelt
+    - AutoPickup.AutoBlock
+    - AutoPickup.InfinitePick
+    - essentials.warps.Ultra
+    - essentials.feed
+    - essentials.heal
+    inheritance:
+    - A
+    options:
+      suffix: ' &a&lULTRA'
+      weight: '100'
+  Platinum:
+    permissions:
+    - autosell.shop.Platinum
+    - cubeminiatures.use.Bird
+    - cubeminiatures.use.Fish
+    - cubeminiatures.use.Shark
+    - essentials.hat
+    - crazyauctions.sell.15
+    - essentials.enderchest
+    - essentials.feed
+    - AutoPickup.AutoSmelt
+    - AutoPickup.AutoBlock
+    - AutoPickup.InfinitePick
+    - essentials.keepxp
+    - essentials.heal
+    - essentials.clearinventory
+    - essentials.kits.Platinum
+    - essentials.warps.Lord
+    inheritance:
+    - A
+    options:
+      suffix: ' &3&lPLATINUM'
+      weight: '99'
+  Champion:
+    permissions:
+    - autosell.shop.Champion
+    - cubeminiatures.use.Bird
+    - cubeminiatures.use.Fish
+    - cubeminiatures.use.Shark
+    - cubeminiatures.use.Car
+    - cubeminiatures.use.Alien
+    - cubeminiatures.use.Ship
+    - essentials.hat
+    - crazyauctions.sell.20
+    - essentials.enderchest
+    - essentials.feed
+    - essentials.heal
+    - AutoPickup.AutoSmelt
+    - AutoPickup.AutoBlock
+    - AutoPickup.InfinitePick
+    - essentials.clearinventory
+    - essentials.keepxp
+    - essentials.kits.Champion
+    - essentials.warps.Champion
+    inheritance:
+    - A
+    options:
+      suffix: ' &e&lCHAMPION'
+      weight: '98'
+  Legend:
+    permissions:
+    - cubeminiatures.use.Bird
+    - cubeminiatures.use.Fish
+    - cubeminiatures.use.Shark
+    - cubeminiatures.use.Car
+    - cubeminiatures.use.Alien
+    - cubeminiatures.use.Ship
+    - cubeminiatures.use.Enderman
+    - cubeminiatures.use.Golem
+    - cubeminiatures.use.Slime
+    - cubeminiatures.use.Creeper
+    - cubeminiatures.use.Dallas
+    - cubeminiatures.use.Wolf
+    - cubeminiatures.use.Chains
+    - cubeminiatures.use.Houston
+    - cubeminiatures.use.Fire
+    - autosell.shop.Legend
+    - essentials.hat
+    - crazyauctions.sell.25
+    - essentials.enderchest
+    - essentials.feed
+    - essentials.heal
+    - essentials.clearinventory
+    - essentials.keepxp
+    - essentials.kits.Legend
+    - essentials.warps.Legend
+    - AutoPickup.AutoSmelt
+    - AutoPickup.AutoBlock
+    - AutoPickup.InfinitePick
+    inheritance:
+    - A
+    options:
+      suffix: ' &4&lLEGEND'
+      weight: '97'
+  Mystic:
+    permissions:
+    - autosell.shop.Mystic
+    - essentials.hat
+    - crazyauctions.sell.30
+    - cubeminiatures.use.Bird
+    - cubeminiatures.use.Fish
+    - cubeminiatures.use.Shark
+    - cubeminiatures.use.Car
+    - cubeminiatures.use.Alien
+    - cubeminiatures.use.Ship
+    - cubeminiatures.use.Enderman
+    - cubeminiatures.use.Golem
+    - cubeminiatures.use.Slime
+    - cubeminiatures.use.Creeper
+    - cubeminiatures.use.Dallas
+    - cubeminiatures.use.Wolf
+    - cubeminiatures.use.Chains
+    - cubeminiatures.use.Houston
+    - cubeminiatures.use.Fire
+    - cubeminiatures.use.Ghost
+    - cubeminiatures.use.Fire
+    - cubeminiatures.use.Demon
+    - cubeminiatures.use.Dead
+    - cubeminiatures.use.Knight
+    - cubeminiatures.use.Reaper
+    - cubeminiatures.use.Astronaut
+    - essentials.enderchest
+    - essentials.feed
+    - essentials.heal
+    - essentials.clearinventory
+    - essentials.keepxp
+    - essentials.kits.Mystic
+    - essentials.warps.Mystic
+    - AutoPickup.AutoSmelt
+    - AutoPickup.AutoBlock
+    - AutoPickup.InfinitePick
+    - essentials.repair
+    inheritance:
+    - A
+    options:
+      suffix: ' &d&lMYSTIC'
+      weight: '96'
+  Youtuber:
+    permissions:
+    - essentials.kits.youtuber
+    - essentials.fly
+    - essentials.feed
+    - essentials.keepxp
+    - essentials.heal
+    - essentials.clearinventory
+    - essentials.kits.Lord
+    - essentials.warps.Lord
+    - AutoPickup.AutoSmelt
+    - AutoPickup.AutoBlock
+    - AutoPickup.InfinitePick
+    inheritance:
+    - A
+    options:
+      suffix: ' &c&lYOUTUBER'
+      weight: '95'
+schema-version: 1
+users:
+  4653b732-8f29-3d74-abcc-2669955177d0:
+    permissions:
+    - autosell.shop.Free
+    - autosell.shop.Z
+    - essentials.warps.Z
+    - autosell.shop.Y
+    - essentials.warps.Y
+    - autosell.shop.X
+    - essentials.warps.X
+    - autosell.shop.W
+    - essentials.warps.W
+    - autosell.shop.V
+    - essentials.warps.V
+    - autosell.shop.U
+    - essentials.warps.U
+    - autosell.shop.T
+    - essentials.warps.T
+    - autosell.shop.S
+    - essentials.warps.S
+    - autosell.shop.R
+    - essentials.warps.R
+    - autosell.shop.Q
+    - essentials.warps.Q
+    - autosell.shop.P
+    - essentials.warps.P
+    - autosell.shop.O
+    - essentials.warps.O
+    - autosell.shop.N
+    - essentials.warps.N
+    - autosell.shop.M
+    - essentials.warps.M
+    - autosell.shop.L
+    - essentials.warps.L
+    - autosell.shop.K
+    - essentials.warps.K
+    - autosell.shop.J
+    - essentials.warps.J
+    - autosell.shop.I
+    - essentials.warps.I
+    - autosell.shop.H
+    - essentials.warps.H
+    - autosell.shop.G
+    - essentials.warps.G
+    - autosell.shop.F
+    - essentials.warps.F
+    - autosell.shop.E
+    - essentials.warps.E
+    - autosell.shop.D
+    - essentials.warps.D
+    - autosell.shop.C
+    - essentials.warps.C
+    - autosell.shop.B
+    - essentials.warps.B

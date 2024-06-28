@@ -1,0 +1,25 @@
+regions:
+    'mine':
+        commands:
+            onEnter:
+            - '[console] dm open mines %player%'
+            onLeave:
+            - ''
+    'freeenter':
+        commands:
+            onEnter:
+            - '[player] warp freeworld'
+            onLeave:
+            - ''
+            
+messages:
+    noPermission: "&cYou do not have the required permissions to perform this action!"
+    argumentError: "&cYou specified more or less than the required amount of arguments!"
+    reloadSuccess: "&aSuccessfully reloaded the plugin!"
+    help:
+    - "&eCommandRegions &7- &bBy GiansCode"
+    - " "
+    - "&a/commandregions &f- &cBrings up this message"
+    - "&a/commandregions list &f- &cLists all the regions with commands bound to them"
+    - "&a/commandregions reload &f- &cReloads the plugin"
+    - " "

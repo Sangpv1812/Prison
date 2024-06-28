@@ -1,0 +1,46 @@
+menu:
+  page1:
+    rows: 45
+    name: '&8Miniatures - Page 1'
+    items:
+      remove:
+        name: '&aRemove miniature'
+        lore:
+        - '&7Click to remove your current miniature'
+        slot: 40
+        material: BARRIER
+        action: REMOVE_MINIATURE
+      close:
+        name: '&aClose'
+        lore:
+        - '&7Close miniatures menu'
+        slot: 39
+        material: BOOK
+        action: CLOSE
+      next:
+        name: '&aNext page'
+        lore:
+        - '&7Go to next page'
+        slot: 41
+        material: ARROW
+        action: OPEN_MENU
+        value: 'page2'
+  page2:
+    rows: 45
+    name: '&8Miniatures - Page 2'
+    items:
+      remove:
+        name: '&cNothing here...'
+        lore:
+        - '&7Page 2 menu example'
+        slot: 0
+        material: BARRIER
+        action: NONE
+      back:
+        name: '&aBack to page 1'
+        lore:
+        - '&7Go back to page 1'
+        slot: 40
+        material: ARROW
+        action: OPEN_MENU
+        value: 'page1'

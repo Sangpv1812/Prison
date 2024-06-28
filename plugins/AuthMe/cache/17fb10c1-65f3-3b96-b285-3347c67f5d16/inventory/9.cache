@@ -1,0 +1,9 @@
+CHAINMAIL_HELMET
+0
+1
+name=§c§l Nón ăn mài§f§l[§e§lV2§f§l]
+lore=§f§l§m====§f§l[§e§lEND§f§l]§f§l§m====%newline%
+metaenchant=PROTECTION_ENVIRONMENTAL:3
+metaenchant=PROTECTION_FIRE:2
+enchant=PROTECTION_ENVIRONMENTAL:3
+enchant=PROTECTION_FIRE:2

@@ -1,0 +1,28 @@
+# AutoSell shop_multipliers.yml file
+# This file allows you to create custom multipliers that can be attached to players or groups by permission
+# 
+# These multipliers will only take effect in the shops listed for the multiplierThe format for a multiplier must follow this format:
+# <unique identifier>:
+#   priority: <unique number>
+#   permission: <your custom permission for this multiplier>
+#   multiplier: <the multiplier amount>
+#   shops:
+#   - 'shop1'
+#   - 'shop2'
+# 
+# You can list as many multipliers you like.
+# Each multiplier must have a unique priority set!!!
+# The priority determines what multiplier comes first in your list
+# If a player happens to have permission for many multipliers
+# the lowest number priority will always be applied if that multiplier has the shop listed the player
+# is trying to sell to!
+
+
+shop_multipliers:
+  example:
+    priority: 1
+    permission: some.shopmultiplier.permission
+    multiplier: 1.5
+    shops:
+    - shop1
+    - shop2

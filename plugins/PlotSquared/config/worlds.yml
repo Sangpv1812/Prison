@@ -1,0 +1,55 @@
+worlds:
+  Plots:
+    plot:
+      height: 75
+      size: 75
+      filling:
+      - '3:0'
+      floor:
+      - '2:0'
+      bedrock: true
+      biome: FOREST
+      auto_merge: false
+      create_signs: false
+    wall:
+      block: '2:0'
+      block_claimed: '2:0'
+      filling: '3:0'
+      height: 31
+    road:
+      width: 60
+      height: 1
+      block: '24:0'
+    misc_spawn_unowned: false
+    home:
+      nonmembers: side
+      default: side
+    schematic:
+      specify_on_claim: false
+      on_claim: false
+      file: 'null'
+      schematics: []
+    economy:
+      prices:
+        merge: 100
+        sell: 100
+        claim: 100
+      use: false
+    chat:
+      enabled: false
+    limits:
+      max-members: 128
+    world:
+      max_height: 256
+      gamemode: survival
+      min_height: 1
+      border: false
+    event:
+      spawn:
+        egg: true
+        breeding: true
+        custom: true
+    natural_mob_spawning: false
+    mob_spawner_spawning: true
+    flags:
+      use: 63,68,70,72,147,148,77,143,64,96,193,194,195,196,197

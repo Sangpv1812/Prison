@@ -1,0 +1,23 @@
+on rightclick:
+    if clicked block is set:
+        if name of event-item is "&b&lSmall &f| &lKEY LOCKER":
+            cancel the event
+            send "&4&l[!] &cYou can't place a key locker"
+			
+on rightclick:
+    if clicked block is set:
+        if name of event-item is "&e&lMedium &f| &lKEY LOCKER":
+            cancel the event
+            send "&4&l[!] &cYou can't place a key locker"
+			
+on rightclick:
+    if clicked block is set:
+        if name of event-item is "&d&lLarge &f| &lKEY LOCKER":
+            cancel the event
+            send "&4&l[!] &cYou can't place a key locker"
+			
+on rightclick:
+    if clicked block is set:
+        if name of event-item is "&5&lHuge &f| &lKEY LOCKER":
+            cancel the event
+            send "&4&l[!] &cYou can't place a key locker"

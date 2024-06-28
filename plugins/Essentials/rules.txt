@@ -1,0 +1,14 @@
+&b&l[1] &7No hacer ataque DDoS a otros jugadores/server.
+&b&l[2] &7No mientas al Staff acerca de las compras.
+&b&l[3] &7No molestes a otros usuarios/staffs.
+&b&l[4] &7Esta permitido estafar en &c&lPrison
+&b&l[5] &7No grifear o hacer portales trampas.
+&b&l[6] &7No quedarse AFK.
+&b&l[7] &7No usar clientes externos (hacks), bugs, etc.
+&b&l[8] &7No nombrar servidor ni IP.
+&b&l[9] &7Respetar al equipo Staff.
+&b&l[10] &7No hacer publicidad.
+&b&l[11] &7Se respetuoso con todo el mundo.
+&b&l[12] &7No hacer mayusculas, spam ni flood.
+&B&L[13] &7No estafar con compras ni incitar a nadie a hacerlo.
+&B&L[13] &7No hacer team mayor a 3 personas en &c&lPvP&7.

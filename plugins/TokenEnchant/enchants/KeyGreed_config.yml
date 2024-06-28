@@ -1,0 +1,26 @@
+Potions:
+  KeyGreed:
+    price: 10
+    max: 5
+
+    # The chance that the command(s) will run when a player breaks
+    # a block.
+    chances:
+      1: 10
+      2: 20
+      3: 25
+      4: 30
+      5: 35
+
+    # The commands to run if the chance passes.
+    commands:
+      1:
+      - 'give {player} diamond 1'
+      2:
+      - 'give {player} diamond 2'
+      3:
+      - 'give {player} diamond 3'
+      4:
+      - 'give {player} diamond 4'
+      5:
+      - 'give {player} diamond 5'

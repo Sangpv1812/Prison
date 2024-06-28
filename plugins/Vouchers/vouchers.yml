@@ -1,0 +1,145 @@
+Vouchers:
+  Mystic:
+    Item: 'paper 1 name:&d&lMYSTIC_&f|_&f&lRank_voucher lore:&7&o((_Claim_this_voucher_to_/n&7&oobtain_&d&l&oMYSTIC_&7&orank_))/n/n&6&l*_&eRight_click_to_claim'
+    Message: ''
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'pex user %username% group add Mystic'
+      Message:
+        Command: 'tm msg %username% &e&lRANK CLAIMED\n&fYou claimed &d&lMYSTIC'
+  15:
+    Item: 'paper 1 name:&e&lx1.5_&F|_&lMULTIPLIER_&8(15_minutes) lore:&7&o((_Right_click_to_claim_))/n/n&4&l*_&cCare,_actual_multipliers_will/n&cbe_removed_too'
+    Message: ''
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'asa setmultiplier %username% 1.5 0:0:15'
+      Message:
+        Command: 'tm msg %username% &e&lMULTIPLIER\n&fMultiplier &e&lx1.5&f has been enabled'
+  20:
+    Item: 'paper 1 name:&e&lx2.0_&F|_&lMULTIPLIER_&8(15_minutes) lore:&7&o((_Right_click_to_claim_))/n/n&4&l*_&cCare,_actual_multipliers_will/n&cbe_removed_too'
+    Message: ''
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'asa setmultiplier %username% 2 0:0:15'
+      Message:
+        Command: 'tm msg %username% &e&lMULTIPLIER\n&fMultiplier &e&lx2&f has been enabled'
+  155:
+    Item: 'paper 1 name:&e&lx1.5_&F|_&lMULTIPLIER_&8(30_minutes) lore:&7&o((_Right_click_to_claim_))/n/n&4&l*_&cCare,_actual_multipliers_will/n&cbe_removed_too'
+    Message: ''
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'asa setmultiplier %username% 1.5 0:0:30'
+      Message:
+        Command: 'tm msg %username% &e&lMULTIPLIER\n&fMultiplier &e&lx1.5&f has been enabled'
+  200:
+    Item: 'paper 1 name:&e&lx2.0_&F|_&lMULTIPLIER_&8(30_minutes) lore:&7&o((_Right_click_to_claim_))/n/n&4&l*_&cCare,_actual_multipliers_will/n&cbe_removed_too'
+    Message: ''
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'asa setmultiplier %username% 2 0:0:30'
+      Message:
+        Command: 'tm msg %username% &e&lMULTIPLIER\n&fMultiplier &e&lx2&f has been enabled'
+  1555:
+    Item: 'paper 1 name:&e&lx1.5_&F|_&lMULTIPLIER_&8(1_hour) lore:&7&o((_Right_click_to_claim_))/n/n&4&l*_&cCare,_actual_multipliers_will/n&cbe_removed_too'
+    Message: ''
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'asa setmultiplier %username% 1.5 0:1:0'
+      Message:
+        Command: 'tm msg %username% &e&lMULTIPLIER\n&fMultiplier &e&lx1.5&f has been enabled'
+  2000:
+    Item: 'paper 1 name:&e&lx3.0_&F|_&lMULTIPLIER_&8(1_hour) lore:&7&o((_Right_click_to_claim_))/n/n&4&l*_&cCare,_actual_multipliers_will/n&cbe_removed_too'
+    Message: ''
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'asa setmultiplier %username% 3 0:1:0'
+      Message:
+        Command: 'tm msg %username% &e&lMULTIPLIER\n&fMultiplier &e&lx2&f has been enabled'
+  Christmas:
+    Item: 'paper 1 name:&e&lTAG_&f|_&f☃ lore:&6&l*_&7Right_click_to_claim_this_voucher.'
+    Message: '&e&lTAGS &8» &7You''ve received a voucher.'
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'pex user %username% add deluxetags.tag.Christmas'
+      Message:
+        Command: 'tm msg %username% &e&lTAG ADDED\n&fYou''ve claimed this voucher'
+  Fingers:
+    Item: 'paper 1 name:&e&lTAG_&f|_&a✌ lore:&6&l*_&7Right_click_to_claim_this_voucher.'
+    Message: '&e&lTAGS &8» &7You''ve received a voucher.'
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'pex user %username% add deluxetags.tag.Fingers'
+      Message:
+        Command: 'tm msg %username% &e&lTAG ADDED\n&fYou''ve claimed this voucher'
+  Biohazard:
+    Item: 'paper 1 name:&e&lTAG_&f|_&6☣ lore:&6&l*_&7Right_click_to_claim_this_voucher.'
+    Message: '&e&lTAGS &8» &7You''ve received a voucher.'
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'pex user %username% add deluxetags.tag.Biohazard'
+      Message:
+        Command: 'tm msg %username% &e&lTAG ADDED\n&fYou''ve claimed this voucher'
+  Arrow:
+    Item: 'paper 1 name:&e&lTAG_&f|_&b➳ lore:&6&l*_&7Right_click_to_claim_this_voucher.'
+    Message: '&e&lTAGS &8» &7You''ve received a voucher.'
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'pex user %username% add deluxetags.tag.Arrow'
+      Message:
+        Command: 'tm msg %username% &e&lTAG ADDED\n&fYou''ve claimed this voucher'
+  Hello:
+    Item: 'paper 1 name:&e&lTAG_&f|_&d<o/ lore:&6&l*_&7Right_click_to_claim_this_voucher.'
+    Message: '&e&lTAGS &8» &7You''ve received a voucher.'
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'pex user %username% add deluxetags.tag.Hello'
+      Message:
+        Command: 'tm msg %username% &e&lTAG ADDED\n&fYou''ve claimed this voucher'
+  God:
+    Item: 'paper 1 name:&e&lTAG_&f|_&c&lGod lore:&6&l*_&7Right_click_to_claim_this_voucher.'
+    Message: '&e&lTAGS &8» &7You''ve received a voucher.'
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'pex user %username% add deluxetags.tag.God'
+      Message:
+        Command: 'tm msg %username% &e&lTAG ADDED\n&fYou''ve claimed this voucher'
+  Plane:
+    Item: 'paper 1 name:&e&lTAG_&f|_&f✈ lore:&6&l*_&7Right_click_to_claim_this_voucher.'
+    Message: '&e&lTAGS &8» &7You''ve received a voucher.'
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'pex user %username% add deluxetags.tag.Plane'
+      Message:
+        Command: 'tm msg %username% &e&lTAG ADDED\n&fYou''ve claimed this voucher'
+  Star:
+    Item: 'paper 1 name:&e&lTAG_&f|_&e✯ lore:&6&l*_&7Right_click_to_claim_this_voucher.'
+    Message: '&e&lTAGS &8» &7You''ve received a voucher.'
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'pex user %username% add deluxetags.tag.Star'
+      Message:
+        Command: 'tm msg %username% &e&lTAG ADDED\n&fYou''ve claimed this voucher'
+  Money:
+    Item: 'paper 1 name:&e&lTAG_&f|_&a⛁ lore:&6&l*_&7Right_click_to_claim_this_voucher.'
+    Message: '&e&lTAGS &8» &7You''ve received a voucher.'
+    Sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    Commands:
+      Permission:
+        Command: 'pex user %username% add deluxetags.tag.Money'
+      Message:
+        Command: 'tm msg %username% &e&lTAG ADDED\n&fYou''ve claimed this voucher'

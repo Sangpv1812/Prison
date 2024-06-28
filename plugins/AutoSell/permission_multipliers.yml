@@ -1,0 +1,25 @@
+# AutoSell permission_multipliers.yml file
+# This file allows you to create custom multipliers that can be attached to players or groups by permission
+# 
+# The format for a multiplier must follow this format:
+# <unique identifier>:
+#   priority: <unique number>
+#   permission: <your custom permission for this multiplier>
+#   multiplier: <the multiplier amount>
+# 
+# You can list as many multipliers you like.
+# Each multiplier must have a unique priority set!!!
+# The priority determines what multiplier comes first in your list
+# If a player happens to have permission for many multipliers
+# the lowest number priority will always be applied
+
+
+permission_multipliers:
+  arefy:
+    priority: 1
+    permission: multiplicador.arefy
+    multiplier: 1.2
+  arefyy:
+    priority: 1
+    permission: multiplicador.arefyy
+    multiplier: 1.5

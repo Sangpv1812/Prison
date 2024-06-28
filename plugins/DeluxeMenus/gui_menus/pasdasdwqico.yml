@@ -1,0 +1,870 @@
+menu_title: '&e&lPickaxe &f| Upgrades &7[1/1]'
+open_command: '921imf'
+update_interval: 1
+size: 53
+items:
+  'Pico':
+    material: 'placeholder-%player_item_in_hand%'
+    data: 'placeholder-%player_item_in_hand_data%'
+    hide_attributes: true
+    update: true
+    hide_enchantments: true
+    enchantments:
+       - DURABILITY;1
+    slot: 10
+    display_name: '%javascript_displayname%'
+    lore:
+    - '%javascript_lore_1%'
+    - '%javascript_lore_2%'
+    - '%javascript_lore_3%'
+    - '%javascript_lore_4%'
+    - '%javascript_lore_5%'
+    - '%javascript_lore_6%'
+    - '%javascript_lore_7%'
+    - '%javascript_lore_8%'
+    - '%javascript_lore_9%'
+    - '%javascript_lore_10%'
+    - '%javascript_lore_11%'
+    - '%javascript_lore_12%'
+    - '%javascript_lore_13%'
+    - '%javascript_lore_14%'
+    - '%javascript_lore_15%'
+    - '%javascript_lore_16%'
+    - '%javascript_lore_17%'
+    - '%javascript_lore_18%'
+    - '%javascript_lore_19%'
+    - '%javascript_lore_20%'
+  'Glasses-out':
+    material: 160
+    data: 0
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 11
+    - 17
+    - 18
+    - 19
+    - 20
+    - 26
+    - 27
+    - 29
+    - 35
+    - 36
+    - 38
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    display_name: ' '
+  'Glasses-in':   
+    material: 160
+    data: 7
+    slots:
+    - 39
+    - 40
+    - 41
+    - 42
+    display_name: '&7Page [1]'
+  'Repair':   
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNiZDlmNWVjMWVkMDA3MjU5OTk2NDkxZTY5ZmY2NDlhMzEwNmNmOTIwMjI3YjFiYjNhNzFlZTdhODk4NjNmIn19fQ==
+    slot: 43
+    display_name: '&aRepair pickaxe'
+    lore:
+    - '&7&o(( Repair your pickaxe'
+    - '&7&owith tokens ))'
+    - ''
+    - '&6&l* &ePrice: &f⛂ 100 tokens'
+    left_click_commands:
+    - '[console] te repair %player_name%'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] te repair %player_name%'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'
+  'Crystals':
+    material: nether_star
+    update: true
+    slot: 28
+    hide_enchantments: true
+    enchantments:
+       - dig_speed;1
+    display_name: '&a&lCrystals'
+    lore:
+    - '&7&o(( Upgrade your pickaxe'
+    - '&7&owith crystals to boost it ))'
+    - ''
+    - '&7&l* &8Three different boosts:'
+    - '&e&lTOKENS &8> &7Token boost'
+    - '&e&lXP &8> &7Pickaxe experience boost'
+    - '&e&lSELL &8> &7Autosell money boost'
+    - ''
+    - '&6&l* &eRight click to open'
+    left_click_commands:
+    - '[close]'
+    - '[player] pal crystals'
+    right_click_commands:
+    - '[close]'
+    - '[player] pal crystals'
+  'Sellall':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzYwN2NmZmNkNzg2NGZmMjdjNzhiMjlhMmM1OTU1MTMxYTY3N2JlZjYzNzFmODg5ODhkM2RjYzM3ZWY4ODczIn19fQ==
+    update: true
+    slot: 37
+    priority: 2
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%autosell_in_autosell_mode%'
+          output: 'yes'
+    display_name: '&a&lAutosell'
+    lore:
+    - '&7&o(( Automatically sells'
+    - '&7all mined ores ))'
+    - ''
+    - '&6&l* &eMultiplier: &fx%autosell_total_multiplier%'
+    - ''
+    - '&6&l* &7Status: &a&lENABLED'
+    left_click_commands:
+    - '[player] autosell'
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] autosell'
+    - '[sound] BLOCK_ANVIL_LAND'
+    - '[refresh]'
+  'Sellall2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTMzYTViZmM4YTJhM2ExNTJkNjQ2YTViZWE2OTRhNDI1YWI3OWRiNjk0YjIxNGYxNTZjMzdjNzE4M2FhIn19fQ==
+    update: true
+    slot: 37
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%autosell_in_autosell_mode%'
+          output: 'no'
+    display_name: '&c&lAutosell'
+    lore:
+    - '&7&o(( Automatically sells'
+    - '&7all mined ores ))'
+    - ''
+    - '&6&l* &eMultiplier: &fx%autosell_total_multiplier%'
+    - ''
+    - '&6&l* &7Status: &c&lDISABLED'
+    left_click_commands:
+    - '[player] autosell'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'
+    right_click_commands:
+    - '[player] autosell'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[refresh]'
+  'Efficiency':
+    material: 340
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments: 
+    - 'DURABILITY;1'
+    update: true
+    slot: 12
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Efficiency_level%'
+          output: '%tokenenchant_Efficiency_max%'
+    display_name: '&cEfficiency'
+    lore:
+    - '&7&o(( Increases the speed of which you'
+    - '&7&obreak a block ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Efficiency_level%'
+    - '&7Max level: &e%tokenenchant_Efficiency_max%'
+    - ''
+    - '&4&l* &c&lMaxed out'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Efficiency2':
+    material: 340
+    update: true
+    slot: 12
+    priority: 2
+    display_name: '&8Efficiency'
+    lore:
+    - '&7&o(( Increases the speed of which you'
+    - '&7&obreak a block ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Efficiency_level%'
+    - '&7Max level: &e%tokenenchant_Efficiency_max%'
+    - ''
+    - '&6&l* &ePrice: &f⛂ %tokenenchant_Efficiency_cost% tokens'
+    left_click_commands:
+    - '[console] te enchant %player_name% Efficiency'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] te enchant %player_name% Efficiency'
+    - '[refresh]'
+  'Fortune':
+    material: 340
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments: 
+    - 'DURABILITY;1'
+    update: true
+    slot: 14
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Fortune_level%'
+          output: '%tokenenchant_Fortune_max%'
+    display_name: '&cFortune'
+    lore:
+    - '&7&o(( Increases the amount of items'
+    - '&7&oyou get per block ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Fortune_level%'
+    - '&7Max level: &e%tokenenchant_Fortune_max%'
+    - ''
+    - '&4&l* &c&lMaxed out'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Fortune2':
+    material: 340
+    update: true
+    slot: 14
+    priority: 2
+    display_name: '&2Fortune'
+    lore:
+    - '&7&o(( Increases the amount of items'
+    - '&7&oyou get per block ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Fortune_level%'
+    - '&7Max level: &e%tokenenchant_Fortune_max%'
+    - ''
+    - '&6&l* &ePrice: &f⛂ %tokenenchant_Fortune_cost% tokens'
+    left_click_commands:
+    - '[console] te enchant %player_name% Fortune'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] te enchant %player_name% Fortune'
+    - '[refresh]'
+  'Unbreaking':
+    material: 340
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments: 
+    - 'DURABILITY;1'
+    update: true
+    slot: 13
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Unbreaking_level%'
+          output: '%tokenenchant_Unbreaking_max%'
+    display_name: '&cUnbreaking'
+    lore:
+    - '&7&o(( Your pickaxe will last longer ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Unbreaking_level%'
+    - '&7Max level: &e%tokenenchant_Unbreaking_max%'
+    - ''
+    - '&4&l* &c&lMaxed out'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Unbreaking2':
+    material: 340
+    update: true
+    slot: 13
+    priority: 2
+    display_name: '&8Unbreaking'
+    lore:
+    - '&7&o(( Your pickaxe will last longer ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Unbreaking_level%'
+    - '&7Max level: &e%tokenenchant_Unbreaking_max%'
+    - ''
+    - '&6&l* &ePrice: &f⛂ %tokenenchant_Unbreaking_cost% tokens'
+    left_click_commands:
+    - '[console] te enchant %player_name% Unbreaking'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] te enchant %player_name% Unbreaking'
+    - '[refresh]'
+  'Speed':
+    material: 340
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments: 
+    - 'DURABILITY;1'
+    update: true
+    slot: 15
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Speed_level%'
+          output: '%tokenenchant_Speed_max%'
+    display_name: '&cSpeed'
+    lore:
+    - '&7&o(( Gives you a movement speed boost'
+    - '&7&owhile mining ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Speed_level%'
+    - '&7Max level: &e%tokenenchant_Speed_max%'
+    - ''
+    - '&4&l* &c&lMaxed out'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Speed2':
+    material: 340
+    update: true
+    slot: 15
+    priority: 2
+    display_name: '&fSpeed'
+    lore:
+    - '&7&o(( Gives you a movement speed boost'
+    - '&7&owhile mining ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Speed_level%'
+    - '&7Max level: &e%tokenenchant_Speed_max%'
+    - ''
+    - '&6&l* &ePrice: &f⛂ %tokenenchant_Speed_cost% tokens'
+    left_click_commands:
+    - '[console] te enchant %player_name% Speed'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] te enchant %player_name% Speed'
+    - '[refresh]'
+  'Jump':
+    material: 340
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments: 
+    - 'DURABILITY;1'
+    update: true
+    slot: 16
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Jump_level%'
+          output: '%tokenenchant_Jump_max%'
+    display_name: '&cJump'
+    lore:
+    - '&7&o(( Gives you a jump boost'
+    - '&7&owhile mining ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Jump_level%'
+    - '&7Max level: &e%tokenenchant_Jump_max%'
+    - ''
+    - '&4&l* &c&lMaxed out'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Jump2':
+    material: 340
+    update: true
+    slot: 16
+    priority: 2
+    display_name: '&fJump'
+    lore:
+    - '&7&o(( Gives you a jump boost'
+    - '&7&owhile mining ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Jump_level%'
+    - '&7Max level: &e%tokenenchant_Jump_max%'
+    - ''
+    - '&6&l* &ePrice: &f⛂ %tokenenchant_Jump_cost% tokens'
+    left_click_commands:
+    - '[console] te enchant %player_name% Jump'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] te enchant %player_name% Jump'
+    - '[refresh]'
+  'TokenGreed':
+    material: 340
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments: 
+    - 'DURABILITY;1'
+    update: true
+    slot: 21
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_TokenGreed_level%'
+          output: '%tokenenchant_TokenGreed_max%'
+    display_name: '&cToken Greed'
+    lore:
+    - '&7&o(( Makes you find larger amounts'
+    - '&7&oof tokens ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_TokenGreed_level%'
+    - '&7Max level: &e%tokenenchant_TokenGreed_max%'
+    - ''
+    - '&4&l* &c&lMaxed out'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'TokenGreed2':
+    material: 340
+    update: true
+    slot: 21
+    priority: 2
+    display_name: '&eToken Greed'
+    lore:
+    - '&7&o(( Makes you find larger amounts'
+    - '&7&oof tokens ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_TokenGreed_level%'
+    - '&7Max level: &e%tokenenchant_TokenGreed_max%'
+    - ''
+    - '&6&l* &ePrice: &f⛂ %tokenenchant_TokenGreed_cost% tokens'
+    left_click_commands:
+    - '[console] te enchant %player_name% TokenGreed'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] te enchant %player_name% TokenGreed'
+    - '[refresh]'
+  'Combo':
+    material: 340
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments: 
+    - 'DURABILITY;1'
+    update: true
+    slot: 22
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Combo_level%'
+          output: '%tokenenchant_Combo_max%'
+    display_name: '&cCombo'
+    lore:
+    - '&7&o(( Gives you a chance of receiving'
+    - '&7&odouble the tokens from lucky ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Combo_level%'
+    - '&7Max level: &e%tokenenchant_Combo_max%'
+    - ''
+    - '&4&l* &c&lMaxed out'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Combo2':
+    material: 340
+    update: true
+    slot: 22
+    priority: 2
+    display_name: '&eCombo'
+    lore:
+    - '&7&o(( Gives you a chance of receiving'
+    - '&7&odouble the tokens from lucky ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Combo_level%'
+    - '&7Max level: &e%tokenenchant_Combo_max%'
+    - ''
+    - '&6&l* &ePrice: &f⛂ %tokenenchant_Combo_cost% tokens'
+    left_click_commands:
+    - '[console] te enchant %player_name% Combo'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] te enchant %player_name% Combo'
+    - '[refresh]'
+  'Lucky':
+    material: 340
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments: 
+    - 'DURABILITY;1'
+    update: true
+    slot: 23
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Lucky_level%'
+          output: '%tokenenchant_Lucky_max%'
+    display_name: '&cLucky'
+    lore:
+    - '&7&o(( Makes you find tokens more'
+    - '&7&ooften ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Lucky_level%'
+    - '&7Max level: &e%tokenenchant_Lucky_max%'
+    - ''
+    - '&4&l* &c&lMaxed out'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Lucky2':
+    material: 340
+    update: true
+    slot: 23
+    priority: 2
+    display_name: '&eLucky'
+    lore:
+    - '&7&o(( Makes you find tokens more'
+    - '&7&ooften ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Lucky_level%'
+    - '&7Max level: &e%tokenenchant_Lucky_max%'
+    - ''
+    - '&6&l* &ePrice: &f⛂ %tokenenchant_Lucky_cost% tokens'
+    left_click_commands:
+    - '[console] te enchant %player_name% Lucky'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] te enchant %player_name% Lucky'
+    - '[refresh]'
+  'Greed':
+    material: 340
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments: 
+    - 'DURABILITY;1'
+    update: true
+    slot: 24
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Greed_level%'
+          output: '%tokenenchant_Greed_max%'
+    display_name: '&cGreed'
+    lore:
+    - '&7&o(( Makes you sell items for'
+    - '&7&omore money ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Greed_level%'
+    - '&7Max level: &e%tokenenchant_Greed_max%'
+    - ''
+    - '&4&l* &c&lMaxed out'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Greed2':
+    material: 340
+    update: true
+    slot: 24
+    priority: 2
+    display_name: '&eGreed'
+    lore:
+    - '&7&o(( Makes you sell items for ))'
+    - '&7&omore money ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Greed_level%'
+    - '&7Max level: &e%tokenenchant_Greed_max%'
+    - ''
+    - '&6&l* &ePrice: &f⛂ %tokenenchant_Greed_cost% tokens'
+    left_click_commands:
+    - '[console] te enchant %player_name% Greed'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] te enchant %player_name% Greed'
+    - '[refresh]'
+  'KeyGreed':
+    material: 340
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments: 
+    - 'DURABILITY;1'
+    update: true
+    slot: 25
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_KeyGreed_level%'
+          output: '%tokenenchant_KeyGreed_max%'
+    display_name: '&cKey Greed'
+    lore:
+    - '&7&o(( Increases the amount of keys'
+    - '&7&oyou get from mining ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_KeyGreed_level%'
+    - '&7Max level: &e%tokenenchant_KeyGreed_max%'
+    - ''
+    - '&4&l* &c&lMaxed out'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'KeyGreed2':
+    material: 340
+    update: true
+    slot: 25
+    priority: 2
+    display_name: '&dKey Greed'
+    lore:
+    - '&7&o(( Increases the amount of keys'
+    - '&7&oyou get from mining ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_KeyGreed_level%'
+    - '&7Max level: &e%tokenenchant_KeyGreed_max%'
+    - ''
+    - '&6&l* &ePrice: &f⛂ %tokenenchant_KeyGreed_cost% tokens'
+    left_click_commands:
+    - '[console] te enchant %player_name% KeyGreed'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] te enchant %player_name% KeyGreed'
+    - '[refresh]'
+  'Experienced':
+    material: 340
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments: 
+    - 'DURABILITY;1'
+    update: true
+    slot: 30
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Experienced_level%'
+          output: '%tokenenchant_Experienced_max%'
+    display_name: '&cExperienced'
+    lore:
+    - '&7&o(( Increases the amount of pickaxe'
+    - '&7&oXP you get from mining ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Experienced_level%'
+    - '&7Max level: &e%tokenenchant_Experienced_max%'
+    - ''
+    - '&4&l* &c&lMaxed out'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Experienced2':
+    material: 340
+    update: true
+    slot: 30
+    priority: 2
+    display_name: '&bExperienced'
+    lore:
+    - '&7&o(( Increases the amount of pickaxe'
+    - '&7&oXP you get from mining ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Experienced_level%'
+    - '&7Max level: &e%tokenenchant_Experienced_max%'
+    - ''
+    - '&6&l* &ePrice: &f⛂ %tokenenchant_Experienced_cost% tokens'
+    left_click_commands:
+    - '[console] te enchant %player_name% Experienced'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] te enchant %player_name% Experienced'
+    - '[refresh]'
+  'Lazy':
+    material: 340
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments: 
+    - 'DURABILITY;1'
+    update: true
+    slot: 31
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Lazy_level%'
+          output: '%tokenenchant_Lazy_max%'
+    display_name: '&cLazy'
+    lore:
+    - '&7&o(( Decreases the amount of pickaxe'
+    - '&7&oXP needed per pickaxe level ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Lazy_level%'
+    - '&7Max level: &e%tokenenchant_Lazy_max%'
+    - ''
+    - '&4&l* &c&lMaxed out'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Lazy2':
+    material: 340
+    update: true
+    slot: 31
+    priority: 2
+    display_name: '&bLazy'
+    lore:
+    - '&7&o(( Decreases the amount of pickaxe'
+    - '&7&oXP needed per pickaxe level ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Lazy_level%'
+    - '&7Max level: &e%tokenenchant_Lazy_max%'
+    - ''
+    - '&6&l* &ePrice: &f⛂ %tokenenchant_Lazy_cost% tokens'
+    left_click_commands:
+    - '[console] te enchant %player_name% Lazy'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] te enchant %player_name% Lazy'
+    - '[refresh]'
+  'NightVision':
+    material: 340
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments: 
+    - 'DURABILITY;1'
+    update: true
+    slot: 32
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_NightVision_level%'
+          output: '%tokenenchant_NightVision_max%'
+    display_name: '&cNight Vision'
+    lore:
+    - '&7&o(( Grant night vision while mining ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_NightVision_level%'
+    - '&7Max level: &e%tokenenchant_NightVision_max%'
+    - ''
+    - '&4&l* &c&lMaxed out'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'NightVision2':
+    material: 340
+    update: true
+    slot: 32
+    priority: 2
+    display_name: '&8Night Vision'
+    lore:
+    - '&7&o(( Grant night vision while mining ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_NightVision_level%'
+    - '&7Max level: &e%tokenenchant_NightVision_max%'
+    - ''
+    - '&6&l* &ePrice: &f⛂ %tokenenchant_NightVision_cost% tokens'
+    left_click_commands:
+    - '[console] te enchant %player_name% NightVision'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] te enchant %player_name% NightVision'
+    - '[refresh]'
+  'Unbreakable':
+    material: 340
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments: 
+    - 'DURABILITY;1'
+    update: true
+    slot: 33
+    priority: 1
+    view_requirement:
+      requirements:
+        anythinghere:
+          type: string equals ignorecase
+          input: '%tokenenchant_Unbreakable_level%'
+          output: '%tokenenchant_Unbreakable_max%'
+    display_name: '&cInfinite'
+    lore:
+    - '&7&o(( Your pickaxe won''t break ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Unbreakable_level%'
+    - '&7Max level: &e%tokenenchant_Unbreakable_max%'
+    - ''
+    - '&4&l* &c&lMaxed out'
+    left_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+    right_click_commands:
+    - '[sound] ANVIL_LAND'
+    - '[refresh]'
+  'Unbreakable2':
+    material: 340
+    update: true
+    slot: 33
+    priority: 2
+    display_name: '&4Infinite'
+    lore:
+    - '&7&o(( Your pickaxe won''t break ))'
+    - ''
+    - '&7Current level: &e%tokenenchant_Unbreakable_level%'
+    - '&7Max level: &e%tokenenchant_Unbreakable_max%'
+    - ''
+    - '&6&l* &ePrice: &f⛂ %tokenenchant_Unbreakable_cost% tokens'
+    left_click_commands:
+    - '[console] te enchant %player_name% Unbreakable'
+    - '[refresh]'
+    right_click_commands:
+    - '[console] te enchant %player_name% Unbreakable'
+    - '[refresh]'

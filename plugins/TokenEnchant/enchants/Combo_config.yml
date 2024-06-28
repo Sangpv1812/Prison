@@ -1,0 +1,13 @@
+Potions:
+  Combo:
+    price: 10
+    max: 5
+
+    # The chance that a player will receive double tokens when
+    # mining a block (and lucky).
+    chances:
+      1: 10
+      2: 20
+      3: 25
+      4: 30
+      5: 35

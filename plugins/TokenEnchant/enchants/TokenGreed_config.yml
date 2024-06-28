@@ -1,0 +1,19 @@
+Potions:
+  TokenGreed:
+    price: 10
+    max: 5
+
+    # The base amount of tokens a player will receive when
+    # mining a block (and being lucky).
+    base-amount: 1
+
+    # The amount of tokens a player will receive when mining
+    # a block (and being lucky).
+    #
+    # Format: min:max
+    amounts:
+      '1': '10:20'
+      '2': '20:30'
+      '3': '30:40'
+      '4': '40:50'
+      '5': '50:60'

@@ -1,0 +1,21 @@
+lastAccountName: TiackMCYTB
+timestamps:
+  login: 1686627002725
+  logout: 1686626814873
+  lastteleport: 1686627258138
+ipAddress: 127.0.0.1
+lastlocation:
+  world: Mines
+  x: -1774.9340566534352
+  y: 57.86967873890102
+  z: -1002.3818862712424
+  yaw: 79.335594
+  pitch: 9.294577
+logoutlocation:
+  world: world
+  x: 510.0341370980403
+  y: 58.0
+  z: -611.6974699665134
+  yaw: 87.54855
+  pitch: 6.5049386
+money: '999999993187600000.0'

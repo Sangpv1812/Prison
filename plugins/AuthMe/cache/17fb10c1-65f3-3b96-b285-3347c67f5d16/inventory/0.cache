@@ -1,0 +1,10 @@
+DIAMOND_SWORD
+32
+1
+name=§f§lKiếm §a§lKhởi đầu
+metaenchant=DAMAGE_ALL:5
+metaenchant=LOOT_BONUS_MOBS:1
+metaenchant=DURABILITY:5
+enchant=DAMAGE_ALL:5
+enchant=DURABILITY:5
+enchant=LOOT_BONUS_MOBS:1

@@ -1,0 +1,433 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+last-created-npc-id: 178
+npc:
+  '15':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzE3NTY0MTMzMDYsInByb2ZpbGVJZCI6ImUxNWQ3MmY1NDFlNDQ5ZmViMDgwNTMwZDc0NTVjZjU5IiwicHJvZmlsZU5hbWUiOiJTeFNoYWRvd3MiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MyYTk1NWE3OTYzMTRlZGYxODRhZjRkYzdmODQwZjYyN2ZhYmJlNGM0MGQwNmQxMmFjYjFhY2Q1NDU0Mzk2ZmMiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==
+      cached-skin-uuid-name: sxshadows
+      cached-skin-uuid: e15d72f5-41e4-49fe-b080-530d7455cf59
+      player-skin-name: sxshadows
+      player-skin-signature: SLfXNQg9pWp2nVjwyiQ8NSQCb5dNp6vWNswr7f90xK01sGoHpPL7DmxzkPmZzn8tp67VeEtdcgUXtTUjXn/ybZlpVVOvQMUDlAZ3UCn6oZYNHoID7IhyTJzQFe01IXTOitKDHynvdnx8O5RhObwsofkbbxXAFXoXUbKoxozMGERL5US3bdgFy94veh6kOMi7iaZaULt3gx99NJzLofn4OO2Te/G5UDu0HjfgG9CpXpKlYqY3C2b80RxzatRL5O454CXl8hFbxbLNHQ8dvTcvhCqXy0p+LFsWKo/57noAxl9BVzVZCOt2dmEq4RJY7Q8iuAwUorNYT4k20qyYEDtW2VrfwlVJHCfw7cTQ8kfT3Iqnr/fd7BQ92PWHxbVoXWxk4XxycloLbfnLbzZpsq3fxEgmVA+Jgte11li9JRfRL84d41eoc9j4T0Co1UmkD4qzChy94R5RYjkYQ1bXkXcpE5ngq1RwlZLfUf8UbqsTtCIuaBB1lUYeSd6Xewq8BFQeMtEuf/Iv3Q1FC41r2lkJswOYXuTh9gTjtEPSQzvrSjPY8juYbf+suoEQadLwkMGKg7d8UR6EoSNROrGNgLpF8j5LA/RUYz5qK5sMJHIGhDpnpEfZE/MVTVtAqJ4hwUlhuqxrA1RX6SL/SbMvRDqb9B4UNrip041tFO0BJsGWHas=
+    name: §e§lMenu
+    uuid: 3c892497-5642-4f87-9ecd-48c555b58b91
+    traits:
+      equipment:
+        hand:
+          type: DIAMOND_PICKAXE
+          amount: 1
+          durability: 0
+          mdata: 0
+          enchantments:
+            PROTECTION_FIRE: 1
+          meta:
+            unbreakable: false
+            repaircost: 0
+      inventory:
+        '0':
+          type: DIAMOND_PICKAXE
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+          enchantments:
+            PROTECTION_FIRE: 1
+      location:
+        world: world
+        x: '503.5491'
+        y: '58.0'
+        z: '-612.5289'
+        yaw: '-130.1223'
+        pitch: '0.0'
+      spawned: true
+      lookclose:
+        enabled: false
+        range: '5.0'
+        realisticlooking: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: PLAYER
+      scoreboardtrait: {}
+      gravity:
+        enabled: false
+      owner:
+        owner: xNekio
+        uuid: 5e17772b-de56-35a7-8697-2453c5569ec0
+    traitnames: type,mounttrait,lookclose,inventory,gravity,owner,equipment,scoreboardtrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '16':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzE3NTY0MTIyODEsInByb2ZpbGVJZCI6IjZkMzIwZTc5YzE1MTRhMzliY2M2YTlhMGQzNTQ5YWQxIiwicHJvZmlsZU5hbWUiOiJHYWxsZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYThhY2MyNjA3YjVhNmMwN2U2MDM0MDc5MDI3ZGI4ZGJiYTgwYjAwZmVhZmIzMzg1OGI1OGFlZjlmMjRlOGZhIn19fQ==
+      cached-skin-uuid-name: galle
+      cached-skin-uuid: 6d320e79-c151-4a39-bcc6-a9a0d3549ad1
+      player-skin-name: galle
+      player-skin-signature: KKyJ12AiHevwemjZXNARfx8VaoWzCEo7I3HRLSfPp3XV+mQID8NsGAemI/ZiD1IJPSQFlQ+8NrszMeG9GA7btZQmCATKsGFu4onbv+z+3s7R/r8oKnwQGDYdilsWO5NPNGHZN4NRzRItrsRZGqbM1l84QMzI+8unVr3pxREMJyXEM/sZWrViCsYHLExIPHLVZ1iOjYo+sR4EqQEDMIQukEQUYynE0vD3Yhk7FNuhz8kwYyvU2KCV8STbQbDesfAyPAxZbOCC+/Awdypw+zGoJ0aNrxqhe/+CNfAHc4wYjssAXcbnjQjIqw/6d6F2nLsFvixgLvIAJ2iUenr2o7RG/FBy5EvZQGFLA5ge3wB2FaghUcz9oLWZ725n5nSRyLFJkjCNjAg40g2vnrYh3ktfL2LEoKuSrM2jSp/peZHgC2O/4isv/eUrzO3MUDZcEcToku/JhzM+eSSarT8TBEjv6BtEFbJw5mvupU3iFm6gxKgtipBbFetabu6XnY4LpPZ/aujje7L7htWw27WLm/t173w5cNOZUItuOfPAlp0530vVF/IyRrIJE86EJSzSWUC557zIluC7SSe2ZUOxtr3HGJHLYi3EZ50i3eQtId1ZMBoUMX3s8kXMUXXhqiJNasgLdHcuxcZwHjWKX7eBPAerCl3VlBiz/OWnR2CA41k6+EE=
+    name: §e§lAuctions
+    uuid: 56186cd7-bba8-41b1-8204-90f00ac04131
+    traits:
+      location:
+        world: world
+        x: '-9.5236'
+        y: '-29612.2717'
+        z: '-30.4661'
+        yaw: '-90.4001'
+        pitch: '0.0'
+      inventory:
+        '0':
+          type: GOLD_PICKAXE
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+          enchantments:
+            PROTECTION_FIRE: 1
+      spawned: true
+      equipment:
+        hand:
+          type: GOLD_PICKAXE
+          amount: 1
+          durability: 0
+          mdata: 0
+          enchantments:
+            PROTECTION_FIRE: 1
+          meta:
+            unbreakable: false
+            repaircost: 0
+      type: PLAYER
+      scoreboardtrait: {}
+      gravity:
+        enabled: false
+      owner:
+        owner: xNekio
+        uuid: 5e17772b-de56-35a7-8697-2453c5569ec0
+    traitnames: type,mounttrait,inventory,gravity,owner,equipment,scoreboardtrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '33':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzE3NTY0MTI5NDMsInByb2ZpbGVJZCI6IjU5YTBlZjBhZDE2MDRjMjliMmE4NTAxZTMwYmRiZWY4IiwicHJvZmlsZU5hbWUiOiJGaXJlIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNDIxYTE0NDk2MWQzNThiYjgyOGM0NjhiYmI5NDgxZGIyMWI3MzY5OTQ0ZmFhN2FiMGQ1Mzk2MDNmODE0MmRmIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=
+      cached-skin-uuid-name: fire
+      cached-skin-uuid: 59a0ef0a-d160-4c29-b2a8-501e30bdbef8
+      player-skin-name: fire
+      player-skin-signature: JUVuRLZf46bvUyhpjWE4Mp3P+jZIa4Usl1kADHQ7mdKIBlPMVkOQeBnzw9bikDe9O/OJ6RTqkvyDhnC1icmEEu3lIfZ4PXHfeM+4DRw8fL3lVR0G0esMjAGGLKWsL9W4iVFIZMLOiryUDxM6Z49BPsAOMAWHDpMke9ADNI1TDXNUx0Gkf3Cnd/3B3YytXSOUZddXg1e520MPNSLuc3/cKd20NIohHojTGgbLJX3G3hxhtltWH+KIVYYCMKdHakgWEVbUClSBnODjlzSvO4oYrtLp1/za1UdygjyQ+pPA9b8OwZyGW3QIAc77kWYMPrqkY0gVTHzRk9ydVuQ8PIoSFuh3JXBkA90OvwaGMTAvZXlEdP3XEYlccRYOHB+ZrOE3qw9NQBCGR0DENlJVjZIzxvvU2wugQ7lq3iz0hmjTEYuPcxqwTy4Sj8mPgfymfWNrzPvM+6RbL2VU/MnvJ5yjBX74hQktEJw1ikUFBi9TPayaTE0G6YpdechNXPb30lwNFvdpKlGwzsd1ZMmqcnxC2TXbLe4FIX/M8SFmYGaVAjq6aTFNYSglD2amGz0KBDK+8HzKjJGVMvtaqZ0zRzt1fZpax8bdwGlp25htKrFQYyPlUqrZYIvhPcg8NeRKm0zIEUO3F3GhcUA+mHhOSd/GISw6k68Lnb0Ogj7SS5Sdir4=
+    name: §eGangs
+    uuid: 8ccdb45e-dda3-4141-91b9-8d265053859d
+    traits:
+      inventory:
+        '0':
+          type: GOLD_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+      location:
+        world: world
+        x: '27.4969'
+        y: '-32950.3859'
+        z: '-3.5133'
+        yaw: '89.5461'
+        pitch: '0.0'
+      spawned: true
+      equipment:
+        hand:
+          type: GOLD_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+      type: PLAYER
+      scoreboardtrait: {}
+      gravity:
+        enabled: false
+      owner:
+        owner: xNekio
+        uuid: 5e17772b-de56-35a7-8697-2453c5569ec0
+    traitnames: type,mounttrait,inventory,gravity,owner,equipment,scoreboardtrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '151':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzM1MDIyODE1MzgsInByb2ZpbGVJZCI6IjQ3ZDA3MmNhZDdhMjQ2N2M5YjYwZGU1MDE5MDdlOTFkIiwicHJvZmlsZU5hbWUiOiJHaXZlIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MjhlNTJmNWNmNzRhYzcyZjMyY2E3MWY0MDljYTc2ZDg5NTRmNGM1MThjMWFiMDU5NzliNjM2OTczMzUzYWIxIn19fQ==
+      cached-skin-uuid-name: give
+      cached-skin-uuid: 47d072ca-d7a2-467c-9b60-de501907e91d
+      player-skin-name: give
+      nameplate-visible: 'true'
+      player-skin-signature: DLCPgHfHnS0BVjLMJNQ1Hkx6/pkda6ZMQevTScu0Efi964XLfAP1BUzzOmYU2d3dOy7a/FKe8WiEg7lMtYej6wOPKvl4XE5bQH4dBOCBpPO53ImjAZmA9mJy1XVDtT8TuFA7E06+atkdz3Q2G+tfGl1ugwXGmn+LqsYzt1dR00iNp4V9qRxLzy98x7hI/0A9WmypSUlyvbqo40h/ZZ9qwm+Nh1dcYvoBX+z6Z3D9i5GrL3AbNiAu3a/q5/0mrOANl8ml9G9wqtd7bYIC2/5IT0jZsBncM1CKVLpzGre8fTFdfqJFqGlKupujKNDrc1dCG3tw6p3PXJjqAfA7W8oxYeCW3wY+MpY30iQdWlyq6xIjLoeWiaZbmxcMka8FEfSfXXEXlU54xaKnCt5UZhmRZH0IGMuQEVnvjDuoT6xEmszzqrJ5PG+BKS9jFOirO5SI10sinIQJo+FQHa4Kn6tadlkmGuQG5skJTy0KiN6BhNnTvxKhN+eY0p0/h2LOt0ggMr47e6k/9jaklEUfB+h3Noa1Y6rRbk103xS/a/ilIywo6cbOrGObHL7IKFhb5lr9tKmHMmNZFZRYK+Xd3AOakq50kkr1LtpJjWHbDSCQUQjFoW32b1kaLmtsjLvbG6wtXcQhMyM2qvplgTltGtBwt2ypR9nWzLrDMOK+J4RVZtk=
+    name: §e§lInformation
+    uuid: 1f1e1f25-2a6b-4aa5-9f6c-b03438456769
+    traits:
+      type: PLAYER
+      location:
+        world: world
+        x: '502.532'
+        y: '56.0625'
+        z: '-603.4999'
+        yaw: '-107.637'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      spawned: true
+      equipment:
+        hand:
+          type: ENCHANTED_BOOK
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            enchantmentstorage:
+              LURE: 3
+      inventory:
+        '0':
+          type: ENCHANTED_BOOK
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+            enchantmentstorage:
+              LURE: 3
+      owner:
+        owner: xNekio
+        uuid: 5e17772b-de56-35a7-8697-2453c5569ec0
+    traitnames: type,mounttrait,inventory,gravity,owner,equipment,scoreboardtrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '168':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzM1ODY5MzY4NzUsInByb2ZpbGVJZCI6IjllMWM2ODFmYjc1MzQ3OTA5MjFjNDk3MGNjYTU1YTgzIiwicHJvZmlsZU5hbWUiOiJ0aGVibHVlY3J1c2FkZXIiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI5YjMyN2FjYTQwZTIzM2Y1ZDc5ODBiZTY4N2NkNjZlM2QxYjZiNzM2ZjQxNzg4YzJjOTEyOWY3MzIxYTlmZmUifX19
+      cached-skin-uuid-name: thebluecrusader
+      cached-skin-uuid: 9e1c681f-b753-4790-921c-4970cca55a83
+      player-skin-name: thebluecrusader
+      player-skin-signature: WtBY1IJkj/fjOo482soRGIhcpgKwM+SJ+3HHG55AwwRT16vO+WUKEF+W+3K5H/TB4KkSaX7DFO4DAO46/iOhniB3qcqQ4VMnSd4gNcofdH69K8pIql4FiesbymeAs8L7nN4BpXq0SFvY88jLnFqeUZ9qoIYUEHETC+WNIh/rwBrcYcgnbL4Gx0tylE7E5ukGfGcPNhaE8pahqnk1+LdFiNtmIS71aVX+CYlfDJiEmLPtLGw1KsehMjzpKDVh0TD8ZCL/aEVnGz/fCk5Ic/leSWTl43KSD4orNHsH3kP1TEzPAmmIt3EaPSfqJ5EhfJufOmWPzfdF+nRIfKXapk62M47CcBOU/ybDklMs/l7WoJWt+Zh35ohWbVgI1GO5mxOpEnCkL2HElxbub8Uxf2tLE90KecoBmmGJGXnZpMmUnG3Je2XHCmgcWEKcMdAgV2YLTs/uFYMfJ1h4yTfZ0QjtmC/CNyTiY+XUB7NGpfl8b7OAew4o7qV0IMjOK/qf+rRKoC1taZbzuTwTEUumI5u9y4qLDAl0yucedXLVyGQnZHtw/6s4/JzWxJU2qfgDAuTJP3aQCMbEE7Q5U2AJqMR/iH4eQl5bcgNqB6z1qm/PnWTmRWsjPrj1/OdP7XD0lewuJ5uWckYxTR9d+plF4bg9VlRGbmtbUPLCTqEjfVLvmfg=
+    name: §e§lAuction
+    uuid: 907212bf-6e57-4458-b87e-f96182c6ecae
+    traits:
+      gravity:
+        enabled: false
+      equipment:
+        hand:
+          type: GOLD_INGOT
+          amount: 1
+          durability: 0
+          mdata: 0
+      inventory:
+        '0':
+          type: GOLD_INGOT
+          amount: 1
+          durability: 0
+          mdata: 0
+      spawned: true
+      type: PLAYER
+      location:
+        world: world
+        x: '529.6102'
+        y: '54.0625'
+        z: '-553.5041'
+        yaw: '89.3543'
+        pitch: '0.0'
+      owner:
+        owner: xNekio
+        uuid: 5e17772b-de56-35a7-8697-2453c5569ec0
+    traitnames: type,mounttrait,inventory,gravity,owner,equipment,scoreboardtrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '169':
+    name: §e§lWithdraw
+    uuid: 41b7c19f-8ec0-4b4c-b608-fbda0941d1c5
+    traits:
+      gravity:
+        enabled: false
+      spawned: true
+      type: PLAYER
+      location:
+        world: world
+        x: '531.5241'
+        y: '54.0625'
+        z: '-540.5084'
+        yaw: '179.0887'
+        pitch: '0.0'
+      equipment:
+        hand:
+          type: MAGMA_CREAM
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+          enchantments:
+            DURABILITY: 1
+      lookclose:
+        range: '5.0'
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory:
+        '0':
+          type: MAGMA_CREAM
+          amount: 1
+          durability: 0
+          mdata: 0
+          meta:
+            unbreakable: false
+            repaircost: 0
+          enchantments:
+            DURABILITY: 1
+      owner:
+        owner: xNekio
+        uuid: 5e17772b-de56-35a7-8697-2453c5569ec0
+    traitnames: type,mounttrait,lookclose,inventory,gravity,owner,equipment,scoreboardtrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzM2NjI1MDgyMDMsInByb2ZpbGVJZCI6IjJjOTFjYjZiZmUzZjRiMzVhYWEwODNkNGVkNjhmMjU4IiwicHJvZmlsZU5hbWUiOiJwYXNvIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80YzhhODIwY2M0MjQ4NWUwMjJiZjI4ODAzMzAzMzZlZTAxMDQyZjIwODg2NzQwMTM5ZWVhYjIxNmRlYzQ1MTNmIn19fQ==
+      cached-skin-uuid-name: paso
+      cached-skin-uuid: 2c91cb6b-fe3f-4b35-aaa0-83d4ed68f258
+      player-skin-name: paso
+      player-skin-signature: q04R7UE0ZhCCJwUek8BUVFw7KiYPZg9b+n0jITprGA6nGst91veTIbvXw3AHh+gOYt3iv8SPZxo/I5GoBpYbg3aSKSWUIIUJeWtPS8oMV94vGtPPyHHc+oLl6VUSW+ICWVya/SAnDUAOzqWhJdBGU+7yHac+to02T47yOIAWUU+vXF5gGQD/6md8C010e709R8/RHLbwOizwtDzVijupa6LSfF20VC5MU6p3dmM3DS8r19vhaG3fA0SpkwUT1nXN5vri497SjX0WEiic4Ve9N/nCSw4exHvL4ZmRuPuwsl2pgQgoAG0X9WlihlFdOyKXeVilpiQXP1IpR7WDegzL0VBGKlxzeerQXynXIRnLa/dyVxJFK008/vrRvws0adRi4YUx4lkAsC5E0m4Rnz/YIOYKbYxuUMGV8znUrdPHcZqWyKCf3it3rIsUKQ8VHDCgzapbWHJuGjFyU8y+MGLz0qiJm32S7I1oGP/5ozwUb813aiEfwwDTauqIUkbouDa7rj8mQ3PVv87KgNSPxkN8dsqakcQAMwBDAYEaM82X2jk8qkQEzeo5rr0UjH+TGA3ulfFZb7S475Fa3hQ2YuUgTlykZp0p0EVD1xCTq4LwfQmBFYaTojIzTcPaAEaMvyL/aAeAqLOQKRvUvV/IKYBV5yOeLDW74HHT+DdSUmigmGo=
+  '170':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzQwNzEwMTk0NDYsInByb2ZpbGVJZCI6IjRlMDRhYzgwZGFiZDQ0NGNiYzVhNDY1MzAwZDIxNTM4IiwicHJvZmlsZU5hbWUiOiJKYWNrcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDc5YWQ2NzdiYWRmYTEwNjI0Zjc1MjFjMmNmYjU3YmE0OWZlNTNiMmRlY2RiYjI5ZjU0NGI1NmUxY2ZmNDczNiJ9fX0=
+      cached-skin-uuid-name: jacks
+      cached-skin-uuid: 4e04ac80-dabd-444c-bc5a-465300d21538
+      player-skin-name: jacks
+      player-skin-signature: G4cI4zSUludjS4C868b6DGAnriQOccVLdua9IqqEiKh+iQWfYVfaHXFBB3GvYtfRdChB2djbPQeEJCU0l8LM7RoODTJsFwOr6nSUw0ZW+0q+yURV2ZYCEhw/aY2yALkkL82Sap4+/9qEMlKbxhgIOOuqR3tbREXc6YyFFSXBcMn7Qw+5pkw9q9A6xHgwazKDkszZ3evQGC5EygfNqvCvUthY4NdRjKKUpkys9a7+VYYpcdhmi+rYgpjmbAxyYnSoaQTihYyGqGAKc//e+1gMd+VV6lp+XsSi+PovutwjXNwlNF1D5JEdaGRDhaQ32PK95P2OtnV+Orq/svs0aA1DMp0CT9vkkVjhvphTNh8T/RnOjKQfLtWK3ZBf85Czv8Y1S4u8VQ9ZOVhA1Z7iL5R1WifthOUVR6SDIaQfuNQMLF2zt3z2TBeebx5doBt/e5dq/9R2vYQ8dHROUJMkHu1c/8cXSoMrwgNNfYAjDvSGQeDMWrKMUHkLQZVeL3jMyGW4+PgeJuoFU4fWcrrd6SASArr7XkWO2KDhO4UJ6pYlzTKO1hXMhOB3UtTPJFjpzgyo9hDakTFzYt4NOze5prljjerShcjngUbWSGXIlrm4CeFHeY3Qeoc+kUyngOMjYzNDqA115PwMHgP/G30+dKFtYqHm/ZmYwoiWMq56DXett/g=
+    name: §e§lShop
+    uuid: d17f5e50-9bf0-47d3-953d-66ef5d9577ab
+    traits:
+      type: PLAYER
+      spawned: true
+      equipment:
+        hand:
+          type: BOOK
+          amount: 1
+          durability: 0
+          mdata: 0
+      gravity:
+        enabled: false
+      inventory:
+        '0':
+          type: BOOK
+          amount: 1
+          durability: 0
+          mdata: 0
+      location:
+        world: world
+        x: '536.4937'
+        y: '54.0625'
+        z: '-547.5152'
+        yaw: '80.1735'
+        pitch: '0.0'
+      owner:
+        owner: xNekio
+        uuid: 5e17772b-de56-35a7-8697-2453c5569ec0
+    traitnames: type,mounttrait,inventory,gravity,owner,equipment,scoreboardtrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '171':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzQwNzg1NzYwNDcsInByb2ZpbGVJZCI6IjIwMDE3Y2E1MTVmZTQ3MDg4OTM1NjNkYjMzYWY1OGVmIiwicHJvZmlsZU5hbWUiOiJJcm9uIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YjA2MzU5ZjIwMTI2MjQ2N2VlYWZjOThhM2JmNDk0MjZjZDVhMWFkOTk2NDk3NWNjYWYwYjJlNmQ0NTliYzk0In19fQ==
+      cached-skin-uuid-name: iron
+      cached-skin-uuid: 20017ca5-15fe-4708-8935-63db33af58ef
+      player-skin-name: iron
+      player-skin-signature: cmL/dtpZUB6+IIOdRZAojqs9ckNKNDwBrTYBnY02LrXjoKT83n3/ScjRESuvki1+RD2eMgL/H9JhhA01tWht6/dsAibETWyPRUkdo3zQBwJsMbBc1mR/jMlfx6vnG54IYqHnNEt4RNGIEdd01EAE/p7YbJhivT9BnlCkWMu3yBh4xI0/I0l0a0y1CWxOmnBlyJcSJs2CYCtIbS7tzlz9Sct65bWXnqSkgy43igp4sEulVxCqI6XgKSWOM9P9TKGjpcoEpoYoLIm+MMZrUaqzBqueKtFOK5u5RvERlFmYyTDJ0JR7Rnjl+y0oIairtAnbEhUBuX2qPSZ5eJutooPanga0dTVWGiyXK2CX6Gx3NmTiSyWEN6npaeePHNU8mwz+xIv6TVJXFtJiGAd6r/xxThl7mxJVRP8kKOt9D03TvM3KDiCcM8SlMm6bo30sXBgnG4eRA3pWmRnVprW6dZPOgfPCEFkO1jWo6HqTJ2JYuaS8M+3Bw8tM7A9bSHhOsPVYoDgc8ddpoLowDL4C/qqQlpUd4uMeWyYCuQnP/cTt+J18n3hFR12gVZs3Cbqag5/aZUeBoIsCg5etW/g5JjNfaJvZnzkIR1bZzdQx56/hY5ufOx8oontcWbSi9PniKHCTSDcGjyz9mvYD6R0/OwmRE9hEdedl3ptbnaiCorSqS9Y=
+    name: §e§lCasino
+    uuid: 7c95b910-1b07-4ab6-8793-9dc1e9e91a89
+    traits:
+      gravity:
+        enabled: false
+      inventory:
+        '0':
+          type: GOLD_BLOCK
+          amount: 1
+          durability: 0
+          mdata: 0
+      equipment:
+        hand:
+          type: GOLD_BLOCK
+          amount: 1
+          durability: 0
+          mdata: 0
+      type: PLAYER
+      location:
+        world: world
+        x: '511.5794'
+        y: '52.0625'
+        z: '-571.4995'
+        yaw: '-105.7905'
+        pitch: '0.0'
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: xNekio
+        uuid: 5e17772b-de56-35a7-8697-2453c5569ec0
+    traitnames: type,mounttrait,lookclose,inventory,gravity,owner,equipment,scoreboardtrait,location,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

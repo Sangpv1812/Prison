@@ -1,0 +1,13 @@
+DIAMOND_PICKAXE
+0
+1
+name=§fCúp §eNhập §bHọc
+lore=§eHết hạn: 4-9-2018 24:00%newline%
+metaenchant=DIG_SPEED:15
+metaenchant=DURABILITY:10
+metaenchant=LOOT_BONUS_BLOCKS:10
+metaenchant=Custom Enchantment:0
+enchant=DIG_SPEED:15
+enchant=DURABILITY:10
+enchant=LOOT_BONUS_BLOCKS:10
+enchant=Custom Enchantment:0

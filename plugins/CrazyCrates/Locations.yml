@@ -1,0 +1,49 @@
+Locations:
+  '2':
+    Crate: Premium
+    World: world
+    X: -17
+    Y: 93
+    Z: -24
+  '3':
+    Crate: Rankup
+    World: world
+    X: 7
+    Y: 93
+    Z: -24
+  '1':
+    Crate: Vote
+    World: world
+    X: -17
+    Y: 93
+    Z: -18
+  '4':
+    Crate: Legendary
+    World: world
+    X: 7
+    Y: 93
+    Z: -18
+  '5':
+    Crate: Vote
+    World: world
+    X: 512
+    Y: 53
+    Z: -548
+  '6':
+    Crate: Mine
+    World: world
+    X: 510
+    Y: 53
+    Z: -551
+  '7':
+    Crate: Rare
+    World: world
+    X: 510
+    Y: 53
+    Z: -555
+  '8':
+    Crate: Legendary
+    World: world
+    X: 512
+    Y: 53
+    Z: -557

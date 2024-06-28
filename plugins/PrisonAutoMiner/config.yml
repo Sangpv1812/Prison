@@ -1,0 +1,78 @@
+time:
+  week: 'week'
+  weeks: 'weeks'
+  day: 'day'
+  days: 'days'
+  hours: 'hours'
+  hour: 'hour'
+  minutes: 'minutes'
+  minute: 'minute'
+  seconds: 'seconds'
+  second: 'second'
+messages:
+  miner_received_time: '&e&l[!] &eYou reedem &6&l%time% &efor your miner'
+items:
+  time_voucher:
+    title: '&e&lAuto miner &f| &lVOUCHER'
+    lore:
+      - '&7&o(( Adds %time% to your miner ))'
+      - '&7'
+      - '&6&l* &eUse your auto miner with &8&o/autominer'
+
+upgrades:
+  speed:
+    cost: 123456
+    multiplier: 1.75
+  cash:
+    cost: 123457
+    multiplier: 2
+  tokens:
+    cost: 123458
+    multiplier: 1.25
+  keys:
+    cost: 123459
+    multiplier: 3
+
+
+gui:
+  am:
+    title: 'Auto Miner'
+    commands_token:
+      - 'te add %player% %tokens%'
+    commands_keys:
+      - 'cc give p Mine %mine% %player%'
+      - 'cc give p Rare %rare% %player%'
+      - 'cc give p Legendary %legendary% %player%'
+
+# blocks away from miner until he despawns
+miner_max_distance: 200
+# set the message to message: ''  for no message at all
+rewards:
+  every_blocks: 100
+  tokens:
+    message: '&e&l[!] &eYour miner has found &6&l%tokens% &6tokens'
+    amount:
+      200: 20
+      100: 60
+      50: 20
+  money:
+    message: '&e&l[!] &eYour miner has found &6⛃ &6&l%money%'
+    amount:
+      250: 30
+      200: 20
+      100: 40
+      50: 10
+  keys:
+    message: '&e&l[!] &eYour miner has found &6&l%key%'
+    amount:
+      nothing:
+        chance: 20
+      mine:
+        name: '§b§lMine key'
+        chance: 45
+      rare:
+        name: '§9§lRare key'
+        chance: 20
+      legendary:
+        name: '§d§lLegendary key'
+        chance: 15

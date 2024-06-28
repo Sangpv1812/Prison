@@ -1,0 +1,20 @@
+{
+  "Type": "POLAR_BEAR",
+  "Loot": [
+    {
+      "Type": "RAW_FISH",
+      "Chance": 75.0,
+      "Min": 0,
+      "Max": 2,
+      "Looting": true
+    },
+    {
+      "Type": "RAW_FISH",
+      "Data": 1,
+      "Chance": 25.0,
+      "Min": 0,
+      "Max": 2,
+      "Looting": true
+    }
+  ]
+}

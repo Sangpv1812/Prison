@@ -1,0 +1,150 @@
+menu_title: '&e&lMenu&f | Panel'
+open_command:
+- menu
+size: 36
+items:
+  'barrier1':
+    material: 160
+    data: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    display_name: ' '
+  'barrier2':   
+    material: 160
+    data: 0
+    slots:
+    - 10
+    - 12
+    - 14
+    - 16
+    - 17
+    - 19
+    - 21
+    - 25
+    - 23
+    - 26
+    display_name: ' ' 
+  'warps':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThkYWExZTNlZDk0ZmYzZTMzZTFkNGM2ZTQzZjAyNGM0N2Q3OGE1N2JhNGQzOGU3NWU3YzkyNjQxMDYifX19'
+    slot: 13
+    display_name: '&e&lWarps'
+    lore:
+    - '&7&o(( Teleport and explore'
+    - '&7&othe entire world ))' 
+    - ''
+    - "&6&l* &eRight click to open"
+    left_click_commands:
+    - '[openguimenu] warps'
+    - '[sound] BLOCK_CHEST_OPEN'
+    right_click_commands:
+    - '[openguimenu] warps'
+    - '[sound] BLOCK_CHEST_OPEN'
+  'mine':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ=='
+    slot: 11
+    display_name: '&e&lCurrent mine'
+    lore:
+    - '&7&o(( Teleport to your current'
+    - '&7&omine to start mining ))'
+    - ''
+    - '&8&l* &7Current mine: &e&l%prisonranksx_currentrank_name%'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[console] tm msg %player_name% &e&lTELEPORTING\n&fYou''ve been teleported'
+    - '[player] warp %prisonranksx_currentrank_name%'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[console] tm msg %player_name% &e&lTELEPORTING\n&fYou''ve been teleported'
+    - '[player] warp %prisonranksx_currentrank_name%' 
+    - '[sound] ENTITY_PLAYER_LEVELUP' 
+  'info':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY2OTNlZDY0MjZlN2MxY2Y2Y2QyZTE5YWU5OTllYmE0NDE0YWRiN2EyZTc1MmQyOTYwODJiODZlNzE4ZCJ9fX0='
+    slot: 15
+    display_name: '&e&lInformation'
+    lore:
+    - '&7&o(( Everything you need to'
+    - '&7&oknow about all our features ))'
+    - ''
+    - "&6&l* &eRight click to open"
+    left_click_commands:
+    - '[openguimenu] help'
+    - '[sound] BLOCK_CHEST_OPEN'
+    right_click_commands:
+    - '[openguimenu] help'
+    - '[sound] BLOCK_CHEST_OPEN'
+  'kits':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJmMzQ3NTI0N2VkMTNkN2VlNjQwODFhMmMwNzFkNjJkMzc4ZTY3ZjljNTM5NjQyNDRkYTVjZDNlOGNhY2FmIn19fQ=='
+    slot: 20
+    display_name: '&e&lKits'
+    lore:
+    - '&7&o(( Claim your kits, don''t forget'
+    - '&7&othat most of these kits are'
+    - '&7&oexclusive for &e&l&oRANKS&7&o ))'
+    - ''
+    - "&6&l* &eRight click to open"
+    left_click_commands:
+    - '[openguimenu] kits'
+    - '[sound] BLOCK_CHEST_OPEN'
+    right_click_commands:
+    - '[openguimenu] kits'
+    - '[sound] BLOCK_CHEST_OPEN'
+  'prestige':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmU5MDc2NzJhNDcwOTM4NTI1MDU4YzBlYTMxOWQ4YmU1YmEyOGQ5NzJjNTJmMmJkNTVkYmY0MTgyYjgifX19'
+    slot: 22
+    display_name: '&e&lPrestige'
+    lore:
+    - '&7&o(( Rank up to prestige'
+    - '&7&oand start again with new'
+    - '&7&ofeatures, mines, etc.. ))'
+    - ''
+    - '&8&l* &7Current prestige: &e&l%prisonranksx_prestige_name%'
+    - ''
+    - "&e&l* &6Left click to open prestige menu"
+    - "&6&l* &eRight click to prestige up"
+    left_click_commands:
+    - '[close]'
+    - '[player] prestiges'
+    - '[sound] BLOCK_CHEST_OPEN'
+    right_click_commands:
+    - '[close]'
+    - '[player] prestige'
+    - '[sound] BLOCK_ANVIL_LAND'
+  'free':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTgyNTQxOWU0MjlhZmMwNDBjOWU2OGIxMDUyM2I5MTdkN2I4MDg3ZDYzZTc2NDhiMTA4MDdkYThiNzY4ZWUifX19'
+    slot: 24
+    display_name: '&e&lFree'
+    lore:
+    - '&7&o(( Teleport to &lFREE&7&o world'
+    - '&7&oand obtain extra resources ))'
+    - ''
+    - "&6&l* &eRight click to go"
+    left_click_commands:
+    - '[console] tm msg %player_name% &e&lTELEPORTING\n&fYou''ve been teleported'
+    - '[player] warp Freezone'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    right_click_commands:
+    - '[console] tm msg %player_name% &e&lTELEPORTING\n&fYou''ve been teleported'
+    - '[player] warp Freezone'  
+    - '[sound] ENTITY_PLAYER_LEVELUP'
